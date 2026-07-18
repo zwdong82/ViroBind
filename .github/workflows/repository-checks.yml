@@ -1,0 +1,93 @@
+name: repository-checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repository-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Run lightweight repository tests
+        run: python -m unittest discover -s tests -v
+
+  functional-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+
+      - name: Install CPU smoke-test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install numpy pandas scikit-learn
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -e . --no-deps
+
+      - name: Create anonymous smoke fixtures
+        run: |
+          python examples/create_mock_assets.py \
+            --outdir "${{ runner.temp }}/virobind-assets"
+          python examples/create_mock_checkpoints.py \
+            --token-root "${{ runner.temp }}/virobind-assets/residue_tokens" \
+            --outdir "${{ runner.temp }}/virobind-checkpoints"
+
+      - name: Run paired prediction smoke test
+        run: |
+          virobind-predict \
+            --external-csv examples/pairs.csv \
+            --drug-feat "${{ runner.temp }}/virobind-assets/drug_features.pt" \
+            --prot-feat "${{ runner.temp }}/virobind-assets/protein_features.pt" \
+            --token-root "${{ runner.temp }}/virobind-assets/residue_tokens" \
+            --ckpts "${{ runner.temp }}/virobind-checkpoints/virobind_classification.pt" \
+            --out-dir "${{ runner.temp }}/prediction" \
+            --device cpu
+
+      - name: Run virtual-screening smoke test
+        run: |
+          virobind-screen \
+            --library-csv examples/library.csv \
+            --drug-feat "${{ runner.temp }}/virobind-assets/drug_features.pt" \
+            --protein-feat "${{ runner.temp }}/virobind-assets/protein_features.pt" \
+            --protein-csv examples/proteins.csv \
+            --token-root "${{ runner.temp }}/virobind-assets/residue_tokens" \
+            --ckpts "${{ runner.temp }}/virobind-checkpoints/virobind_ranking.pt" \
+            --out-dir "${{ runner.temp }}/screening" \
+            --top-k 5 \
+            --device cpu
+
+      - name: Run training-plumbing dry run
+        run: |
+          virobind-train \
+            --token_root "${{ runner.temp }}/virobind-assets/residue_tokens" \
+            --pretrain_csv examples/pairs.csv \
+            --train_csv examples/pairs.csv \
+            --val_csv examples/pairs.csv \
+            --test_csv examples/pairs.csv \
+            --ecfp_path "${{ runner.temp }}/virobind-assets/drug_features.pt" \
+            --prot_path "${{ runner.temp }}/virobind-assets/protein_features.pt" \
+            --out_root "${{ runner.temp }}/training" \
+            --dry_run 1

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "virobind"
+version = "0.1.0"
+description = "ViroBind drug-virus interaction prediction and virtual screening"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+keywords = ["drug-target interaction", "drug-virus interaction", "virtual screening", "deep learning"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "License :: Other/Proprietary License",
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "rdkit>=2024.3",
+  "scikit-learn>=1.3",
+  "torch>=2.1",
+  "tqdm>=4.66",
+  "esm>=3.2",
+]
+
+[project.scripts]
+virobind-train = "virobind.model:cli_main"
+virobind-predict = "virobind.predict:main"
+virobind-screen = "virobind.screen:main"
+
+[tool.setuptools.packages.find]
+where = ["source"]
