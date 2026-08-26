@@ -2,15 +2,12 @@
 
 The local release bundle contains two task-specific checkpoints:
 
-- `virobind_classification.pt`: seed 3407, selected by validation
-  classification AUPR; use its `cls` output for CPI binary prediction.
-- `virobind_ranking.pt`: seed 42, retained for its strongest validation pooled
-  ranking AUC/AUPR; use its `rank` output for compound prioritization.
+- `virobind_classification.pt`: use its `cls` output for CPI binary prediction.
+- `virobind_ranking.pt`: use its `rank` output for compound prioritization.
 
-The two files come from different random seeds and are intended for their named
-tasks. Target-centered per-protein ranking is reported across three seeds in
-the manuscript; this single ranking release is the strongest validation model
-for pooled pair ranking.
+The two files are intended for their named tasks. Quantitative evaluation and
+model-selection details are reported in the manuscript and its associated
+experiment record.
 
 They are intentionally ignored by Git. Upload them to a GitHub Release and keep
 `SHA256SUMS` in both the repository and the release assets. Verify downloads with:

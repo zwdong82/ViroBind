@@ -4,22 +4,22 @@ This project deliberately separates software inputs from experiment outputs.
 
 ## Final model
 
-The frozen production release contains two V5H global-plus-residue-token
-checkpoints with explicit task semantics. They are named in this release as:
+The frozen production release contains two task-specific checkpoints. They are
+named in this release as:
 
 ```text
 Pretrained_models/ViroBind/virobind_classification.pt
 Pretrained_models/ViroBind/virobind_ranking.pt
 ```
 
-The seed-3407 classification checkpoint was selected by validation
-classification AUPR. The seed-42 ranking checkpoint has the strongest
-validation pooled ranking AUC/AUPR among the three final seeds. The manuscript's
-target-centered per-protein metrics remain three-seed summary results.
+The classification checkpoint is intended for CPI prediction, and the ranking
+checkpoint is intended for compound prioritization. Quantitative evaluation
+and model-selection details belong to the manuscript and its associated
+experiment record.
 
 ## Software files included in Git
 
-- `source/virobind/model.py`: final V5H architecture and complete training CLI.
+- `source/virobind/model.py`: model implementation and complete training CLI.
 - `source/virobind/base.py`: feature-bank, dataset and training utilities.
 - `source/virobind/predict.py`: paired prediction and seed ensemble.
 - `source/virobind/screen.py`: chunked large-library virtual screening.
@@ -31,11 +31,6 @@ target-centered per-protein metrics remain three-seed summary results.
 - `DATA_AND_MODEL_USE.md`: data, checkpoint and third-party-rights boundary.
 - `Pretrained_models/ViroBind/MODEL_CARD.md`: intended use and limitations.
 - `CONTRIBUTING.md`: privacy-safe contribution checks.
-
-The implementation contains the optional virus/domain adapter. However, the
-released `paper/model/results/main` checkpoints record `use_domain_adapter=0`;
-their active architecture is residue-token attention without the domain
-adapter. This distinction is preserved in the release documentation.
 
 ## Runtime feature files
 

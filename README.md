@@ -42,9 +42,9 @@ the `torch` and `torchvision` CUDA wheels as described at the top of that file.
 ## Final files and model weights
 
 Two task-specific checkpoints are prepared locally in
-`Pretrained_models/ViroBind/`: a seed-3407 CPI classification model and a
-seed-42 pooled-ranking model. They are excluded from Git history and should be
-published as GitHub Release assets. See
+`Pretrained_models/ViroBind/`: one for CPI classification and one for compound
+ranking. They are excluded from Git history and should be published as GitHub
+Release assets. See
 `Pretrained_models/ViroBind/README.md` and verify them with
 `Pretrained_models/ViroBind/SHA256SUMS`.
 
@@ -62,11 +62,6 @@ script refuses a file whose SHA-256 does not match the committed manifest.
 The exact boundary between final software, runtime feature banks and excluded
 experiment results is documented in `FINAL_FILES.md`. The directory layout is
 modeled on the reproducibility-oriented organization used by ColdstartCPI.
-
-The checkpoints contain the residue-token attention modules. Their recorded
-configuration has `use_domain_adapter=0`: virus adaptation is performed by the
-human-pretraining/virus-fine-tuning protocol, not by the optional domain-adapter
-layers retained in the software.
 
 ## Anonymous smoke test
 
@@ -133,12 +128,12 @@ uses the released split layout and local generated-feature layout by default:
 ```bash
 virobind-train \
   --mode scaffold_cluster_cold_protein \
-  --seed 42 \
   --out_root outputs/training
 ```
 
 Use `--dry_run 1` to validate datasets and feature mappings without training.
-The checkpoint stores all architecture arguments needed for inference.
+Use checkpoints only with the software release and feature schema that
+accompany them.
 
 ## Reproducibility boundary
 

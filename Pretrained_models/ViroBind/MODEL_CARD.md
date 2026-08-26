@@ -3,18 +3,13 @@
 ## Model summary
 
 ViroBind is a PyTorch drug-virus interaction model with separate binary
-classification and compound-ranking heads. It combines a 2,423-dimensional
-ECFP4 + MACCS + standardized RDKit2D drug representation with 1,152-dimensional
-ESMC global and residue-level protein representations.
+classification and compound-ranking heads. It combines molecular descriptors
+with global and residue-level protein representations.
 
 The release uses two task-specific checkpoints:
 
-- `virobind_classification.pt`: seed 3407, selected for CPI classification;
-- `virobind_ranking.pt`: seed 42, selected for pooled compound ranking.
-
-Both checkpoints record `use_domain_adapter=0`. Virus adaptation is supplied by
-the human-pretraining/virus-fine-tuning protocol rather than an active domain
-adapter.
+- `virobind_classification.pt`: CPI classification;
+- `virobind_ranking.pt`: compound ranking.
 
 ## Intended use
 
@@ -55,7 +50,6 @@ given target and are not calibrated binding affinities.
 ## Integrity and versioning
 
 Always pair a checkpoint with the software release that published it and verify
-the file using `SHA256SUMS`. The checkpoint stores the architecture arguments
-required for inference. Random checkpoints produced by
+the file using `SHA256SUMS`. Random checkpoints produced by
 `examples/create_mock_checkpoints.py` are CI fixtures and must never be used for
 scientific analysis.

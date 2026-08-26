@@ -14,7 +14,7 @@ No SMILES, protein sequence, UniProt accession or original identity metadata is
 included. `library.csv` is the matching anonymous screening-library schema.
 
 `create_mock_assets.py` generates deterministic random tensors with the exact
-drug, global-protein and residue-token dimensions expected by the checkpoints.
+drug, global-protein and residue-token feature schemas expected by the checkpoints.
 They are only for a software smoke test and must not be interpreted as molecular
 or protein representations.
 

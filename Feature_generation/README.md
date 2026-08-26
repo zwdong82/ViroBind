@@ -31,7 +31,7 @@ python Feature_generation/generate_ecfp4.py \
   --output features/drug_ecfp4.pt
 ```
 
-Output: `drug_ecfp4.pt`, shape `[n_drugs, 2048]`, Morgan radius 2.
+Output: `drug_ecfp4.pt`, containing ECFP4 features in the released schema.
 
 ### 2. MACCS
 
@@ -41,7 +41,7 @@ python Feature_generation/generate_maccs.py \
   --output features/drug_maccs.pt
 ```
 
-Output: `drug_maccs.pt`, shape `[n_drugs, 167]`.
+Output: `drug_maccs.pt`, containing MACCS features in the released schema.
 
 ### 3. RDKit2D
 
@@ -54,11 +54,10 @@ python Feature_generation/generate_rdkit2d.py \
   --combo-output features/drug_combo_ecfp4_maccs_rdkit2d.pt
 ```
 
-Output: `drug_rdkit2d.pt`, shape `[n_drugs, 208]`. The bundled
+Output: `drug_rdkit2d.pt`, containing RDKit2D features. The bundled
 `rdkit2d_descriptor_meta.json` fixes descriptor names and training-set
 normalization. With the three optional combination arguments, this script also
-outputs the final `[n_drugs, 2423]` drug bank in the required order ECFP4 +
-MACCS + RDKit2D.
+outputs the final drug bank in the required order ECFP4 + MACCS + RDKit2D.
 
 ### 4. ESMC global protein representation
 
@@ -69,9 +68,8 @@ python Feature_generation/generate_esmc_global.py \
   --outdir features/protein_global
 ```
 
-Output: `features/protein_global/prot_esmc_fullseq.pt`, shape
-`[n_proteins, 1152]`. Long sequences use 1024-residue windows with stride 512,
-followed by mean pooling.
+Output: `features/protein_global/prot_esmc_fullseq.pt`, containing the global
+protein representation in the released schema.
 
 ### 5. ESMC residue representation
 
@@ -89,7 +87,7 @@ features/protein_residue_tokens/manifest.csv
 features/protein_residue_tokens/tokens/<prot_id>.pt
 ```
 
-Each token file contains an `[protein_length, 1152]` residue-aligned tensor.
+Each token file contains a residue-aligned tensor in the released schema.
 
 ## Final model inputs
 
@@ -104,12 +102,12 @@ The five feature types are stored as follows:
 ```text
 features/
 ├── drug/
-│   ├── drug_ecfp4.pt                         # ECFP4, 2048 dimensions
-│   ├── drug_maccs.pt                         # MACCS, 167 dimensions
-│   ├── drug_rdkit2d.pt                       # RDKit2D, 208 dimensions
-│   └── drug_combo_ecfp4_maccs_rdkit2d.pt    # concatenated final drug input, 2423 dimensions
+│   ├── drug_ecfp4.pt                         # ECFP4 features
+│   ├── drug_maccs.pt                         # MACCS features
+│   ├── drug_rdkit2d.pt                       # RDKit2D features
+│   └── drug_combo_ecfp4_maccs_rdkit2d.pt    # concatenated final drug input
 └── protein/
-    ├── prot_esmc_fullseq.pt                   # ESMC global representation, 1152 dimensions
+    ├── prot_esmc_fullseq.pt                   # ESMC global representation
     └── prot_esmc_residue_tokens/              # ESMC residue representations
         ├── manifest.csv
         └── tokens/*.pt

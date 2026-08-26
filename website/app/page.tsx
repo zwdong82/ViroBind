@@ -88,8 +88,8 @@ export default function Home() {
       </section>
 
       <section className="metrics shell" aria-label="Model representation summary">
-        <div><strong>2,423</strong><span>drug-feature dimensions</span></div>
-        <div><strong>1,152</strong><span>protein-feature dimensions</span></div>
+        <div><strong>Multi-view</strong><span>drug representation</span></div>
+        <div><strong>Multi-scale</strong><span>protein representation</span></div>
         <div><strong>2</strong><span>task-specific checkpoints</span></div>
         <div><strong>GPU / CPU</strong><span>compatible inference</span></div>
       </section>
@@ -153,7 +153,7 @@ export default function Home() {
               <span className="step">STEP 02</span>
               <div className="workflow-icon">02</div>
               <h3>Run the right head</h3>
-              <p>Choose calibrated classification probabilities for specific pairs or pooled ranking scores to order a broader candidate library.</p>
+              <p>Choose classification scores for specific pairs or ranking scores to order a broader candidate library.</p>
             </article>
             <article>
               <span className="step">STEP 03</span>
@@ -177,13 +177,13 @@ export default function Home() {
           <div className="architecture-source">
             <span>DRUG BRANCH</span>
             <strong>ECFP4 + MACCS + RDKit2D</strong>
-            <small>2,423-dimensional representation</small>
+            <small>combined molecular representation</small>
           </div>
           <div className="architecture-connector"><i /><span>feature fusion</span><i /></div>
           <div className="architecture-source">
             <span>PROTEIN BRANCH</span>
             <strong>ESMC global + residue context</strong>
-            <small>1,152-dimensional representation</small>
+            <small>global and residue-level representation</small>
           </div>
           <div className="architecture-arrow" aria-hidden="true">→</div>
           <div className="architecture-output">
