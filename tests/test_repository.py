@@ -3,7 +3,6 @@ from __future__ import annotations
 import ast
 import csv
 import json
-import re
 import unittest
 from pathlib import Path
 
@@ -37,15 +36,13 @@ class RepositoryIntegrityTests(unittest.TestCase):
             "source/virobind/model.py",
             "source/virobind/predict.py",
             "source/virobind/screen.py",
-            "Pretrained_models/ViroBind/SHA256SUMS",
-            "Pretrained_models/ViroBind/MODEL_CARD.md",
+            "MODEL_CARD.md",
             "Datasets/split_manifest.json",
             "examples/create_mock_assets.py",
             "examples/create_mock_checkpoints.py",
             "examples/pairs.csv",
             "examples/proteins.csv",
             "examples/library.csv",
-            "scripts/download_models.py",
         ]
         missing = [path for path in required if not (ROOT / path).is_file()]
         self.assertEqual(missing, [])
@@ -108,22 +105,6 @@ class RepositoryIntegrityTests(unittest.TestCase):
             for name, audit in split_audit["files"].items():
                 with (ROOT / "Datasets" / split / name).open(encoding="utf-8") as handle:
                     self.assertEqual(sum(1 for _ in handle) - 1, audit["rows"])
-
-    def test_weight_manifest(self) -> None:
-        lines = [
-            line.strip()
-            for line in (ROOT / "Pretrained_models/ViroBind/SHA256SUMS")
-            .read_text(encoding="utf-8")
-            .splitlines()
-            if line.strip()
-        ]
-        expected = {"virobind_classification.pt", "virobind_ranking.pt"}
-        names = set()
-        for line in lines:
-            match = re.fullmatch(r"([0-9a-f]{64})\s+(.+)", line)
-            self.assertIsNotNone(match)
-            names.add(match.group(2))
-        self.assertEqual(names, expected)
 
     def test_public_text_has_no_private_absolute_path(self) -> None:
         suffixes = {".md", ".py", ".toml", ".txt", ".yml", ".yaml"}

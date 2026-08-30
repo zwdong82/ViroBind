@@ -19,4 +19,4 @@ npm test
 ```
 
 The site is informational only. Scientific predictions must be run with the
-versioned ViroBind software, checkpoints and matching Zenodo feature assets.
+versioned ViroBind software and matching Zenodo feature assets.

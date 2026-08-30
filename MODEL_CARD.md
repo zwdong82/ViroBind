@@ -6,11 +6,6 @@ ViroBind is a PyTorch drug-virus interaction model with separate binary
 classification and compound-ranking heads. It combines molecular descriptors
 with global and residue-level protein representations.
 
-The release uses two task-specific checkpoints:
-
-- `virobind_classification.pt`: CPI classification;
-- `virobind_ranking.pt`: compound ranking.
-
 Official web server: [https://lmmd.ecust.edu.cn/ViroBind/](https://lmmd.ecust.edu.cn/ViroBind/)
 
 ## Intended use
@@ -31,7 +26,7 @@ Official web server: [https://lmmd.ecust.edu.cn/ViroBind/](https://lmmd.ecust.ed
 
 ## Inputs and outputs
 
-The prediction command consumes paired anonymous IDs and matching precomputed
+Training and prediction use paired anonymous IDs and matching precomputed
 feature banks. The screening command scores a drug library against one or more
 protein targets in chunks. Classification probabilities describe the model's
 binary head; ranking scores are intended primarily for ordering compounds for a
@@ -41,17 +36,15 @@ given target and are not calibrated binding affinities.
 
 - Performance may degrade for viral families, protein conformations, compound
   chemotypes or assay conditions unlike the training distribution.
-- Anonymous public split files cannot reconstruct the original structures,
-  sequences or feature banks.
+- Anonymous public split files cannot reconstruct the original structures or
+  sequences.
 - A high score is a hypothesis-generation signal, not mechanistic evidence.
 - Dataset duplicates and a small number of conflicting input pairs are retained
   in the frozen release and disclosed in `Datasets/split_manifest.json`.
-- Final quantitative evaluation tables and the definitive citation remain
-  pending until the manuscript is finalized.
 
 ## Integrity and versioning
 
-Always pair a checkpoint with the software release that published it and verify
-the file using `SHA256SUMS`. Random checkpoints produced by
-`examples/create_mock_checkpoints.py` are CI fixtures and must never be used for
-scientific analysis.
+Use feature files only with the matching software release and verify the files
+against the checksum manifest in the Zenodo record. Random checkpoints produced
+by `examples/create_mock_checkpoints.py` are CI fixtures and must never be used
+for scientific analysis.

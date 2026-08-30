@@ -1,6 +1,6 @@
 const githubUrl = "https://github.com/zwdong82/ViroBind";
 const webServerUrl = "https://lmmd.ecust.edu.cn/ViroBind/";
-const modelCardUrl = `${githubUrl}/blob/main/Pretrained_models/ViroBind/MODEL_CARD.md`;
+const modelCardUrl = `${githubUrl}/blob/main/MODEL_CARD.md`;
 
 const Arrow = () => <span aria-hidden="true">↗</span>;
 
@@ -91,7 +91,7 @@ export default function Home() {
       <section className="metrics shell" aria-label="Model representation summary">
         <div><strong>Multi-view</strong><span>drug representation</span></div>
         <div><strong>Multi-scale</strong><span>protein representation</span></div>
-        <div><strong>2</strong><span>task-specific checkpoints</span></div>
+        <div><strong>2</strong><span>training split strategies</span></div>
         <div><strong>GPU / CPU</strong><span>compatible inference</span></div>
       </section>
 
@@ -110,7 +110,7 @@ export default function Home() {
               <span>D</span><i /><span>P</span>
             </div>
             <h3>CPI pair prediction</h3>
-            <p>Estimate a binary interaction probability for prepared compound–protein pairs using the classification checkpoint.</p>
+            <p>Train a classification model and estimate binary interaction probabilities for prepared compound–protein pairs.</p>
             <ul>
               <li>Paired anonymous IDs</li>
               <li>Compatible precomputed feature banks</li>
@@ -172,7 +172,7 @@ export default function Home() {
             <span className="section-index">03 / MODEL LOGIC</span>
             <h2>Multimodal evidence, fused for prioritization.</h2>
           </div>
-          <p>The released checkpoints encode the architecture needed for inference and use the human-pretraining / virus-fine-tuning protocol.</p>
+          <p>The training workflow uses the released feature files with human pretraining and virus fine-tuning data.</p>
         </div>
         <div className="architecture">
           <div className="architecture-source">

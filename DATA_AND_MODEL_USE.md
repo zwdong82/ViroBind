@@ -22,12 +22,12 @@ molecular structures, protein sequences or biological accessions required to
 reverse the anonymization or regenerate feature banks. Their statistics and
 known duplicate/conflict counts are recorded in `Datasets/split_manifest.json`.
 
-## Model weights
+## Feature files
 
-Scientific checkpoints are distributed separately as versioned release assets,
-not as Git blobs. Their use is noncommercial and their integrity must be checked
-against `Pretrained_models/ViroBind/SHA256SUMS`. Publication of a checkpoint
-does not grant rights to any third-party training datum.
+Generated feature files are distributed separately through the project Zenodo
+record. Users should verify their integrity against the `SHA256SUMS` manifest in
+the same record. Publication of derived features does not grant rights to any
+third-party source datum.
 
 ## Scientific limitation
 

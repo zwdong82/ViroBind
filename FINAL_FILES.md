@@ -2,34 +2,18 @@
 
 This project deliberately separates software inputs from experiment outputs.
 
-## Final model
-
-The frozen production release contains two task-specific checkpoints. They are
-named in this release as:
-
-```text
-Pretrained_models/ViroBind/virobind_classification.pt
-Pretrained_models/ViroBind/virobind_ranking.pt
-```
-
-The classification checkpoint is intended for CPI prediction, and the ranking
-checkpoint is intended for compound prioritization. Quantitative evaluation
-and model-selection details belong to the manuscript and its associated
-experiment record.
-
 ## Software files included in Git
 
-- `source/virobind/model.py`: model runtime used by the released checkpoints.
+- `source/virobind/model.py`: model implementation and training command.
 - `source/virobind/base.py`: feature-bank, dataset and training utilities.
 - `source/virobind/predict.py`: paired prediction and seed ensemble.
 - `source/virobind/screen.py`: chunked large-library virtual screening.
 - `pyproject.toml`, `requirements.txt`: installation and dependencies.
 - `examples/`: minimal input schemas.
 - `Datasets/split_manifest.json`: de-identified binary split statistics and overlap audit.
-- `scripts/download_models.py`: checksum-verifying release-asset downloader.
 - `LICENSE`: noncommercial software terms.
-- `DATA_AND_MODEL_USE.md`: data, checkpoint and third-party-rights boundary.
-- `Pretrained_models/ViroBind/MODEL_CARD.md`: intended use and limitations.
+- `DATA_AND_MODEL_USE.md`: data, feature and third-party-rights boundary.
+- `MODEL_CARD.md`: intended use and limitations.
 - `CONTRIBUTING.md`: privacy-safe contribution checks.
 
 ## Runtime feature files

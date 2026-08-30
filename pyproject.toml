@@ -32,7 +32,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://lmmd.ecust.edu.cn/ViroBind/"
 Repository = "https://github.com/zwdong82/ViroBind"
-"Model card" = "https://github.com/zwdong82/ViroBind/blob/main/Pretrained_models/ViroBind/MODEL_CARD.md"
+"Model card" = "https://github.com/zwdong82/ViroBind/blob/main/MODEL_CARD.md"
 
 [project.scripts]
 virobind-train = "virobind.model:cli_main"

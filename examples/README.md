@@ -1,7 +1,6 @@
 # Runnable anonymized examples
 
-`pairs.csv` contains ten ID-only examples from the released
-scaffold-plus-cluster-cold-protein test split:
+`pairs.csv` contains ten ID-only examples for checking the public input schema:
 
 - protein 262: three positive and three negative pairs;
 - protein 217: one positive and three negative pairs.
@@ -18,27 +17,26 @@ drug, global-protein and residue-token feature schemas expected by the checkpoin
 They are only for a software smoke test and must not be interpreted as molecular
 or protein representations.
 
-After installing ViroBind and placing the released checkpoint files under
-`Pretrained_models/ViroBind/`, run:
+After installing ViroBind, generate the synthetic assets and mock checkpoints:
 
 ```bash
 python examples/create_mock_assets.py
+python examples/create_mock_checkpoints.py
 
 virobind-predict \
   --external-csv examples/pairs.csv \
   --drug-feat examples/generated_assets/drug_features.pt \
   --prot-feat examples/generated_assets/protein_features.pt \
   --token-root examples/generated_assets/residue_tokens \
-  --ckpts Pretrained_models/ViroBind/virobind_classification.pt \
+  --ckpts examples/generated_assets/mock_checkpoints/virobind_classification.pt \
   --out-dir outputs/example_prediction \
   --device cpu
 ```
 
 The generated assets are ignored by Git and can be recreated at any time.
 
-Continuous integration also creates small random checkpoints so the complete
-prediction and screening commands can be tested without downloading scientific
-release weights:
+Continuous integration also creates these small random checkpoints so the
+prediction and screening commands can be tested:
 
 ```bash
 python examples/create_mock_checkpoints.py
