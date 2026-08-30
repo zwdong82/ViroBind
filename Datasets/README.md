@@ -8,13 +8,11 @@ reduced to exactly four columns:
 drug_id,prot_id,label,prot_domain
 ```
 
-The four released split strategies are:
+The two released split strategies are:
 
 ```text
 random/
 scaffold/
-cluster_cold_protein/
-scaffold_cluster_cold_protein/
 ```
 
 Each split contains:
@@ -32,15 +30,11 @@ the corresponding virus fine-tuning rows. The other three files contain
 virus-only fine-tuning, validation and testing inputs. Drug keys, protein keys,
 UniProt IDs, SMILES and protein sequences are excluded.
 
-The files still contain the complete anonymized ID-to-label relationships.
+The public files contain only the frozen binary split inputs. Unsplit provenance
+tables and uncertain-label training data are intentionally excluded from the
+public repository.
 
-The two root files, `human_dti.csv` and `virus_dti.csv`, are unsplit provenance
-snapshots. They include gray/uncertain label `-1`; they are not expected to equal
-a concatenation of the released binary train, validation and test tables. The
-four split directories are the frozen inputs for training/evaluation with a
-selected split mode.
-
-`split_manifest.json` records the split seeds, label semantics, row counts,
+`split_manifest.json` records the binary label semantics, row counts,
 duplicate/conflicting-pair counts and train/validation/test overlap audit. Some
 frozen non-random inputs contain exact duplicate rows and a small number of
 drug-protein pairs with conflicting labels. They are documented rather than
@@ -48,9 +42,9 @@ silently changed so that the release remains identical to the model inputs.
 
 ## Reproducibility boundary
 
-These ID-only files cannot regenerate molecular or protein features. The public
-release supports software verification and training with matching locally held
-features, but it cannot independently reconstruct the manuscript datasets from
-anonymous IDs. Users must generate features from molecular structures and
-protein sequences they are authorized to use. Data-source citations and any
-controlled-access procedure will be added with the finalized manuscript.
+These ID-only files cannot regenerate molecular or protein features. Matching
+feature assets are distributed separately through the project Zenodo record;
+see `Feature_generation/ZENODO.md`. The public release cannot independently
+reconstruct the original source datasets from anonymous IDs. Data-source
+citations and any controlled-access procedure will be added with the finalized
+manuscript.

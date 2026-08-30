@@ -1223,8 +1223,8 @@ def parse_args():
     ap.add_argument("--protocol", default="allhuman_pt", choices=["virusonly", "allhuman_pt"])
     ap.add_argument(
         "--mode",
-        default="scaffold_cluster_cold_protein",
-        choices=["random", "scaffold", "cluster_cold_protein", "scaffold_cluster_cold_protein"],
+        default="scaffold",
+        choices=["random", "scaffold"],
     )
     ap.add_argument("--seed", type=int, default=42)
 

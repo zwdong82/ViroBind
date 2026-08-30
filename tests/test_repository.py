@@ -12,8 +12,6 @@ ROOT = Path(__file__).resolve().parents[1]
 SPLITS = {
     "random",
     "scaffold",
-    "cluster_cold_protein",
-    "scaffold_cluster_cold_protein",
 }
 SPLIT_FILES = {
     "human_pretrain.csv",
@@ -70,11 +68,6 @@ class RepositoryIntegrityTests(unittest.TestCase):
                 with path.open(newline="", encoding="utf-8") as handle:
                     self.assertEqual(next(csv.reader(handle)), DTI_COLUMNS)
 
-    def test_unsplit_dataset_headers(self) -> None:
-        for name in ["human_dti.csv", "virus_dti.csv"]:
-            with (ROOT / "Datasets" / name).open(newline="", encoding="utf-8") as handle:
-                self.assertEqual(next(csv.reader(handle)), DTI_COLUMNS)
-
     def test_example_ids_are_internally_consistent(self) -> None:
         with (ROOT / "examples/pairs.csv").open(newline="", encoding="utf-8") as handle:
             pairs = list(csv.DictReader(handle))
@@ -111,9 +104,6 @@ class RepositoryIntegrityTests(unittest.TestCase):
         manifest = json.loads(
             (ROOT / "Datasets/split_manifest.json").read_text(encoding="utf-8")
         )
-        for name, audit in manifest["unsplit_tables"].items():
-            with (ROOT / "Datasets" / name).open(encoding="utf-8") as handle:
-                self.assertEqual(sum(1 for _ in handle) - 1, audit["rows"])
         for split, split_audit in manifest["splits"].items():
             for name, audit in split_audit["files"].items():
                 with (ROOT / "Datasets" / split / name).open(encoding="utf-8") as handle:

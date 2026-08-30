@@ -11,6 +11,8 @@ The release uses two task-specific checkpoints:
 - `virobind_classification.pt`: CPI classification;
 - `virobind_ranking.pt`: compound ranking.
 
+Official web server: [https://lmmd.ecust.edu.cn/ViroBind/](https://lmmd.ecust.edu.cn/ViroBind/)
+
 ## Intended use
 
 - noncommercial academic and public-interest research;

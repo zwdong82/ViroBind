@@ -19,13 +19,13 @@ experiment record.
 
 ## Software files included in Git
 
-- `source/virobind/model.py`: model implementation and complete training CLI.
+- `source/virobind/model.py`: model runtime used by the released checkpoints.
 - `source/virobind/base.py`: feature-bank, dataset and training utilities.
 - `source/virobind/predict.py`: paired prediction and seed ensemble.
 - `source/virobind/screen.py`: chunked large-library virtual screening.
 - `pyproject.toml`, `requirements.txt`: installation and dependencies.
 - `examples/`: minimal input schemas.
-- `Datasets/split_manifest.json`: de-identified split statistics and overlap audit.
+- `Datasets/split_manifest.json`: de-identified binary split statistics and overlap audit.
 - `scripts/download_models.py`: checksum-verifying release-asset downloader.
 - `LICENSE`: noncommercial software terms.
 - `DATA_AND_MODEL_USE.md`: data, checkpoint and third-party-rights boundary.
@@ -40,15 +40,15 @@ The final model expects precomputed features with the exact training schema:
 - ESMC global protein features (`prot_esmc_fullseq.pt`).
 - ESMC residue-token files and `manifest.csv` (`prot_esmc_residue_tokens/`).
 
-The binary feature banks are several gigabytes, contain private molecular or
-protein metadata, and are not committed or published. The repository provides
-their generation code and schema documentation so users can generate features
-from their own inputs.
+The binary feature banks are several gigabytes and are not committed to Git.
+They are published as versioned Zenodo assets with checksums; see
+`Feature_generation/ZENODO.md`. The repository also provides generation code so
+users can build compatible features from inputs they are authorized to use.
 
 ## ID-only dataset inputs
 
-`Datasets/` contains the complete final inputs for four split strategies:
-random, scaffold, cluster-cold-protein and scaffold+cluster-cold-protein. Every
+`Datasets/` contains the complete final inputs for two split strategies:
+random and scaffold. Every
 CSV is reduced to `drug_id,prot_id,label,prot_domain`; SMILES, sequences,
 UniProt IDs and other identity metadata are excluded. Each split provides the
 human pretraining, virus fine-tuning, validation and test files.

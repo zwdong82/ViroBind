@@ -1,4 +1,5 @@
 const githubUrl = "https://github.com/zwdong82/ViroBind";
+const webServerUrl = "https://lmmd.ecust.edu.cn/ViroBind/";
 const modelCardUrl = `${githubUrl}/blob/main/Pretrained_models/ViroBind/MODEL_CARD.md`;
 
 const Arrow = () => <span aria-hidden="true">↗</span>;
@@ -35,8 +36,8 @@ export default function Home() {
             to a sharper experimental shortlist.
           </p>
           <div className="hero-actions">
-            <a className="button primary" href={githubUrl} target="_blank" rel="noreferrer">
-              Explore on GitHub <Arrow />
+            <a className="button primary" href={webServerUrl} target="_blank" rel="noreferrer">
+              Open web server <Arrow />
             </a>
             <a className="button secondary" href={modelCardUrl} target="_blank" rel="noreferrer">
               Read the model card
@@ -217,15 +218,15 @@ export default function Home() {
           <span className="section-index">READY TO EXPLORE?</span>
           <h2>Inspect the model. Reproduce the pipeline. Test your hypotheses.</h2>
         </div>
-        <a className="button primary dark" href={githubUrl} target="_blank" rel="noreferrer">
-          Open ViroBind on GitHub <Arrow />
+        <a className="button primary dark" href={webServerUrl} target="_blank" rel="noreferrer">
+          Open the ViroBind web server <Arrow />
         </a>
       </section>
 
       <footer className="footer shell">
         <a className="brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>ViroBind</a>
         <p>Deep-learning drug–virus interaction prediction and candidate prioritization.</p>
-        <span>PolyForm Noncommercial 1.0.0</span>
+        <span><a href={webServerUrl} target="_blank" rel="noreferrer">Web server</a> · PolyForm Noncommercial 1.0.0</span>
       </footer>
     </main>
   );

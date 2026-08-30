@@ -1,8 +1,9 @@
 # ViroBind
 
 ViroBind is a deep-learning model for drug–virus interaction prediction and
-candidate prioritization. This repository contains the cleaned training core,
-CPI prediction and memory-safe virtual-screening commands.
+candidate prioritization. This public repository contains the inference and
+memory-safe virtual-screening workflow. Selected training configuration details
+are reserved for the accompanying manuscript and controlled research record.
 
 The software is released for noncommercial use, including academic research,
 education and public-interest research, under the PolyForm Noncommercial
@@ -12,14 +13,16 @@ The [model card](Pretrained_models/ViroBind/MODEL_CARD.md) describes intended
 use and scientific limitations. [Data and model use](DATA_AND_MODEL_USE.md)
 clarifies anonymization and third-party rights.
 
+**Official web server:** [https://lmmd.ecust.edu.cn/ViroBind/](https://lmmd.ecust.edu.cn/ViroBind/)
+
 ## Repository layout
 
 ```text
 Feature_generation/ feature-bank generation scripts
 Predictions/        external drug-library preprocessing guidance
-Datasets/           final human-pretrain/virus-finetune split CSVs
+Datasets/           final binary human-pretrain/virus-finetune split CSVs
 Pretrained_models/  final ViroBind checkpoints and checksums
-source/virobind/    complete train, predict and screening implementation
+source/virobind/    model runtime, prediction and screening implementation
 examples/           runnable anonymized ID-only examples
 outputs/            generated predictions (ignored by Git)
 ```
@@ -86,6 +89,14 @@ virobind-predict \
   --device cpu
 ```
 
+## Feature assets
+
+The released feature banks are distributed separately through Zenodo because
+they are too large for normal Git history. Download links, checksums and the
+expected local directory layout are documented in
+[`Feature_generation/ZENODO.md`](Feature_generation/ZENODO.md). Replace the
+record placeholder in that file after the Zenodo deposit has been published.
+
 ## CPI prediction
 
 Input pairs and precomputed feature banks must follow the schemas used during
@@ -120,39 +131,32 @@ virobind-screen \
 The screening implementation memory-maps the drug feature tensor and processes
 it in chunks. Use `--help` on either command for all options.
 
-## Training
+## Training scope
 
-The complete final training implementation is included in `source/virobind/` and
-uses the released split layout and local generated-feature layout by default:
-
-```bash
-virobind-train \
-  --mode scaffold_cluster_cold_protein \
-  --out_root outputs/training
-```
-
-Use `--dry_run 1` to validate datasets and feature mappings without training.
-Use checkpoints only with the software release and feature schema that
-accompany them.
+The public release does not document selected domain-adaptation or uncertain-
+label training settings. The published checkpoints are intended for inference
+with the matching software and feature release. Reproduction claims should be
+limited accordingly until the complete protocol is available with the paper.
 
 ## Reproducibility boundary
 
-The released split CSVs contain anonymous IDs and labels. Molecular structures,
-protein sequences, identity mappings and the multi-gigabyte feature banks are
-not distributed. Consequently, this repository supports software verification,
-prediction on user-supplied inputs and training with matching locally held
-features, but it cannot reconstruct the manuscript training data from the
-anonymous CSVs alone. See `Datasets/README.md` and
+The released binary split CSVs contain anonymous IDs and labels. Molecular
+structures, protein sequences and identity mappings are not distributed in Git;
+feature banks are released separately through Zenodo. Consequently, this
+repository supports software verification and prediction with compatible
+assets, but it cannot reconstruct the original source datasets from anonymous
+IDs alone. See `Datasets/README.md` and
 `Datasets/split_manifest.json` for the frozen split audit.
 
 ## Publishing checklist
 
 1. Review data/model redistribution permissions.
 2. Create a GitHub repository and push this source tree.
-3. Replace the placeholder release URL in the model documentation.
-4. Create a versioned GitHub Release and upload the two `.pt` files.
-5. Run `sha256sum -c SHA256SUMS` against the uploaded assets.
-6. Add the finalized manuscript citation, DOI and `CITATION.cff`.
+3. Publish the Zenodo feature deposit and replace every `RECORD_ID` placeholder.
+4. Replace the placeholder release URL in the model documentation.
+5. Create a versioned GitHub Release and upload the two `.pt` files.
+6. Run `sha256sum -c SHA256SUMS` against all published assets.
+7. Add the finalized manuscript citation, DOI and `CITATION.cff`.
 
 ## Citation
 
