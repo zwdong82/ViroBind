@@ -39,8 +39,9 @@ given target and are not calibrated binding affinities.
 - Anonymous public split files cannot reconstruct the original structures or
   sequences.
 - A high score is a hypothesis-generation signal, not mechanistic evidence.
-- Dataset duplicates and a small number of conflicting input pairs are retained
-  in the frozen release and disclosed in `Datasets/split_manifest.json`.
+- Non-conflicting exact duplicate rows are retained and disclosed in
+  `Datasets/split_manifest.json`; every pair that had conflicting binary labels
+  has been removed in full.
 
 ## Integrity and versioning
 

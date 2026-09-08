@@ -987,7 +987,6 @@ drug_id,prot_id,label,prot_domain
 777191,1164,0,human
 850106,411,1,human
 99157,436,1,human
-836984,403,0,human
 723979,848,0,human
 214799,677,1,human
 171009,2754,0,human
@@ -2697,7 +2696,6 @@ drug_id,prot_id,label,prot_domain
 651514,1294,1,human
 73200,335,1,human
 817561,1036,1,human
-284313,409,0,human
 213603,293,0,human
 557462,979,0,human
 761499,687,0,human
@@ -3340,7 +3338,6 @@ drug_id,prot_id,label,prot_domain
 792440,2113,1,human
 612628,404,1,human
 386104,1129,0,human
-769050,538,0,human
 120875,332,1,human
 78405,1472,1,human
 80585,1644,0,human
@@ -4567,7 +4564,6 @@ drug_id,prot_id,label,prot_domain
 135041,326,1,human
 737270,455,1,human
 504826,733,1,human
-441897,463,1,human
 256606,532,0,human
 526914,410,1,human
 723476,328,1,human
@@ -6003,7 +5999,6 @@ drug_id,prot_id,label,prot_domain
 784476,910,1,human
 385611,1045,1,human
 405718,513,0,human
-184219,637,0,human
 603953,820,1,human
 299040,1780,1,human
 30386,21,0,virus
@@ -6033,7 +6028,6 @@ drug_id,prot_id,label,prot_domain
 580216,841,1,human
 272664,337,1,human
 133747,1157,0,human
-837013,403,0,human
 262128,386,1,human
 400137,1926,0,human
 181574,726,0,human
@@ -6860,7 +6854,6 @@ drug_id,prot_id,label,prot_domain
 829791,2058,1,human
 230206,612,1,human
 458797,455,0,human
-769202,538,1,human
 290802,1176,1,human
 836091,403,0,human
 827451,2091,1,human
@@ -7703,7 +7696,6 @@ drug_id,prot_id,label,prot_domain
 812783,718,1,human
 307165,707,1,human
 612895,725,1,human
-62999,343,1,human
 833680,702,1,human
 92888,281,1,human
 95442,524,1,human
@@ -7781,7 +7773,6 @@ drug_id,prot_id,label,prot_domain
 309452,601,1,human
 18005,14,0,virus
 795678,403,1,human
-837022,403,1,human
 150175,554,0,human
 537409,604,1,human
 155849,657,0,human
@@ -8477,7 +8468,6 @@ drug_id,prot_id,label,prot_domain
 448222,1658,0,human
 471380,1313,1,human
 116104,893,0,human
-273194,517,1,human
 552728,1439,1,human
 144065,470,1,human
 400854,396,1,human
@@ -8749,7 +8739,6 @@ drug_id,prot_id,label,prot_domain
 829208,403,1,human
 594023,404,1,human
 390713,667,0,human
-776379,740,0,human
 634033,506,1,human
 181295,509,0,human
 744287,637,0,human
@@ -9945,7 +9934,6 @@ drug_id,prot_id,label,prot_domain
 779813,356,1,human
 567207,619,1,human
 712719,838,0,human
-837045,403,1,human
 179018,1032,0,human
 514682,725,1,human
 637254,692,1,human
@@ -10074,7 +10062,6 @@ drug_id,prot_id,label,prot_domain
 194084,384,1,human
 395825,369,1,human
 182222,525,1,human
-837026,403,1,human
 37481,13,1,virus
 377834,456,1,human
 223285,762,0,human
@@ -11720,7 +11707,6 @@ drug_id,prot_id,label,prot_domain
 213603,728,0,human
 589553,463,1,human
 90426,862,0,human
-769050,538,1,human
 256938,289,0,human
 422793,464,1,human
 96694,356,1,human
@@ -13159,7 +13145,6 @@ drug_id,prot_id,label,prot_domain
 446210,304,1,human
 314130,343,1,human
 143643,651,1,human
-642432,343,1,human
 453165,2058,1,human
 156871,950,1,human
 735636,586,1,human
@@ -13643,7 +13628,6 @@ drug_id,prot_id,label,prot_domain
 322784,659,1,human
 631945,633,0,human
 692189,338,1,human
-682517,1184,0,human
 863440,1633,1,human
 772074,877,1,human
 162156,612,1,human
@@ -13869,7 +13853,6 @@ drug_id,prot_id,label,prot_domain
 280153,453,1,human
 561688,1093,1,human
 788363,1397,1,human
-837060,403,1,human
 299203,427,1,human
 108330,429,1,human
 658810,841,0,human
@@ -16185,7 +16168,6 @@ drug_id,prot_id,label,prot_domain
 130174,1370,0,human
 226066,1957,0,human
 16555,105,0,virus
-769150,538,0,human
 47250,43,0,virus
 708038,303,1,human
 489016,1472,1,human
@@ -16240,7 +16222,6 @@ drug_id,prot_id,label,prot_domain
 616270,604,1,human
 802999,1298,1,human
 62108,280,0,human
-769194,538,1,human
 63748,405,0,human
 425092,636,0,human
 835137,604,1,human
@@ -16728,7 +16709,6 @@ drug_id,prot_id,label,prot_domain
 243375,2107,0,human
 686292,302,1,human
 743635,605,1,human
-837015,403,1,human
 732501,949,1,human
 506119,740,1,human
 859927,811,1,human
@@ -19546,7 +19526,6 @@ drug_id,prot_id,label,prot_domain
 697888,598,1,human
 620817,507,1,human
 399962,1437,0,human
-362600,538,0,human
 123781,555,1,human
 239979,295,1,human
 670405,2781,0,human
@@ -21303,7 +21282,6 @@ drug_id,prot_id,label,prot_domain
 76112,693,1,human
 180174,656,1,human
 692011,312,1,human
-769143,538,1,human
 672131,377,1,human
 822152,656,1,human
 514996,1089,1,human
@@ -21770,7 +21748,6 @@ drug_id,prot_id,label,prot_domain
 309579,791,1,human
 470030,404,1,human
 33717,21,1,virus
-485717,740,1,human
 115391,344,1,human
 295957,683,1,human
 723738,312,1,human
@@ -22230,7 +22207,6 @@ drug_id,prot_id,label,prot_domain
 624701,633,1,human
 367347,386,1,human
 243375,756,0,human
-770982,725,1,human
 470941,356,0,human
 387005,949,0,human
 67579,445,0,human
@@ -22470,7 +22446,6 @@ drug_id,prot_id,label,prot_domain
 433762,1055,1,human
 118340,823,1,human
 183861,554,1,human
-837036,403,0,human
 751658,786,1,human
 278800,658,0,human
 847785,532,1,human
@@ -22935,7 +22910,6 @@ drug_id,prot_id,label,prot_domain
 662370,818,1,human
 167765,677,1,human
 165399,438,1,human
-273194,517,0,human
 754285,1191,0,human
 14636,0,0,virus
 800457,636,1,human
@@ -24134,7 +24108,6 @@ drug_id,prot_id,label,prot_domain
 179018,1521,0,human
 676513,834,1,human
 705745,651,1,human
-837012,403,1,human
 536019,604,1,human
 424895,964,0,human
 144551,651,1,human
@@ -24368,7 +24341,6 @@ drug_id,prot_id,label,prot_domain
 447627,2049,0,human
 622828,1454,0,human
 336799,455,1,human
-837029,403,0,human
 259440,343,1,human
 177500,707,1,human
 767578,506,1,human
@@ -25205,7 +25177,6 @@ drug_id,prot_id,label,prot_domain
 126962,303,0,human
 574782,651,1,human
 226251,437,1,human
-201852,343,1,human
 511268,1701,1,human
 95891,429,1,human
 816992,1689,1,human
@@ -25674,7 +25645,6 @@ drug_id,prot_id,label,prot_domain
 625188,458,0,human
 112391,803,1,human
 161557,1087,0,human
-410654,594,0,human
 81367,288,1,human
 672378,320,0,human
 274654,544,1,human
@@ -25818,7 +25788,6 @@ drug_id,prot_id,label,prot_domain
 119085,555,1,human
 400756,525,1,human
 768449,846,1,human
-3742,191,0,virus
 146342,585,0,human
 458948,410,1,human
 218794,386,0,human
@@ -26302,7 +26271,6 @@ drug_id,prot_id,label,prot_domain
 830396,1089,0,human
 743348,455,1,human
 581971,599,1,human
-769068,538,1,human
 154937,375,1,human
 780150,599,1,human
 127330,528,1,human
@@ -29341,7 +29309,6 @@ drug_id,prot_id,label,prot_domain
 467230,313,0,human
 343023,511,1,human
 73423,956,0,human
-837037,403,0,human
 181250,704,1,human
 523951,653,1,human
 444458,561,1,human
@@ -30781,7 +30748,6 @@ drug_id,prot_id,label,prot_domain
 370525,455,1,human
 650266,1252,1,human
 516827,289,1,human
-184219,463,0,human
 486203,836,0,human
 145966,612,1,human
 76485,1298,1,human
@@ -31755,7 +31721,6 @@ drug_id,prot_id,label,prot_domain
 529613,408,0,human
 773870,2462,1,human
 261296,386,1,human
-837049,403,0,human
 261178,384,1,human
 804477,797,1,human
 543536,763,1,human
@@ -32892,7 +32857,6 @@ drug_id,prot_id,label,prot_domain
 160324,1056,0,human
 820484,1314,1,human
 625344,517,0,human
-364969,800,1,human
 237595,739,1,human
 503804,1176,1,human
 589838,617,1,human
@@ -35013,7 +34977,6 @@ drug_id,prot_id,label,prot_domain
 842875,368,1,human
 563695,404,1,human
 332461,561,0,human
-514833,725,1,human
 368394,386,1,human
 764121,303,1,human
 385916,1219,0,human
@@ -35976,7 +35939,6 @@ drug_id,prot_id,label,prot_domain
 282272,408,1,human
 65431,611,0,human
 613935,456,1,human
-441897,463,0,human
 646034,2815,0,human
 59683,362,0,human
 236512,427,0,human
@@ -37253,7 +37215,6 @@ drug_id,prot_id,label,prot_domain
 630490,506,0,human
 805298,1093,1,human
 424287,1199,1,human
-769148,538,1,human
 181995,1416,0,human
 693323,1379,0,human
 242016,303,1,human
@@ -37738,7 +37699,6 @@ drug_id,prot_id,label,prot_domain
 774182,2187,1,human
 269878,463,1,human
 505871,725,1,human
-76014,463,0,human
 221585,663,0,human
 824383,1613,1,human
 185180,1040,0,human
@@ -37992,7 +37952,6 @@ drug_id,prot_id,label,prot_domain
 306651,509,1,human
 465864,384,0,human
 518524,356,1,human
-573775,289,0,human
 247290,512,1,human
 433221,762,0,human
 90754,898,1,human
@@ -38286,7 +38245,6 @@ drug_id,prot_id,label,prot_domain
 82997,433,0,human
 188425,348,1,human
 192356,1181,0,human
-770982,725,0,human
 848194,312,1,human
 296978,594,1,human
 31855,18,0,virus
@@ -38564,7 +38522,6 @@ drug_id,prot_id,label,prot_domain
 142613,651,1,human
 718388,281,1,human
 773733,290,1,human
-781042,343,0,human
 528289,725,1,human
 711922,1314,1,human
 584748,659,1,human
@@ -39922,7 +39879,6 @@ drug_id,prot_id,label,prot_domain
 197674,525,1,human
 389897,1003,1,human
 352257,343,1,human
-767112,538,0,human
 746119,1684,0,human
 398042,688,0,human
 143745,672,0,human
@@ -40587,7 +40543,6 @@ drug_id,prot_id,label,prot_domain
 177088,454,1,human
 802761,2091,0,human
 384750,343,0,human
-485717,740,0,human
 380538,294,1,human
 591325,404,1,human
 510941,586,0,human
@@ -40622,7 +40577,6 @@ drug_id,prot_id,label,prot_domain
 176320,711,0,human
 735172,356,1,human
 308478,1176,1,human
-837025,403,0,human
 272094,778,1,human
 362303,584,1,human
 15365,1428,0,human
@@ -41742,7 +41696,6 @@ drug_id,prot_id,label,prot_domain
 267826,554,1,human
 347839,1063,1,human
 561905,404,1,human
-507590,725,1,human
 693506,469,0,human
 526376,327,1,human
 630936,581,0,human
@@ -41995,7 +41948,6 @@ drug_id,prot_id,label,prot_domain
 587892,682,1,human
 431875,651,1,human
 712377,594,1,human
-369209,538,1,human
 68612,325,0,human
 538698,841,1,human
 4602,973,0,human
@@ -43246,7 +43198,6 @@ drug_id,prot_id,label,prot_domain
 128437,559,0,human
 590007,404,1,human
 75110,385,1,human
-682522,1184,1,human
 398902,1278,0,human
 216128,357,0,human
 269412,517,0,human
@@ -43438,7 +43389,6 @@ drug_id,prot_id,label,prot_domain
 747908,361,1,human
 834396,1043,1,human
 852216,682,1,human
-496378,580,1,human
 740572,949,1,human
 613984,2047,1,human
 56764,586,1,human
@@ -44107,7 +44057,6 @@ drug_id,prot_id,label,prot_domain
 77901,325,0,human
 345293,788,1,human
 328463,637,1,human
-837055,403,0,human
 713536,281,1,human
 756366,461,0,human
 553228,356,1,human
@@ -44672,7 +44621,6 @@ drug_id,prot_id,label,prot_domain
 512356,324,1,human
 151961,834,1,human
 574530,651,1,human
-769203,538,1,human
 216292,1450,0,human
 693041,891,1,human
 467988,829,0,human
@@ -46741,7 +46689,6 @@ drug_id,prot_id,label,prot_domain
 227261,1487,0,human
 259238,506,1,human
 834830,1510,1,human
-769154,538,1,human
 635072,2790,1,human
 432186,848,0,human
 65210,516,0,human
@@ -47268,7 +47215,6 @@ drug_id,prot_id,label,prot_domain
 76816,281,0,human
 208476,298,0,human
 289081,672,1,human
-184219,463,1,human
 175291,456,1,human
 308609,661,0,human
 613888,540,1,human
@@ -49058,7 +49004,6 @@ drug_id,prot_id,label,prot_domain
 71826,454,1,human
 834169,507,1,human
 115160,280,0,human
-142406,637,1,human
 52321,159,1,virus
 832666,448,1,human
 162905,855,1,human
@@ -49526,7 +49471,6 @@ drug_id,prot_id,label,prot_domain
 213652,1427,0,human
 212544,404,0,human
 268253,672,1,human
-186741,463,1,human
 97698,674,1,human
 208605,343,0,human
 79351,307,1,human
@@ -50005,7 +49949,6 @@ drug_id,prot_id,label,prot_domain
 181270,972,0,human
 433427,1320,0,human
 245645,302,0,human
-769144,538,1,human
 584845,359,0,human
 354919,1279,0,human
 142219,673,1,human
@@ -50480,7 +50423,6 @@ drug_id,prot_id,label,prot_domain
 339097,683,1,human
 161107,707,1,human
 354940,295,0,human
-769102,538,1,human
 827945,533,1,human
 448414,1060,1,human
 574278,356,1,human
@@ -51100,7 +51042,6 @@ drug_id,prot_id,label,prot_domain
 772326,877,1,human
 580865,386,1,human
 490203,1227,1,human
-769053,538,1,human
 74476,515,0,human
 300112,717,1,human
 590898,659,1,human
@@ -53296,7 +53237,6 @@ drug_id,prot_id,label,prot_domain
 270273,697,1,human
 502300,444,1,human
 724076,281,1,human
-769152,538,0,human
 1232,5,0,virus
 264114,1437,0,human
 80037,333,0,human
@@ -53814,7 +53754,6 @@ drug_id,prot_id,label,prot_domain
 187899,552,1,human
 161141,829,0,human
 830290,788,0,human
-837005,403,0,human
 313113,531,1,human
 168044,1783,1,human
 572220,1629,1,human
@@ -54152,7 +54091,6 @@ drug_id,prot_id,label,prot_domain
 457515,507,1,human
 30726,786,0,human
 24663,59,0,virus
-774674,538,1,human
 409595,458,1,human
 339493,685,0,human
 4438,2,0,virus
@@ -57951,7 +57889,6 @@ drug_id,prot_id,label,prot_domain
 106221,710,0,human
 355393,792,0,human
 853277,1549,0,human
-769067,538,1,human
 196196,704,1,human
 171536,1089,0,human
 583485,532,1,human
@@ -58113,7 +58050,6 @@ drug_id,prot_id,label,prot_domain
 364077,1507,0,human
 744205,1115,1,human
 456602,1009,1,human
-369207,538,0,human
 793291,2649,1,human
 492298,717,0,human
 316560,717,1,human
@@ -58804,7 +58740,6 @@ drug_id,prot_id,label,prot_domain
 627968,1119,0,human
 172819,288,1,human
 204361,457,1,human
-420618,594,0,human
 527279,554,0,human
 336696,455,1,human
 716134,898,1,human
@@ -61121,7 +61056,6 @@ drug_id,prot_id,label,prot_domain
 128117,465,1,human
 87447,312,0,human
 733119,604,1,human
-776379,740,1,human
 782093,581,1,human
 503939,581,0,human
 784477,910,1,human
@@ -61842,7 +61776,6 @@ drug_id,prot_id,label,prot_domain
 22460,168,0,virus
 656535,918,0,human
 727560,288,1,human
-836971,403,0,human
 81372,593,1,human
 195618,2837,0,human
 291486,585,1,human
@@ -62204,7 +62137,6 @@ drug_id,prot_id,label,prot_domain
 129395,562,0,human
 252297,656,0,human
 627316,531,1,human
-369213,538,0,human
 420048,1651,0,human
 847435,1859,1,human
 271979,295,1,human
@@ -64387,7 +64319,6 @@ drug_id,prot_id,label,prot_domain
 748414,949,1,human
 788532,564,1,human
 768239,846,1,human
-369223,538,0,human
 260144,354,1,human
 743035,615,1,human
 614058,2047,1,human
@@ -64795,7 +64726,6 @@ drug_id,prot_id,label,prot_domain
 832144,1141,1,human
 173729,664,0,human
 685747,901,1,human
-837038,403,0,human
 573550,356,1,human
 575319,651,1,human
 87155,377,1,human
@@ -65536,7 +65466,6 @@ drug_id,prot_id,label,prot_domain
 365173,356,1,human
 137939,656,1,human
 487051,763,0,human
-769069,538,1,human
 127832,891,1,human
 202457,1428,0,human
 1394,1237,0,human
@@ -66173,7 +66102,6 @@ drug_id,prot_id,label,prot_domain
 538649,841,1,human
 270113,484,0,human
 665161,1115,1,human
-837003,403,1,human
 801279,2091,1,human
 584993,1176,1,human
 319581,506,1,human
@@ -67185,7 +67113,6 @@ drug_id,prot_id,label,prot_domain
 295942,682,1,human
 175827,693,0,human
 412410,580,1,human
-573889,289,1,human
 181067,508,0,human
 441840,702,1,human
 382455,511,0,human
@@ -67253,7 +67180,6 @@ drug_id,prot_id,label,prot_domain
 131345,762,1,human
 34435,43,0,virus
 861686,796,0,human
-580015,343,0,human
 700282,665,0,human
 532332,725,1,human
 574824,651,1,human
@@ -68628,7 +68554,6 @@ drug_id,prot_id,label,prot_domain
 74217,848,0,human
 218649,1656,0,human
 346621,348,1,human
-161980,1114,0,human
 162853,437,1,human
 797304,329,1,human
 31327,21,0,virus
@@ -68734,7 +68659,6 @@ drug_id,prot_id,label,prot_domain
 254814,525,1,human
 747647,638,1,human
 490180,1181,0,human
-175256,343,1,human
 252650,303,1,human
 279760,384,1,human
 793626,288,1,human
@@ -69585,7 +69509,6 @@ drug_id,prot_id,label,prot_domain
 414631,315,1,human
 224729,533,0,human
 452615,343,1,human
-769114,538,0,human
 723537,834,1,human
 278426,446,0,human
 587262,969,1,human
@@ -69691,7 +69614,6 @@ drug_id,prot_id,label,prot_domain
 270820,1320,1,human
 528588,539,1,human
 25978,2,1,virus
-837018,403,0,human
 5243,415,0,human
 749371,539,1,human
 359361,1683,0,human
@@ -71162,7 +71084,6 @@ drug_id,prot_id,label,prot_domain
 821262,403,1,human
 73423,2841,0,human
 222336,1428,0,human
-653644,403,0,human
 741487,585,1,human
 70276,334,1,human
 678156,900,0,human
@@ -71783,7 +71704,6 @@ drug_id,prot_id,label,prot_domain
 127285,663,0,human
 81751,397,0,human
 409176,1004,0,human
-836976,403,0,human
 194811,704,1,human
 810995,361,1,human
 505232,356,1,human
@@ -72505,7 +72425,6 @@ drug_id,prot_id,label,prot_domain
 240588,956,0,human
 622857,506,1,human
 319627,554,1,human
-769084,538,0,human
 474182,469,1,human
 396918,306,0,human
 312438,420,1,human
@@ -72713,7 +72632,6 @@ drug_id,prot_id,label,prot_domain
 248160,493,0,human
 240588,2812,0,human
 724540,898,0,human
-837062,403,1,human
 322254,509,1,human
 704055,898,1,human
 580297,395,1,human
@@ -73207,7 +73125,6 @@ drug_id,prot_id,label,prot_domain
 133431,371,0,human
 595228,467,0,human
 694892,469,1,human
-153855,463,1,human
 681823,834,0,human
 289661,411,0,human
 484470,1516,1,human
@@ -75903,7 +75820,6 @@ drug_id,prot_id,label,prot_domain
 91678,320,1,human
 194687,399,0,human
 202350,1453,0,human
-769188,538,0,human
 421289,638,1,human
 283852,796,0,human
 1044,34,1,virus
@@ -76424,7 +76340,6 @@ drug_id,prot_id,label,prot_domain
 325724,517,1,human
 705169,321,1,human
 842988,733,1,human
-837013,403,1,human
 2577,6,1,virus
 129970,948,0,human
 173840,1249,0,human
@@ -77957,7 +77872,6 @@ drug_id,prot_id,label,prot_domain
 305425,584,1,human
 798948,411,1,human
 512523,464,1,human
-837015,403,0,human
 328572,672,1,human
 338185,786,1,human
 305993,312,0,human
@@ -78162,7 +78076,6 @@ drug_id,prot_id,label,prot_domain
 219072,1658,0,human
 723987,848,0,human
 524819,682,1,human
-767114,538,0,human
 701510,1379,0,human
 183832,664,0,human
 643179,1990,0,human
@@ -80126,7 +80039,6 @@ drug_id,prot_id,label,prot_domain
 281978,469,0,human
 574982,826,1,human
 70792,542,1,human
-837066,403,0,human
 661216,507,1,human
 133662,419,1,human
 140717,909,0,human
@@ -80379,7 +80291,6 @@ drug_id,prot_id,label,prot_domain
 765191,517,1,human
 139296,829,1,human
 696726,701,1,human
-769091,538,0,human
 192321,432,1,human
 264628,303,1,human
 646390,811,0,human
@@ -80780,7 +80691,6 @@ drug_id,prot_id,label,prot_domain
 34383,18,0,virus
 90586,1649,0,human
 696692,1551,0,human
-67795,463,1,human
 66866,965,1,human
 724382,539,1,human
 528378,725,0,human
@@ -80866,7 +80776,6 @@ drug_id,prot_id,label,prot_domain
 390606,956,1,human
 218916,457,0,human
 558025,455,1,human
-369239,538,1,human
 576946,506,1,human
 81388,454,1,human
 822425,656,1,human
@@ -80914,7 +80823,6 @@ drug_id,prot_id,label,prot_domain
 694734,1845,0,human
 336781,506,1,human
 500428,410,1,human
-45380,463,0,human
 546174,361,0,human
 529241,464,1,human
 163543,728,1,human
@@ -81950,7 +81858,6 @@ drug_id,prot_id,label,prot_domain
 240474,427,0,human
 153868,1086,1,human
 367906,517,0,human
-769125,538,0,human
 111630,513,0,human
 308952,583,0,human
 113572,607,1,human
@@ -84727,7 +84634,6 @@ drug_id,prot_id,label,prot_domain
 489046,956,1,human
 700284,854,1,human
 456517,666,0,human
-45380,463,1,human
 56297,1428,0,human
 718922,919,1,human
 705004,919,1,human
@@ -85952,7 +85858,6 @@ drug_id,prot_id,label,prot_domain
 15456,1428,0,human
 681821,847,1,human
 299948,411,1,human
-837032,403,0,human
 188957,457,1,human
 204412,733,0,human
 559586,356,1,human
@@ -86328,7 +86233,6 @@ drug_id,prot_id,label,prot_domain
 378738,717,1,human
 225418,287,0,human
 426195,1689,0,human
-76014,463,1,human
 89900,743,0,human
 257689,540,0,human
 56925,954,0,human
@@ -86842,7 +86746,6 @@ drug_id,prot_id,label,prot_domain
 130174,2827,0,human
 101071,846,0,human
 183117,710,0,human
-769205,538,0,human
 388581,517,1,human
 675401,869,1,human
 4311,1063,0,human
@@ -87907,7 +87810,6 @@ drug_id,prot_id,label,prot_domain
 119337,282,0,human
 594995,343,1,human
 796462,440,1,human
-225869,506,0,human
 258006,409,1,human
 130538,544,0,human
 496577,692,1,human
@@ -89154,7 +89056,6 @@ drug_id,prot_id,label,prot_domain
 186318,786,0,human
 14047,168,0,virus
 76103,2817,0,human
-299754,2082,0,human
 523402,705,1,human
 799878,1950,1,human
 700220,1966,0,human
@@ -89180,7 +89081,6 @@ drug_id,prot_id,label,prot_domain
 618360,455,0,human
 532778,348,0,human
 450752,687,1,human
-441897,463,0,human
 514522,725,1,human
 480016,659,1,human
 717755,328,0,human
@@ -89757,7 +89657,6 @@ drug_id,prot_id,label,prot_domain
 625043,517,0,human
 715701,919,1,human
 334030,857,0,human
-45380,463,1,human
 438249,2058,1,human
 417491,365,1,human
 512080,313,1,human
@@ -90317,7 +90216,6 @@ drug_id,prot_id,label,prot_domain
 311417,561,1,human
 733122,604,1,human
 369696,539,1,human
-369212,538,0,human
 172911,1289,0,human
 484470,3885,1,human
 245802,957,0,human
@@ -92230,7 +92128,6 @@ drug_id,prot_id,label,prot_domain
 303762,588,1,human
 595725,544,1,human
 176217,1231,0,human
-836978,403,1,human
 347887,453,1,human
 517125,304,1,human
 402123,1164,0,human
@@ -92448,7 +92345,6 @@ drug_id,prot_id,label,prot_domain
 859913,811,1,human
 453125,465,1,human
 363705,594,1,human
-67795,463,0,human
 77854,326,0,human
 363236,811,0,human
 202338,1185,0,human
@@ -95780,7 +95676,6 @@ drug_id,prot_id,label,prot_domain
 437178,763,1,human
 467987,869,0,human
 381836,875,1,human
-225869,507,0,human
 270988,456,1,human
 493098,343,1,human
 575147,1067,1,human
@@ -96530,7 +96425,6 @@ drug_id,prot_id,label,prot_domain
 693202,1556,1,human
 218649,1651,0,human
 188725,658,0,human
-769060,538,0,human
 484631,637,1,human
 314377,677,1,human
 305357,687,1,human
@@ -97489,7 +97383,6 @@ drug_id,prot_id,label,prot_domain
 129380,562,0,human
 714129,307,1,human
 176132,303,0,human
-836978,403,0,human
 150178,1741,0,human
 484907,348,0,human
 546788,517,1,human
@@ -98735,7 +98628,6 @@ drug_id,prot_id,label,prot_domain
 462679,811,0,human
 397859,865,1,human
 783952,366,1,human
-837061,403,0,human
 83944,379,1,human
 534613,682,1,human
 102832,885,1,human
@@ -100152,7 +100044,6 @@ drug_id,prot_id,label,prot_domain
 543779,653,1,human
 185747,539,0,human
 127173,297,1,human
-774668,327,0,human
 634127,633,1,human
 260362,523,1,human
 700073,919,1,human
@@ -100886,7 +100777,6 @@ drug_id,prot_id,label,prot_domain
 306016,1613,0,human
 619206,506,1,human
 811998,1320,1,human
-769055,538,1,human
 111635,950,0,human
 666422,847,0,human
 449797,671,1,human
@@ -101210,7 +101100,6 @@ drug_id,prot_id,label,prot_domain
 84892,326,0,human
 240559,359,0,human
 149028,539,0,human
-184219,463,1,human
 302986,1516,1,human
 313910,1516,1,human
 270960,599,0,human
@@ -101279,7 +101168,6 @@ drug_id,prot_id,label,prot_domain
 640295,586,1,human
 768765,841,0,human
 27118,24,1,virus
-837021,403,1,human
 45436,1825,0,human
 699522,1344,0,human
 388627,517,1,human
@@ -102501,7 +102389,6 @@ drug_id,prot_id,label,prot_domain
 231286,457,0,human
 183388,940,0,human
 431013,2047,1,human
-369201,538,0,human
 293124,404,1,human
 678116,834,1,human
 597081,826,1,human
@@ -104381,7 +104268,6 @@ drug_id,prot_id,label,prot_domain
 309787,561,1,human
 387245,756,1,human
 678945,829,0,human
-420618,594,1,human
 720658,604,1,human
 450397,512,0,human
 734423,638,0,human
@@ -104440,7 +104326,6 @@ drug_id,prot_id,label,prot_domain
 694038,898,0,human
 336934,455,1,human
 143471,648,1,human
-836971,403,0,human
 823285,294,1,human
 721556,818,1,human
 463294,891,1,human
@@ -104832,7 +104717,6 @@ drug_id,prot_id,label,prot_domain
 685235,697,1,human
 153854,661,1,human
 173747,1199,0,human
-769164,538,1,human
 372974,467,1,human
 94948,818,1,human
 710351,604,1,human
@@ -104855,7 +104739,6 @@ drug_id,prot_id,label,prot_domain
 560194,846,0,human
 505024,356,1,human
 524206,725,1,human
-45380,463,0,human
 373005,638,1,human
 240588,1119,0,human
 550142,692,1,human
@@ -106631,7 +106514,6 @@ drug_id,prot_id,label,prot_domain
 336199,464,1,human
 571747,324,1,human
 473224,682,0,human
-769102,538,0,human
 568900,386,1,human
 153825,835,0,human
 751004,834,0,human
@@ -107704,7 +107586,6 @@ drug_id,prot_id,label,prot_domain
 279141,1298,1,human
 636441,949,1,human
 357475,791,1,human
-369262,538,0,human
 732775,1264,1,human
 77975,281,0,human
 127282,954,0,human
@@ -108146,7 +108027,6 @@ drug_id,prot_id,label,prot_domain
 369795,701,1,human
 152709,557,0,human
 624588,594,1,human
-769041,538,0,human
 276237,534,1,human
 557388,467,1,human
 528280,725,1,human
@@ -108321,7 +108201,6 @@ drug_id,prot_id,label,prot_domain
 126011,781,0,human
 489073,369,0,human
 671570,718,1,human
-769142,538,1,human
 244937,316,0,human
 365015,436,1,human
 432742,303,1,human
@@ -109284,7 +109163,6 @@ drug_id,prot_id,label,prot_domain
 731988,279,1,human
 429070,309,0,human
 533834,969,1,human
-769186,538,0,human
 524162,1701,1,human
 115384,344,1,human
 32010,165,0,virus
@@ -110357,7 +110235,6 @@ drug_id,prot_id,label,prot_domain
 365338,1154,0,human
 67485,281,1,human
 840785,1681,1,human
-767115,538,0,human
 693119,426,1,human
 439111,1031,0,human
 396953,604,0,human
@@ -110504,7 +110381,6 @@ drug_id,prot_id,label,prot_domain
 658666,743,1,human
 415120,1095,0,human
 56975,347,1,human
-507590,725,0,human
 345650,386,1,human
 465935,580,1,human
 476475,1221,1,human
@@ -110804,7 +110680,6 @@ drug_id,prot_id,label,prot_domain
 670587,800,0,human
 61159,301,1,human
 56925,347,0,human
-76014,463,1,human
 360675,722,0,human
 163985,602,1,human
 227252,830,0,human
@@ -112387,7 +112262,6 @@ drug_id,prot_id,label,prot_domain
 472640,462,1,human
 561522,361,1,human
 643197,1859,0,human
-769153,538,1,human
 177210,600,0,human
 666339,2812,0,human
 382836,301,1,human
@@ -113785,7 +113659,6 @@ drug_id,prot_id,label,prot_domain
 635610,528,1,human
 513119,561,1,human
 287489,1491,0,human
-273194,517,0,human
 159588,528,1,human
 509100,398,1,human
 571932,692,1,human
@@ -113954,7 +113827,6 @@ drug_id,prot_id,label,prot_domain
 72037,326,1,human
 420395,1916,1,human
 105023,371,1,human
-769145,538,0,human
 662300,375,1,human
 638310,653,1,human
 322834,554,1,human
@@ -116149,7 +116021,6 @@ drug_id,prot_id,label,prot_domain
 135152,427,1,human
 739641,656,1,human
 128458,768,1,human
-837032,403,1,human
 785949,605,1,human
 149947,1061,0,human
 707766,888,1,human
@@ -116385,7 +116256,6 @@ drug_id,prot_id,label,prot_domain
 567512,797,1,human
 133112,523,1,human
 345912,1221,0,human
-769056,538,0,human
 711051,898,1,human
 173118,407,1,human
 734843,455,1,human
@@ -117079,7 +116949,6 @@ drug_id,prot_id,label,prot_domain
 401782,1096,1,human
 461154,917,0,human
 81412,1327,0,human
-369262,538,0,human
 133011,579,0,human
 757002,1464,0,human
 590353,1698,1,human
@@ -117828,7 +117697,6 @@ drug_id,prot_id,label,prot_domain
 433713,786,0,human
 412283,305,0,human
 166205,348,1,human
-596020,343,0,human
 831153,3188,1,human
 703238,919,1,human
 331530,1017,1,human
@@ -118621,7 +118489,6 @@ drug_id,prot_id,label,prot_domain
 268271,409,1,human
 585613,1387,1,human
 28416,534,0,human
-273194,517,1,human
 256849,455,1,human
 222211,359,0,human
 630397,690,1,human
@@ -120086,7 +119953,6 @@ drug_id,prot_id,label,prot_domain
 811615,666,1,human
 240814,1175,1,human
 520878,682,1,human
-769124,538,1,human
 373831,334,0,human
 430267,478,1,human
 535640,289,1,human
@@ -120209,7 +120075,6 @@ drug_id,prot_id,label,prot_domain
 267194,630,1,human
 724739,919,1,human
 272569,298,1,human
-836974,403,0,human
 168023,377,1,human
 749728,581,1,human
 566051,343,1,human
@@ -121110,7 +120975,6 @@ drug_id,prot_id,label,prot_domain
 388604,517,1,human
 382288,455,1,human
 170860,426,0,human
-770983,725,0,human
 479090,303,1,human
 219072,677,0,human
 349596,789,0,human
@@ -121821,7 +121685,6 @@ drug_id,prot_id,label,prot_domain
 584777,659,1,human
 518416,682,1,human
 26756,2,0,virus
-369214,538,0,human
 111956,290,1,human
 771690,1035,1,human
 526977,454,1,human
@@ -122424,7 +122287,6 @@ drug_id,prot_id,label,prot_domain
 469839,686,0,human
 198649,415,0,human
 17559,18,0,virus
-624810,343,1,human
 507541,455,1,human
 454401,836,1,human
 442068,949,1,human
@@ -123647,7 +123509,6 @@ drug_id,prot_id,label,prot_domain
 689111,834,1,human
 849430,688,1,human
 180245,454,0,human
-837030,403,0,human
 560602,968,1,human
 750853,538,1,human
 281949,457,1,human
@@ -123968,7 +123829,6 @@ drug_id,prot_id,label,prot_domain
 235425,415,1,human
 836965,587,1,human
 561369,733,1,human
-184219,463,1,human
 534181,635,1,human
 31808,2,1,virus
 467315,313,0,human
@@ -124739,7 +124599,6 @@ drug_id,prot_id,label,prot_domain
 725946,919,1,human
 334504,386,1,human
 29696,21,0,virus
-369264,538,1,human
 776568,605,1,human
 160949,768,1,human
 72597,283,0,human
@@ -125724,7 +125583,6 @@ drug_id,prot_id,label,prot_domain
 247561,1119,0,human
 422289,664,1,human
 389831,517,1,human
-769082,538,0,human
 541907,763,1,human
 71343,337,1,human
 666422,968,0,human
@@ -125986,7 +125844,6 @@ drug_id,prot_id,label,prot_domain
 158813,1129,0,human
 635952,1825,0,human
 860590,793,1,human
-769105,538,0,human
 583108,554,1,human
 777645,1440,1,human
 461295,1251,1,human
@@ -128860,7 +128717,6 @@ drug_id,prot_id,label,prot_domain
 74680,446,0,human
 494119,704,1,human
 258472,442,0,human
-836980,403,0,human
 153057,898,1,human
 761433,1184,1,human
 382812,301,1,human
@@ -129848,7 +129704,6 @@ drug_id,prot_id,label,prot_domain
 338279,1184,0,human
 523737,725,0,human
 176812,371,1,human
-837001,403,0,human
 33178,21,0,virus
 720471,919,1,human
 261294,386,1,human
@@ -130681,7 +130536,6 @@ drug_id,prot_id,label,prot_domain
 595578,584,1,human
 356474,1300,1,human
 262239,763,0,human
-258112,538,0,human
 764841,838,1,human
 83938,379,1,human
 778100,605,1,human
@@ -133091,7 +132945,6 @@ drug_id,prot_id,label,prot_domain
 29514,164,0,virus
 89500,1649,0,human
 330220,687,0,human
-837033,403,0,human
 701710,1359,0,human
 528278,725,1,human
 389484,693,1,human
@@ -133344,7 +133197,6 @@ drug_id,prot_id,label,prot_domain
 612353,458,1,human
 787902,455,1,human
 460965,1328,0,human
-837040,403,1,human
 133931,554,0,human
 96123,429,1,human
 318313,584,1,human
@@ -140189,7 +140041,6 @@ drug_id,prot_id,label,prot_domain
 618342,2790,1,human
 103194,469,1,human
 167879,677,0,human
-3742,191,1,virus
 81904,294,0,human
 16396,0,0,virus
 422629,597,1,human
@@ -140242,7 +140093,6 @@ drug_id,prot_id,label,prot_domain
 590897,827,1,human
 748652,1684,0,human
 706868,1353,1,human
-836991,403,1,human
 336890,455,1,human
 583125,361,1,human
 730979,539,1,human
@@ -140683,7 +140533,6 @@ drug_id,prot_id,label,prot_domain
 715045,506,1,human
 439837,384,0,human
 488291,1677,0,human
-580905,289,1,human
 64989,1070,0,human
 424389,761,0,human
 749665,1684,0,human
@@ -140776,7 +140625,6 @@ drug_id,prot_id,label,prot_domain
 407296,343,1,human
 662519,507,1,human
 330270,682,1,human
-596022,343,1,human
 623136,586,1,human
 739174,506,1,human
 213510,721,0,human
@@ -142042,7 +141890,6 @@ drug_id,prot_id,label,prot_domain
 112647,554,0,human
 370006,791,1,human
 100442,930,0,human
-509160,312,1,human
 195291,700,1,human
 153572,919,1,human
 434689,1055,1,human
@@ -144456,7 +144303,6 @@ drug_id,prot_id,label,prot_domain
 173420,354,1,human
 778063,605,1,human
 620454,2790,1,human
-599362,707,0,human
 568173,1745,0,human
 728588,834,0,human
 798960,411,1,human
@@ -145604,7 +145450,6 @@ drug_id,prot_id,label,prot_domain
 185413,1465,0,human
 693051,348,1,human
 5635,70,0,virus
-596022,343,0,human
 272493,1176,1,human
 142798,343,0,human
 611607,966,1,human
@@ -148996,7 +148841,6 @@ drug_id,prot_id,label,prot_domain
 109807,639,0,human
 145300,1170,1,human
 133236,847,0,human
-769160,538,1,human
 364537,540,1,human
 567993,740,1,human
 785847,605,1,human
@@ -149652,7 +149496,6 @@ drug_id,prot_id,label,prot_domain
 594492,517,1,human
 79293,892,0,human
 535059,404,1,human
-153855,463,0,human
 588824,1067,1,human
 451547,463,1,human
 773875,2462,1,human
@@ -150000,7 +149843,6 @@ drug_id,prot_id,label,prot_domain
 422288,656,1,human
 309379,509,1,human
 40495,728,0,human
-369205,538,0,human
 82345,558,0,human
 76196,1507,0,human
 244429,469,1,human
@@ -151089,7 +150931,6 @@ drug_id,prot_id,label,prot_domain
 241578,1440,0,human
 145871,762,0,human
 739563,741,1,human
-836993,403,1,human
 464215,568,0,human
 180873,544,1,human
 513315,651,0,human
@@ -151119,7 +150960,6 @@ drug_id,prot_id,label,prot_domain
 653154,306,1,human
 193048,464,1,human
 843254,356,1,human
-837051,403,1,human
 519066,682,1,human
 741975,1040,1,human
 407896,966,1,human
@@ -151887,7 +151727,6 @@ drug_id,prot_id,label,prot_domain
 188703,657,1,human
 172430,1416,0,human
 165115,682,0,human
-837009,403,1,human
 551010,841,1,human
 11456,20,1,virus
 739035,554,1,human
@@ -151982,7 +151821,6 @@ drug_id,prot_id,label,prot_domain
 653809,827,1,human
 336425,552,0,human
 92893,672,0,human
-769155,538,0,human
 700231,834,1,human
 783122,403,1,human
 453097,1442,0,human
@@ -153672,7 +153510,6 @@ drug_id,prot_id,label,prot_domain
 321074,464,1,human
 552743,1439,1,human
 51847,262,1,virus
-837023,403,0,human
 232330,742,0,human
 576918,455,1,human
 769133,538,1,human
@@ -154432,7 +154269,6 @@ drug_id,prot_id,label,prot_domain
 141247,554,1,human
 382507,517,1,human
 662300,1369,1,human
-299754,2082,1,human
 513030,454,1,human
 220155,1428,0,human
 858824,510,1,human
@@ -154747,7 +154583,6 @@ drug_id,prot_id,label,prot_domain
 17620,1068,0,human
 662785,2211,0,human
 585562,368,1,human
-837019,403,1,human
 615687,456,1,human
 582572,1190,0,human
 586036,368,1,human
@@ -155423,7 +155258,6 @@ drug_id,prot_id,label,prot_domain
 309062,707,1,human
 217633,1428,0,human
 73350,1397,0,human
-369240,538,1,human
 115495,578,0,human
 556523,841,1,human
 16375,103,0,virus
@@ -156454,7 +156288,6 @@ drug_id,prot_id,label,prot_domain
 144373,829,1,human
 210097,369,0,human
 242715,457,1,human
-769061,538,1,human
 314475,411,1,human
 710857,652,1,human
 428251,666,1,human
@@ -156722,7 +156555,6 @@ drug_id,prot_id,label,prot_domain
 145962,295,1,human
 828381,517,0,human
 57401,379,1,human
-769205,538,1,human
 232627,1429,0,human
 93415,588,0,human
 826580,788,0,human
@@ -158678,7 +158510,6 @@ drug_id,prot_id,label,prot_domain
 218814,1393,0,human
 259844,670,0,human
 701682,671,0,human
-596026,343,1,human
 255474,1363,0,human
 732832,1264,1,human
 407313,404,1,human
@@ -159789,7 +159620,6 @@ drug_id,prot_id,label,prot_domain
 218554,512,0,human
 780637,312,1,human
 195493,511,1,human
-769019,538,1,human
 384243,1114,1,human
 210121,708,0,human
 15051,16,0,virus
@@ -160354,7 +160184,6 @@ drug_id,prot_id,label,prot_domain
 329542,717,1,human
 121974,704,1,human
 477349,969,0,human
-769130,538,1,human
 266796,1043,0,human
 193111,677,0,human
 122581,1572,0,human
@@ -161406,7 +161235,6 @@ drug_id,prot_id,label,prot_domain
 611838,433,1,human
 369114,827,1,human
 596354,517,1,human
-837037,403,1,human
 510804,604,1,human
 32873,18,0,virus
 538900,467,1,human
@@ -163262,7 +163090,6 @@ drug_id,prot_id,label,prot_domain
 476359,361,0,human
 75430,753,1,human
 487244,682,1,human
-441894,463,0,human
 853289,2008,0,human
 139048,743,0,human
 678548,339,1,human
@@ -163514,7 +163341,6 @@ drug_id,prot_id,label,prot_domain
 454223,869,0,human
 528728,464,1,human
 10626,24,1,virus
-624809,343,1,human
 473503,969,0,human
 518751,444,1,human
 24877,118,0,virus
@@ -164943,7 +164769,6 @@ drug_id,prot_id,label,prot_domain
 397050,384,1,human
 105979,334,1,human
 705835,604,1,human
-607896,343,1,human
 753097,521,0,human
 149332,673,0,human
 265490,733,1,human
@@ -165991,7 +165816,6 @@ drug_id,prot_id,label,prot_domain
 161423,457,1,human
 250761,313,0,human
 98386,678,0,human
-837064,403,0,human
 43760,239,1,virus
 227758,1428,0,human
 70347,723,0,human
@@ -166131,7 +165955,6 @@ drug_id,prot_id,label,prot_domain
 709685,316,0,human
 74181,922,0,human
 237397,1130,0,human
-526270,312,1,human
 678294,470,1,human
 764163,303,1,human
 489333,1996,1,human
@@ -167501,7 +167324,6 @@ drug_id,prot_id,label,prot_domain
 753785,1225,0,human
 200363,811,0,human
 23060,224,1,virus
-201852,343,0,human
 844635,469,1,human
 643416,1055,1,human
 484470,1981,1,human
@@ -167895,7 +167717,6 @@ drug_id,prot_id,label,prot_domain
 780696,312,1,human
 497404,891,1,human
 181995,1056,0,human
-769143,538,0,human
 223294,506,1,human
 64391,610,0,human
 170274,656,0,human
@@ -168936,7 +168757,6 @@ drug_id,prot_id,label,prot_domain
 698405,710,0,human
 208943,1429,0,human
 585959,404,1,human
-369216,538,0,human
 720536,585,1,human
 146523,419,0,human
 391424,509,0,human
@@ -169807,7 +169627,6 @@ drug_id,prot_id,label,prot_domain
 536484,312,1,human
 605913,463,1,human
 257039,1389,0,human
-596022,343,1,human
 786005,605,1,human
 509438,1065,0,human
 591809,1699,1,human
@@ -170517,7 +170336,6 @@ drug_id,prot_id,label,prot_domain
 495562,348,1,human
 77645,818,0,human
 285305,419,0,human
-664715,1184,1,human
 188849,704,1,human
 660560,507,1,human
 537962,653,1,human
@@ -170702,7 +170520,6 @@ drug_id,prot_id,label,prot_domain
 764878,733,0,human
 734462,293,1,human
 193875,557,1,human
-441897,463,0,human
 792007,469,1,human
 72682,391,0,human
 711409,361,1,human
@@ -172611,7 +172428,6 @@ drug_id,prot_id,label,prot_domain
 695727,661,1,human
 318991,465,0,human
 595358,515,1,human
-837030,403,1,human
 770212,358,1,human
 389979,733,1,human
 270054,829,0,human
@@ -172707,7 +172523,6 @@ drug_id,prot_id,label,prot_domain
 97387,553,1,human
 723480,379,1,human
 330,0,0,virus
-509160,312,0,human
 580952,969,1,human
 10068,56,1,virus
 574778,651,1,human
@@ -173068,7 +172883,6 @@ drug_id,prot_id,label,prot_domain
 60995,325,1,human
 697957,439,1,human
 849192,2649,0,human
-369199,538,0,human
 581052,841,1,human
 675757,848,0,human
 411053,438,1,human
@@ -175261,7 +175075,6 @@ drug_id,prot_id,label,prot_domain
 310836,289,1,human
 765203,1733,1,human
 132397,336,1,human
-580015,343,1,human
 484470,1011,0,human
 540976,653,1,human
 730811,1084,0,human
@@ -176660,7 +176473,6 @@ drug_id,prot_id,label,prot_domain
 750797,437,1,human
 236659,1433,0,human
 161183,869,1,human
-364969,800,0,human
 249536,682,0,human
 623955,1990,0,human
 61148,387,0,human
@@ -176904,7 +176716,6 @@ drug_id,prot_id,label,prot_domain
 108738,429,1,human
 341269,437,1,human
 716871,1420,1,human
-1670,191,1,virus
 541700,763,1,human
 655813,384,0,human
 254822,1089,0,human
@@ -176988,7 +176799,6 @@ drug_id,prot_id,label,prot_domain
 546853,431,1,human
 330296,763,0,human
 17989,677,0,human
-769049,538,0,human
 110739,796,0,human
 769951,1255,0,human
 784313,910,1,human
@@ -177055,7 +176865,6 @@ drug_id,prot_id,label,prot_domain
 320607,303,1,human
 686969,743,1,human
 532049,605,0,human
-369240,538,0,human
 137898,521,0,human
 411756,585,1,human
 18320,985,0,human
@@ -177155,7 +176964,6 @@ drug_id,prot_id,label,prot_domain
 780152,599,1,human
 780756,312,1,human
 242546,288,1,human
-441897,463,0,human
 69906,337,1,human
 432709,638,0,human
 588368,587,1,human
@@ -177809,7 +177617,6 @@ drug_id,prot_id,label,prot_domain
 496883,687,1,human
 198998,585,1,human
 8945,16,0,virus
-769168,538,0,human
 365377,469,0,human
 257783,661,0,human
 260982,460,1,human
@@ -178284,7 +178091,6 @@ drug_id,prot_id,label,prot_domain
 207107,1429,0,human
 110167,525,1,human
 615257,761,1,human
-369201,538,1,human
 389470,625,0,human
 672311,437,1,human
 490193,437,1,human
@@ -178414,7 +178220,6 @@ drug_id,prot_id,label,prot_domain
 170639,1511,0,human
 611064,403,1,human
 134738,298,1,human
-836991,403,0,human
 483541,554,1,human
 16371,1424,0,human
 455181,1400,0,human
@@ -178557,7 +178362,6 @@ drug_id,prot_id,label,prot_domain
 226205,343,1,human
 310250,762,0,human
 135031,326,0,human
-769135,538,1,human
 33073,21,0,virus
 652068,802,1,human
 565213,532,0,human
@@ -178928,7 +178732,6 @@ drug_id,prot_id,label,prot_domain
 257048,313,1,human
 617736,455,1,human
 268108,404,1,human
-624810,343,1,human
 336877,541,0,human
 282658,664,0,human
 219072,2833,0,human
@@ -179452,7 +179255,6 @@ drug_id,prot_id,label,prot_domain
 590712,312,0,human
 265839,304,1,human
 71480,337,1,human
-836984,403,0,human
 310142,653,1,human
 169363,848,0,human
 770702,953,1,human
@@ -180093,7 +179895,6 @@ drug_id,prot_id,label,prot_domain
 657873,834,1,human
 173134,656,0,human
 741277,1221,1,human
-624809,343,1,human
 55527,353,1,human
 467070,455,0,human
 116602,584,1,human
@@ -180230,7 +180031,6 @@ drug_id,prot_id,label,prot_domain
 497355,1474,1,human
 199548,985,0,human
 713099,316,1,human
-752415,463,1,human
 468227,513,0,human
 264976,343,0,human
 209418,408,1,human
@@ -180242,7 +180042,6 @@ drug_id,prot_id,label,prot_domain
 241681,399,0,human
 335183,561,1,human
 188388,348,1,human
-769157,538,1,human
 595375,763,1,human
 145993,312,1,human
 22909,54,1,virus
@@ -184359,7 +184158,6 @@ drug_id,prot_id,label,prot_domain
 695506,1359,0,human
 239232,1387,0,human
 698774,939,0,human
-836981,403,1,human
 328729,2814,0,human
 790743,718,1,human
 492453,303,1,human
@@ -185427,7 +185225,6 @@ drug_id,prot_id,label,prot_domain
 262698,408,1,human
 725105,919,1,human
 823886,1860,1,human
-836982,403,0,human
 688105,743,1,human
 73289,286,0,human
 245370,343,1,human
@@ -187125,7 +186922,6 @@ drug_id,prot_id,label,prot_domain
 676077,630,1,human
 52030,262,1,virus
 85230,2268,0,human
-836994,403,0,human
 695440,827,1,human
 768491,667,1,human
 700433,1551,0,human
@@ -187732,7 +187528,6 @@ drug_id,prot_id,label,prot_domain
 814008,1043,1,human
 180371,554,0,human
 564785,404,1,human
-769209,538,1,human
 566929,361,1,human
 491770,404,1,human
 209711,1479,0,human
@@ -188668,7 +188463,6 @@ drug_id,prot_id,label,prot_domain
 338817,348,0,human
 200777,295,0,human
 195469,511,1,human
-770983,725,0,human
 329512,1384,0,human
 118593,961,0,human
 316629,717,1,human
@@ -189673,7 +189467,6 @@ drug_id,prot_id,label,prot_domain
 428517,671,1,human
 765833,403,1,human
 861086,963,0,human
-610518,343,0,human
 443226,469,1,human
 271345,554,1,human
 776092,507,0,human
@@ -190936,7 +190729,6 @@ drug_id,prot_id,label,prot_domain
 456488,1129,0,human
 251727,427,1,human
 51967,262,1,virus
-62999,343,0,human
 397867,356,1,human
 87473,1473,0,human
 616710,1252,1,human
@@ -191279,7 +191071,6 @@ drug_id,prot_id,label,prot_domain
 649436,361,1,human
 658305,743,1,human
 612330,458,1,human
-774674,538,0,human
 785700,382,1,human
 464615,594,1,human
 200538,454,1,human
@@ -192358,7 +192149,6 @@ drug_id,prot_id,label,prot_domain
 542413,398,1,human
 121818,793,1,human
 106298,585,1,human
-836981,403,0,human
 464369,361,1,human
 563126,965,1,human
 63918,350,0,human
@@ -193132,7 +192922,6 @@ drug_id,prot_id,label,prot_domain
 815559,565,1,human
 451910,2026,1,human
 295547,682,1,human
-677,6,1,virus
 662193,407,0,human
 719097,586,1,human
 595322,403,1,human
@@ -193670,7 +193459,6 @@ drug_id,prot_id,label,prot_domain
 519622,528,1,human
 382023,692,1,human
 664105,1644,0,human
-682519,1184,1,human
 631620,1631,1,human
 101982,949,0,human
 512001,510,1,human
@@ -194184,7 +193972,6 @@ drug_id,prot_id,label,prot_domain
 679799,847,0,human
 705109,304,1,human
 384667,1493,0,human
-769059,538,1,human
 126562,800,0,human
 41119,54,1,virus
 81663,285,0,human
@@ -195442,7 +195229,6 @@ drug_id,prot_id,label,prot_domain
 479271,462,1,human
 272359,2836,0,human
 585198,1186,1,human
-769159,538,1,human
 284163,288,1,human
 730866,652,1,human
 354272,1087,0,human
@@ -198947,7 +198733,6 @@ drug_id,prot_id,label,prot_domain
 191700,710,1,human
 546276,725,1,human
 52002,262,1,virus
-769195,538,0,human
 833696,702,1,human
 701949,920,0,human
 417935,1017,1,human
@@ -199123,7 +198908,6 @@ drug_id,prot_id,label,prot_domain
 795702,403,1,human
 480599,384,1,human
 793242,2649,1,human
-12793,6,0,virus
 805001,1093,1,human
 238815,399,0,human
 219085,303,0,human
@@ -200349,7 +200133,6 @@ drug_id,prot_id,label,prot_domain
 515675,356,1,human
 279212,864,0,human
 479082,682,1,human
-769081,538,0,human
 679546,2813,0,human
 675534,427,1,human
 861308,1198,1,human
@@ -201395,7 +201178,6 @@ drug_id,prot_id,label,prot_domain
 524635,444,1,human
 670039,1031,0,human
 220676,440,1,human
-781046,343,1,human
 150515,585,1,human
 421888,469,1,human
 266270,688,1,human
@@ -201517,7 +201299,6 @@ drug_id,prot_id,label,prot_domain
 270745,2768,0,human
 181457,457,1,human
 149028,710,0,human
-184219,463,1,human
 851285,340,1,human
 646034,463,0,human
 577056,465,0,human
@@ -202167,7 +201948,6 @@ drug_id,prot_id,label,prot_domain
 114896,898,1,human
 5757,34,1,virus
 62999,1327,0,human
-837009,403,0,human
 67841,539,1,human
 213186,688,1,human
 511411,539,1,human
@@ -202852,7 +202632,6 @@ drug_id,prot_id,label,prot_domain
 6134,2,0,virus
 386148,562,0,human
 841629,4041,1,human
-496378,580,0,human
 721913,539,1,human
 98514,305,1,human
 115184,1845,0,human
@@ -203775,7 +203554,6 @@ drug_id,prot_id,label,prot_domain
 590594,599,1,human
 650711,750,1,human
 702231,918,0,human
-769105,538,1,human
 750344,672,1,human
 685890,302,1,human
 740992,841,1,human
@@ -205018,7 +204796,6 @@ drug_id,prot_id,label,prot_domain
 819375,2091,1,human
 507502,599,1,human
 74572,1066,0,human
-837049,403,1,human
 493612,410,1,human
 774344,653,1,human
 699422,469,1,human
@@ -206290,7 +206067,6 @@ drug_id,prot_id,label,prot_domain
 183204,367,1,human
 252953,539,0,human
 507082,2087,1,human
-769017,538,1,human
 769370,1184,0,human
 605323,749,1,human
 127040,1309,0,human
@@ -206667,7 +206443,6 @@ drug_id,prot_id,label,prot_domain
 159098,453,0,human
 844100,4040,1,human
 412264,634,0,human
-767112,538,0,human
 843189,4043,1,human
 205794,337,1,human
 86998,625,1,human
@@ -207093,7 +206868,6 @@ drug_id,prot_id,label,prot_domain
 674969,898,1,human
 696194,665,0,human
 553185,545,0,human
-769048,538,1,human
 704083,455,1,human
 229143,1479,0,human
 32707,18,0,virus
@@ -207465,7 +207239,6 @@ drug_id,prot_id,label,prot_domain
 237227,1387,0,human
 423362,386,1,human
 484470,3631,1,human
-837023,403,0,human
 251293,848,0,human
 634962,605,1,human
 850779,517,1,human
@@ -207950,7 +207723,6 @@ drug_id,prot_id,label,prot_domain
 192888,881,0,human
 215361,2472,0,human
 712152,517,1,human
-769152,538,1,human
 720551,507,1,human
 259370,1510,0,human
 565147,517,0,human
@@ -208712,7 +208484,6 @@ drug_id,prot_id,label,prot_domain
 856075,744,1,human
 936,34,1,virus
 564027,965,0,human
-837028,403,0,human
 405365,792,0,human
 788063,455,1,human
 156627,648,1,human
@@ -208950,7 +208721,6 @@ drug_id,prot_id,label,prot_domain
 365528,1631,1,human
 45481,1840,0,human
 4497,61,0,virus
-837044,403,1,human
 613372,517,0,human
 293062,437,1,human
 640995,2790,1,human
@@ -210165,7 +209935,6 @@ drug_id,prot_id,label,prot_domain
 281870,651,1,human
 422266,469,1,human
 823083,969,1,human
-738734,538,0,human
 225214,1387,0,human
 432536,2029,0,human
 548564,1199,0,human
@@ -210181,7 +209950,6 @@ drug_id,prot_id,label,prot_domain
 421986,312,1,human
 357915,694,1,human
 128046,848,0,human
-781073,343,1,human
 193037,464,1,human
 544163,453,1,human
 188695,409,0,human
@@ -210387,7 +210155,6 @@ drug_id,prot_id,label,prot_domain
 148171,1160,1,human
 458054,1093,1,human
 480120,289,1,human
-369211,538,1,human
 542408,398,1,human
 80395,310,0,human
 321664,916,0,human
@@ -212554,7 +212321,6 @@ drug_id,prot_id,label,prot_domain
 497238,663,0,human
 293381,656,0,human
 648153,581,0,human
-837026,403,0,human
 688099,1184,0,human
 129737,555,1,human
 377476,1532,0,human
@@ -213442,7 +213208,6 @@ drug_id,prot_id,label,prot_domain
 387406,956,1,human
 318226,594,1,human
 200164,979,0,human
-254505,455,0,human
 497252,1066,0,human
 443759,1009,1,human
 635427,2790,1,human
@@ -215023,7 +214788,6 @@ drug_id,prot_id,label,prot_domain
 592521,653,1,human
 765740,463,1,human
 101230,374,0,human
-642437,343,0,human
 364681,1320,0,human
 172126,409,0,human
 275375,437,0,human
@@ -217365,7 +217129,6 @@ drug_id,prot_id,label,prot_domain
 181067,875,0,human
 151493,869,0,human
 79271,281,0,human
-837007,403,0,human
 649902,379,1,human
 132058,721,0,human
 2037,796,0,human
@@ -218010,7 +217773,6 @@ drug_id,prot_id,label,prot_domain
 411782,379,1,human
 626873,410,0,human
 317355,1326,1,human
-738734,538,1,human
 175953,1485,1,human
 354213,1063,0,human
 333008,432,0,human
@@ -219892,7 +219654,6 @@ drug_id,prot_id,label,prot_domain
 29003,43,1,virus
 836664,761,1,human
 45937,255,1,virus
-769193,538,0,human
 832994,309,1,human
 441951,763,0,human
 517160,682,1,human
@@ -220426,7 +220187,6 @@ drug_id,prot_id,label,prot_domain
 124620,298,1,human
 254855,834,0,human
 826132,403,1,human
-578253,725,0,human
 178203,469,0,human
 174248,1154,1,human
 115127,346,1,human
@@ -220866,7 +220626,6 @@ drug_id,prot_id,label,prot_domain
 830654,797,1,human
 110063,429,1,human
 485957,847,0,human
-837065,403,1,human
 575781,361,1,human
 210278,1176,1,human
 185755,659,0,human
@@ -221214,7 +220973,6 @@ drug_id,prot_id,label,prot_domain
 237275,1441,0,human
 25079,9,1,virus
 790682,561,1,human
-836971,403,1,human
 684276,841,1,human
 539148,506,1,human
 119618,909,1,human
@@ -221517,7 +221275,6 @@ drug_id,prot_id,label,prot_domain
 455425,664,1,human
 821393,581,1,human
 785860,605,1,human
-769114,538,1,human
 115340,344,1,human
 547411,788,1,human
 386884,523,1,human
@@ -221826,7 +221583,6 @@ drug_id,prot_id,label,prot_domain
 454468,971,0,human
 138772,851,1,human
 505928,725,1,human
-769147,538,1,human
 96515,427,1,human
 645239,1631,1,human
 423689,561,1,human
@@ -224590,7 +224346,6 @@ drug_id,prot_id,label,prot_domain
 68729,359,0,human
 448211,898,1,human
 461159,2204,0,human
-837031,403,1,human
 115256,288,0,human
 606660,760,1,human
 424187,444,1,human
@@ -226249,7 +226004,6 @@ drug_id,prot_id,label,prot_domain
 234075,437,1,human
 721158,338,1,human
 726825,455,1,human
-781183,517,0,human
 441421,659,1,human
 315902,453,1,human
 516952,289,1,human
@@ -226476,7 +226230,6 @@ drug_id,prot_id,label,prot_domain
 769612,841,1,human
 478581,693,0,human
 765191,1472,1,human
-769053,538,0,human
 445162,693,1,human
 657139,900,0,human
 531393,896,1,human
@@ -226641,7 +226394,6 @@ drug_id,prot_id,label,prot_domain
 282006,369,0,human
 177292,454,1,human
 716838,841,1,human
-369212,538,0,human
 235108,554,0,human
 513038,692,1,human
 211953,303,0,human
@@ -227076,7 +226828,6 @@ drug_id,prot_id,label,prot_domain
 19014,168,0,virus
 805348,1093,1,human
 538964,638,1,human
-769191,538,1,human
 518099,386,1,human
 614025,2047,1,human
 204907,1292,0,human
@@ -229023,7 +228774,6 @@ drug_id,prot_id,label,prot_domain
 539482,517,1,human
 821330,384,1,human
 291553,653,1,human
-837033,403,0,human
 24837,144,0,virus
 258072,463,0,human
 528557,1064,1,human
@@ -229346,7 +229096,6 @@ drug_id,prot_id,label,prot_domain
 179349,979,0,human
 738692,656,1,human
 684460,834,1,human
-258112,538,1,human
 242883,558,1,human
 584609,1387,0,human
 589921,528,1,human
@@ -229527,7 +229276,6 @@ drug_id,prot_id,label,prot_domain
 536050,604,1,human
 142283,614,1,human
 695730,693,0,human
-769103,538,0,human
 76512,384,0,human
 632963,896,1,human
 192034,917,0,human
@@ -230308,7 +230056,6 @@ drug_id,prot_id,label,prot_domain
 25398,100,0,virus
 143982,672,1,human
 494764,604,1,human
-682521,1184,0,human
 543714,653,1,human
 786645,347,1,human
 171869,288,1,human
@@ -230622,7 +230369,6 @@ drug_id,prot_id,label,prot_domain
 414213,800,0,human
 135304,648,1,human
 510708,633,1,human
-369202,538,0,human
 620697,361,1,human
 181887,707,1,human
 725013,918,1,human
@@ -231254,7 +231000,6 @@ drug_id,prot_id,label,prot_domain
 248407,313,0,human
 200588,1352,0,human
 341684,702,0,human
-369265,538,0,human
 339920,707,1,human
 836289,403,1,human
 29382,43,0,virus
@@ -231435,7 +231180,6 @@ drug_id,prot_id,label,prot_domain
 766369,305,0,human
 255756,455,1,human
 608070,1089,1,human
-769079,538,0,human
 582852,740,1,human
 717485,304,1,human
 695790,1526,0,human
@@ -231444,7 +231188,6 @@ drug_id,prot_id,label,prot_domain
 211407,1149,0,human
 359614,792,1,human
 185735,343,0,human
-769041,538,1,human
 485970,799,1,human
 349554,1521,0,human
 706196,604,1,human
@@ -231548,7 +231291,6 @@ drug_id,prot_id,label,prot_domain
 577492,553,1,human
 20072,168,0,virus
 205830,1487,0,human
-769144,538,0,human
 191251,960,0,human
 705319,695,1,human
 376267,407,1,human
@@ -231639,7 +231381,6 @@ drug_id,prot_id,label,prot_domain
 73921,350,0,human
 787043,299,1,human
 5905,24,1,virus
-769112,538,0,human
 731708,675,1,human
 728394,818,1,human
 593710,356,1,human
@@ -232081,7 +231822,6 @@ drug_id,prot_id,label,prot_domain
 122463,841,1,human
 842581,705,1,human
 660761,507,1,human
-837031,403,0,human
 143679,651,1,human
 427339,1613,1,human
 451433,826,0,human
@@ -234466,7 +234206,6 @@ drug_id,prot_id,label,prot_domain
 630407,1255,1,human
 746198,1684,1,human
 181694,460,1,human
-769067,538,0,human
 93414,565,0,human
 583636,532,0,human
 147640,744,0,human
@@ -234501,7 +234240,6 @@ drug_id,prot_id,label,prot_domain
 272833,918,0,human
 477925,1228,1,human
 586180,979,1,human
-781043,343,0,human
 195346,1168,0,human
 40523,343,0,human
 18293,1427,0,human
@@ -234979,7 +234717,6 @@ drug_id,prot_id,label,prot_domain
 274155,1382,0,human
 190819,772,0,human
 769609,841,1,human
-774674,327,1,human
 141280,749,1,human
 64014,756,1,human
 600390,395,1,human
@@ -236595,7 +236332,6 @@ drug_id,prot_id,label,prot_domain
 229182,890,0,human
 267083,704,1,human
 145981,1164,0,human
-352410,403,0,human
 500380,404,0,human
 321394,506,1,human
 556235,444,1,human
@@ -239351,7 +239087,6 @@ drug_id,prot_id,label,prot_domain
 185180,1650,0,human
 807192,2649,0,human
 490750,454,1,human
-837018,403,1,human
 394971,1848,0,human
 335798,506,1,human
 714466,898,0,human
@@ -242786,7 +242521,6 @@ drug_id,prot_id,label,prot_domain
 622445,581,1,human
 771007,281,1,human
 263528,337,1,human
-770982,725,0,human
 400716,798,1,human
 222984,763,1,human
 551451,301,0,human
@@ -243064,7 +242798,6 @@ drug_id,prot_id,label,prot_domain
 824418,507,1,human
 91877,306,1,human
 675992,544,1,human
-837035,403,0,human
 374343,407,1,human
 333926,1320,1,human
 744076,605,1,human
@@ -243551,7 +243284,6 @@ drug_id,prot_id,label,prot_domain
 529468,312,1,human
 400996,792,0,human
 650476,1157,1,human
-769155,538,0,human
 792351,594,1,human
 537019,659,1,human
 636236,581,0,human
@@ -245083,7 +244815,6 @@ drug_id,prot_id,label,prot_domain
 488248,865,0,human
 758517,348,0,human
 275623,455,1,human
-769147,538,0,human
 180572,749,1,human
 58836,305,1,human
 150117,294,0,human
@@ -245583,7 +245314,6 @@ drug_id,prot_id,label,prot_domain
 588563,545,1,human
 13749,168,0,virus
 782511,343,1,human
-767115,538,1,human
 242843,1428,0,human
 687123,834,1,human
 220466,564,1,human
@@ -245730,7 +245460,6 @@ drug_id,prot_id,label,prot_domain
 692787,1003,0,human
 606649,760,1,human
 350096,506,1,human
-837047,403,1,human
 321303,623,0,human
 342415,561,0,human
 387646,740,1,human
@@ -247179,7 +246908,6 @@ drug_id,prot_id,label,prot_domain
 707546,466,1,human
 183673,1271,0,human
 127244,368,1,human
-573879,289,1,human
 265814,682,1,human
 1000,34,1,virus
 233886,345,1,human
@@ -247979,7 +247707,6 @@ drug_id,prot_id,label,prot_domain
 475044,511,0,human
 549334,506,1,human
 222143,1428,0,human
-836976,403,0,human
 480130,289,1,human
 600719,634,1,human
 389350,647,1,human
@@ -248224,7 +247951,6 @@ drug_id,prot_id,label,prot_domain
 282155,811,0,human
 225094,386,1,human
 69410,281,1,human
-580015,343,0,human
 412792,585,1,human
 116715,348,1,human
 723641,1403,1,human
@@ -248978,7 +248704,6 @@ drug_id,prot_id,label,prot_domain
 521028,725,1,human
 68307,420,1,human
 369085,682,1,human
-769098,538,0,human
 156016,609,1,human
 380737,492,0,human
 364820,539,1,human
@@ -249883,7 +249608,6 @@ drug_id,prot_id,label,prot_domain
 101230,2555,0,human
 283817,303,0,human
 140185,743,1,human
-836988,403,1,human
 405149,1559,0,human
 36878,24,1,virus
 791539,1189,1,human
@@ -250596,7 +250320,6 @@ drug_id,prot_id,label,prot_domain
 92041,470,0,human
 346318,464,1,human
 147329,835,1,human
-45380,463,0,human
 291559,811,0,human
 528283,725,1,human
 303105,736,1,human
@@ -251196,7 +250919,6 @@ drug_id,prot_id,label,prot_domain
 422383,1084,0,human
 814015,1367,1,human
 206526,1387,0,human
-410653,594,0,human
 24837,4,0,virus
 552135,561,1,human
 497252,1739,0,human
@@ -251560,7 +251282,6 @@ drug_id,prot_id,label,prot_domain
 218737,1434,0,human
 316131,510,1,human
 219508,1428,0,human
-769091,538,1,human
 582556,1190,1,human
 600427,465,0,human
 173578,717,1,human
@@ -252111,7 +251832,6 @@ drug_id,prot_id,label,prot_domain
 82724,312,0,human
 251489,1003,0,human
 829649,1141,1,human
-254505,507,1,human
 164806,726,0,human
 680874,438,1,human
 570204,356,1,human
@@ -252361,7 +252081,6 @@ drug_id,prot_id,label,prot_domain
 675312,938,0,human
 659185,781,1,human
 221598,415,1,human
-369240,538,0,human
 645652,594,1,human
 744619,743,0,human
 41015,6,1,virus
@@ -256492,7 +256211,6 @@ drug_id,prot_id,label,prot_domain
 98456,295,0,human
 449866,705,0,human
 560770,361,1,human
-837046,403,0,human
 11925,16,0,virus
 518145,653,1,human
 427066,2044,1,human
@@ -256785,7 +256503,6 @@ drug_id,prot_id,label,prot_domain
 393720,800,0,human
 316113,511,1,human
 494033,811,0,human
-837042,403,1,human
 543727,653,1,human
 510054,969,1,human
 701481,1017,0,human
@@ -257803,7 +257520,6 @@ drug_id,prot_id,label,prot_domain
 90728,2089,1,human
 12028,222,1,virus
 187268,367,0,human
-769217,538,0,human
 274665,1036,0,human
 391308,811,0,human
 707143,919,1,human
@@ -258527,7 +258243,6 @@ drug_id,prot_id,label,prot_domain
 57053,512,1,human
 534783,763,0,human
 434039,1923,1,human
-458610,403,1,human
 527062,356,1,human
 762505,3991,1,human
 336318,518,1,human
@@ -259655,7 +259370,6 @@ drug_id,prot_id,label,prot_domain
 23893,136,1,virus
 245686,377,0,human
 140017,2832,0,human
-441894,463,0,human
 205485,407,1,human
 550797,456,1,human
 238693,1245,0,human
@@ -262277,7 +261991,6 @@ drug_id,prot_id,label,prot_domain
 622434,581,1,human
 861406,898,1,human
 208056,280,1,human
-836987,403,0,human
 227167,726,1,human
 465475,554,1,human
 496548,593,1,human
@@ -264122,7 +263835,6 @@ drug_id,prot_id,label,prot_domain
 851940,718,1,human
 89542,411,1,human
 599647,506,1,human
-769044,538,0,human
 766502,800,0,human
 492108,969,1,human
 793016,797,1,human
@@ -265008,7 +264720,6 @@ drug_id,prot_id,label,prot_domain
 558121,468,0,human
 22102,125,0,virus
 312680,687,1,human
-573887,289,1,human
 363012,743,0,human
 32632,21,1,virus
 218108,1428,0,human
@@ -266282,7 +265993,6 @@ drug_id,prot_id,label,prot_domain
 184219,1839,0,human
 546883,462,1,human
 572952,599,1,human
-837020,403,0,human
 257233,2829,0,human
 62122,385,1,human
 605255,361,0,human
@@ -267761,7 +267471,6 @@ drug_id,prot_id,label,prot_domain
 550287,350,1,human
 738074,1036,1,human
 724817,898,1,human
-836989,403,1,human
 716823,841,1,human
 819067,403,1,human
 380627,1176,1,human
@@ -269993,7 +269702,6 @@ drug_id,prot_id,label,prot_domain
 184945,408,0,human
 435052,1055,0,human
 251921,664,0,human
-573889,289,0,human
 545192,517,1,human
 309375,1243,1,human
 263670,357,0,human
@@ -271097,7 +270805,6 @@ drug_id,prot_id,label,prot_domain
 78009,439,0,human
 528657,1320,1,human
 61590,762,0,human
-769120,538,0,human
 675793,367,1,human
 389490,410,0,human
 836325,952,1,human
@@ -272608,7 +272315,6 @@ drug_id,prot_id,label,prot_domain
 625611,1079,1,human
 342559,420,0,human
 718921,919,1,human
-837010,403,0,human
 857825,811,0,human
 37176,6,1,virus
 266642,455,1,human
@@ -273124,7 +272830,6 @@ drug_id,prot_id,label,prot_domain
 103065,371,1,human
 723830,1765,1,human
 65739,356,1,human
-836999,403,0,human
 187868,1466,0,human
 102437,887,1,human
 249999,709,1,human
@@ -273544,7 +273249,6 @@ drug_id,prot_id,label,prot_domain
 472211,934,1,human
 730308,918,0,human
 107458,829,1,human
-841732,403,0,human
 791717,1189,1,human
 192888,407,0,human
 778636,2136,1,human
@@ -274490,7 +274194,6 @@ drug_id,prot_id,label,prot_domain
 509785,671,1,human
 514726,725,1,human
 19452,18,0,virus
-369213,538,0,human
 354238,638,1,human
 815540,969,1,human
 320008,307,1,human
@@ -274657,7 +274360,6 @@ drug_id,prot_id,label,prot_domain
 695361,1523,0,human
 52095,262,1,virus
 570102,356,1,human
-769189,538,0,human
 127552,348,0,human
 688617,918,1,human
 380850,763,0,human
@@ -276116,7 +275818,6 @@ drug_id,prot_id,label,prot_domain
 786150,506,1,human
 270484,547,0,human
 216182,386,1,human
-3742,191,1,virus
 337422,468,0,human
 796268,779,1,human
 400336,634,0,human
@@ -276514,7 +276215,6 @@ drug_id,prot_id,label,prot_domain
 24311,161,0,virus
 35790,24,1,virus
 58115,325,0,human
-769168,538,1,human
 362322,1036,1,human
 7765,2,0,virus
 215361,2293,0,human
@@ -277120,7 +276820,6 @@ drug_id,prot_id,label,prot_domain
 221378,303,0,human
 297028,588,1,human
 390354,756,1,human
-837024,403,1,human
 259309,467,1,human
 818208,1043,1,human
 42519,282,0,human
@@ -281003,7 +280702,6 @@ drug_id,prot_id,label,prot_domain
 654441,869,1,human
 506347,2462,0,human
 19687,789,0,human
-369216,538,0,human
 172992,463,1,human
 705424,847,1,human
 248611,298,0,human
@@ -281451,7 +281149,6 @@ drug_id,prot_id,label,prot_domain
 245983,523,0,human
 180138,437,1,human
 259370,1298,0,human
-225869,455,0,human
 19006,16,0,virus
 34012,18,0,virus
 469232,571,1,human
@@ -281775,7 +281472,6 @@ drug_id,prot_id,label,prot_domain
 288493,386,1,human
 159041,453,0,human
 787880,930,1,human
-796096,463,0,human
 315411,411,1,human
 45380,1070,0,human
 189226,755,0,human
@@ -283434,7 +283130,6 @@ drug_id,prot_id,label,prot_domain
 546803,458,1,human
 132752,437,0,human
 600365,395,1,human
-142406,637,1,human
 52326,159,1,virus
 521024,705,1,human
 259818,656,1,human
@@ -284065,7 +283760,6 @@ drug_id,prot_id,label,prot_domain
 315090,876,1,human
 106028,728,0,human
 359235,539,1,human
-12794,6,1,virus
 484470,1771,1,human
 419063,343,1,human
 49639,6,1,virus
@@ -284435,7 +284129,6 @@ drug_id,prot_id,label,prot_domain
 615767,1093,1,human
 71439,299,0,human
 60024,615,0,human
-841732,403,1,human
 642546,444,0,human
 260577,667,0,human
 705741,918,0,human
@@ -284847,7 +284540,6 @@ drug_id,prot_id,label,prot_domain
 101474,891,1,human
 572958,1031,1,human
 506596,455,1,human
-369215,538,1,human
 490349,898,1,human
 110647,619,0,human
 218648,2818,0,human
@@ -287224,7 +286916,6 @@ drug_id,prot_id,label,prot_domain
 51512,262,1,virus
 215361,1255,0,human
 42371,1452,0,human
-781047,343,0,human
 721317,1832,0,human
 164965,554,0,human
 312660,1251,0,human
@@ -293407,7 +293098,6 @@ drug_id,prot_id,label,prot_domain
 124865,377,0,human
 699769,1408,1,human
 399680,463,1,human
-769087,538,0,human
 545325,896,0,human
 156938,298,1,human
 379502,659,1,human
@@ -293830,7 +293520,6 @@ drug_id,prot_id,label,prot_domain
 552738,2784,1,human
 478112,508,1,human
 12649,168,0,virus
-369209,538,0,human
 387151,656,0,human
 524897,692,1,human
 419666,506,0,human
@@ -294774,7 +294463,6 @@ drug_id,prot_id,label,prot_domain
 666107,749,1,human
 496003,303,1,human
 834109,404,1,human
-769162,538,1,human
 837195,4027,1,human
 218648,1238,0,human
 212196,906,0,human
@@ -296572,7 +296260,6 @@ drug_id,prot_id,label,prot_domain
 123173,348,0,human
 40746,194,0,virus
 255419,1164,0,human
-769148,538,0,human
 234938,1220,1,human
 184764,786,1,human
 114596,848,0,human
@@ -296989,7 +296676,6 @@ drug_id,prot_id,label,prot_domain
 720263,918,0,human
 698706,437,1,human
 419594,1044,1,human
-602799,725,1,human
 189294,1189,0,human
 706183,604,1,human
 725670,918,1,human
@@ -297141,7 +296827,6 @@ drug_id,prot_id,label,prot_domain
 527929,651,0,human
 734919,1684,0,human
 620614,593,0,human
-573775,289,1,human
 155466,367,0,human
 120907,849,1,human
 283350,869,1,human
@@ -297592,7 +297277,6 @@ drug_id,prot_id,label,prot_domain
 44396,6,1,virus
 206687,723,0,human
 455194,918,1,human
-767120,538,1,human
 651384,403,1,human
 33020,21,0,virus
 367397,667,0,human
@@ -298040,7 +297724,6 @@ drug_id,prot_id,label,prot_domain
 434099,457,0,human
 279025,534,0,human
 21407,20,0,virus
-434167,312,1,human
 433065,682,1,human
 667011,847,0,human
 306690,848,1,human
@@ -298094,7 +297777,6 @@ drug_id,prot_id,label,prot_domain
 216489,1468,0,human
 481360,788,1,human
 411213,384,1,human
-837042,403,0,human
 760196,677,0,human
 594877,343,1,human
 805390,1093,1,human
@@ -299772,7 +299454,6 @@ drug_id,prot_id,label,prot_domain
 313160,659,1,human
 331858,744,0,human
 350930,539,1,human
-769142,538,0,human
 432271,1886,0,human
 448189,796,0,human
 103488,673,0,human
@@ -300054,7 +299735,6 @@ drug_id,prot_id,label,prot_domain
 188946,457,1,human
 16917,168,1,virus
 165154,544,1,human
-45380,463,0,human
 387698,354,0,human
 152913,437,1,human
 144229,829,1,human
@@ -301693,7 +301373,6 @@ drug_id,prot_id,label,prot_domain
 115185,2754,0,human
 68236,934,1,human
 140100,834,1,human
-770841,312,1,human
 374514,714,0,human
 83561,1225,0,human
 76103,415,0,human
@@ -302219,7 +301898,6 @@ drug_id,prot_id,label,prot_domain
 488463,564,1,human
 826251,1084,1,human
 330213,303,0,human
-836989,403,0,human
 318699,1326,1,human
 722553,539,1,human
 380807,509,0,human
@@ -302317,7 +301995,6 @@ drug_id,prot_id,label,prot_domain
 228488,763,0,human
 247759,336,0,human
 641774,1067,1,human
-837011,403,0,human
 258121,538,1,human
 696950,934,1,human
 7387,47,1,virus
@@ -304943,7 +304620,6 @@ drug_id,prot_id,label,prot_domain
 134112,554,0,human
 726583,898,1,human
 727296,947,1,human
-186741,463,0,human
 110395,429,1,human
 329703,841,1,human
 311928,659,1,human
@@ -305480,7 +305156,6 @@ drug_id,prot_id,label,prot_domain
 74873,433,0,human
 161555,1176,1,human
 68268,307,0,human
-837060,403,0,human
 253570,408,1,human
 211548,651,1,human
 40114,189,1,virus
@@ -305794,7 +305469,6 @@ drug_id,prot_id,label,prot_domain
 33866,43,0,virus
 189201,855,1,human
 473683,594,1,human
-369199,538,1,human
 130512,336,1,human
 135356,554,0,human
 189970,637,1,human
@@ -306226,7 +305900,6 @@ drug_id,prot_id,label,prot_domain
 641552,1744,0,human
 307193,562,1,human
 167939,1133,0,human
-836980,403,0,human
 172896,509,1,human
 476405,637,1,human
 249990,811,0,human
@@ -307003,7 +306676,6 @@ drug_id,prot_id,label,prot_domain
 764554,903,1,human
 84805,343,0,human
 119317,947,0,human
-184219,463,1,human
 631935,586,1,human
 310748,584,1,human
 396674,566,1,human
@@ -308053,7 +307725,6 @@ drug_id,prot_id,label,prot_domain
 100974,1379,0,human
 499654,531,1,human
 387285,554,0,human
-837064,403,0,human
 183285,386,1,human
 153322,743,0,human
 657080,748,1,human
@@ -308276,7 +307947,6 @@ drug_id,prot_id,label,prot_domain
 824461,403,1,human
 316158,511,1,human
 654303,377,1,human
-573879,289,0,human
 536533,561,1,human
 16478,605,0,human
 239792,538,0,human
@@ -309235,7 +308905,6 @@ drug_id,prot_id,label,prot_domain
 271346,1440,0,human
 522198,361,1,human
 822952,969,1,human
-836997,403,1,human
 639204,763,1,human
 39467,23,1,virus
 792744,995,1,human
@@ -309421,7 +309090,6 @@ drug_id,prot_id,label,prot_domain
 246716,1507,0,human
 378967,303,0,human
 857036,637,1,human
-596026,343,0,human
 680414,307,1,human
 595905,343,1,human
 322234,512,1,human
@@ -310065,7 +309733,6 @@ drug_id,prot_id,label,prot_domain
 513250,682,0,human
 366349,638,0,human
 699030,664,0,human
-769166,538,1,human
 543195,969,1,human
 634824,2790,1,human
 272274,347,1,human
@@ -311579,7 +311246,6 @@ drug_id,prot_id,label,prot_domain
 171009,996,0,human
 792737,995,1,human
 851881,718,1,human
-369210,538,1,human
 475213,1070,0,human
 327301,561,1,human
 652895,577,1,human
@@ -312149,7 +311815,6 @@ drug_id,prot_id,label,prot_domain
 223158,304,0,human
 31956,1425,0,human
 580888,749,1,human
-769166,538,0,human
 752844,964,0,human
 350652,876,1,human
 739548,506,1,human
@@ -312388,7 +312053,6 @@ drug_id,prot_id,label,prot_domain
 490370,343,0,human
 403545,539,1,human
 838818,1055,1,human
-837001,403,1,human
 830472,594,1,human
 635706,1631,1,human
 333706,585,1,human
@@ -312841,7 +312505,6 @@ drug_id,prot_id,label,prot_domain
 395550,811,0,human
 618963,553,1,human
 225231,1424,0,human
-781183,517,1,human
 69,2,1,virus
 321666,386,0,human
 655699,835,1,human
@@ -313740,7 +313403,6 @@ drug_id,prot_id,label,prot_domain
 79705,517,1,human
 348558,1613,0,human
 621470,777,1,human
-837004,403,1,human
 854256,2238,1,human
 32796,21,0,virus
 709776,539,1,human
@@ -314216,7 +313878,6 @@ drug_id,prot_id,label,prot_domain
 764797,1493,0,human
 805834,343,1,human
 811702,876,1,human
-837037,403,0,human
 419268,513,1,human
 489104,891,1,human
 23122,54,0,virus
@@ -317215,7 +316876,6 @@ drug_id,prot_id,label,prot_domain
 263065,337,1,human
 184218,2689,0,human
 668704,743,1,human
-607896,343,1,human
 727789,408,0,human
 266796,733,0,human
 658411,898,1,human
@@ -317421,7 +317081,6 @@ drug_id,prot_id,label,prot_domain
 721102,303,0,human
 275930,1164,1,human
 102657,347,0,human
-369202,538,1,human
 319968,517,0,human
 87346,633,1,human
 267692,652,1,human
@@ -318285,7 +317944,6 @@ drug_id,prot_id,label,prot_domain
 117902,455,1,human
 286786,457,0,human
 174386,554,0,human
-836978,403,0,human
 579342,653,1,human
 791682,1189,1,human
 403067,791,1,human
@@ -318446,7 +318104,6 @@ drug_id,prot_id,label,prot_domain
 530842,682,1,human
 705447,2133,1,human
 462645,348,1,human
-299754,1461,1,human
 170322,630,1,human
 782322,2104,1,human
 803749,403,1,human
@@ -319750,7 +319407,6 @@ drug_id,prot_id,label,prot_domain
 32350,43,0,virus
 437756,1304,0,human
 437094,763,1,human
-769112,538,1,human
 689089,900,0,human
 67921,356,1,human
 37961,24,1,virus
@@ -320218,7 +319874,6 @@ drug_id,prot_id,label,prot_domain
 540761,653,1,human
 829505,1141,0,human
 165643,811,0,human
-369203,538,0,human
 463196,777,0,human
 634365,585,1,human
 835499,652,1,human
@@ -322496,7 +322151,6 @@ drug_id,prot_id,label,prot_domain
 132833,335,0,human
 270550,357,0,human
 470577,361,1,human
-610528,343,1,human
 486721,733,1,human
 636671,949,1,human
 320729,303,1,human
@@ -322775,7 +322429,6 @@ drug_id,prot_id,label,prot_domain
 668366,1184,0,human
 486402,761,0,human
 293817,510,1,human
-434167,312,0,human
 248458,1228,0,human
 155735,354,1,human
 456007,936,0,human
@@ -323358,7 +323011,6 @@ drug_id,prot_id,label,prot_domain
 101486,410,0,human
 393601,648,1,human
 23349,55,0,virus
-682514,1184,0,human
 668246,847,0,human
 664044,743,0,human
 111471,612,1,human
@@ -323598,7 +323250,6 @@ drug_id,prot_id,label,prot_domain
 778331,605,1,human
 544753,517,1,human
 546896,517,1,human
-102537,2211,0,human
 179481,1335,0,human
 165595,437,1,human
 726576,898,0,human
@@ -323706,7 +323357,6 @@ drug_id,prot_id,label,prot_domain
 702386,544,0,human
 212004,1428,0,human
 528409,725,1,human
-837040,403,0,human
 397786,527,0,human
 107650,829,1,human
 544331,682,1,human
@@ -324447,7 +324097,6 @@ drug_id,prot_id,label,prot_domain
 580740,599,1,human
 142798,876,0,human
 462497,343,1,human
-837002,403,1,human
 6898,189,1,virus
 96608,313,0,human
 499651,531,1,human
@@ -325862,7 +325511,6 @@ drug_id,prot_id,label,prot_domain
 139743,1087,0,human
 820997,779,1,human
 616796,1249,1,human
-837065,403,0,human
 539491,545,0,human
 426329,506,1,human
 84437,284,0,human
@@ -327489,7 +327137,6 @@ drug_id,prot_id,label,prot_domain
 765852,714,0,human
 209086,1284,0,human
 152193,834,1,human
-769024,538,0,human
 644554,507,1,human
 169895,343,1,human
 23687,54,1,virus
@@ -328474,7 +328121,6 @@ drug_id,prot_id,label,prot_domain
 626451,1454,0,human
 613612,581,1,human
 225891,409,1,human
-410653,594,1,human
 476414,811,0,human
 67842,539,1,human
 3982,24,1,virus
@@ -329411,7 +329057,6 @@ drug_id,prot_id,label,prot_domain
 584653,467,1,human
 242412,1433,0,human
 224439,1445,0,human
-769209,538,0,human
 357174,540,0,human
 241253,539,1,human
 394774,1096,1,human
@@ -329553,7 +329198,6 @@ drug_id,prot_id,label,prot_domain
 8617,439,1,human
 414529,510,1,human
 693619,312,1,human
-596020,343,1,human
 188697,657,1,human
 484044,356,1,human
 99305,429,1,human
@@ -332516,7 +332160,6 @@ drug_id,prot_id,label,prot_domain
 536378,404,1,human
 345757,455,1,human
 444766,1055,1,human
-542331,725,0,human
 693596,539,0,human
 525902,666,1,human
 687968,847,1,human
@@ -332908,7 +332551,6 @@ drug_id,prot_id,label,prot_domain
 416921,848,0,human
 155881,656,0,human
 214320,1429,0,human
-837050,403,1,human
 249765,279,1,human
 88010,937,0,human
 831348,3188,1,human
@@ -333885,7 +333527,6 @@ drug_id,prot_id,label,prot_domain
 716495,554,1,human
 589990,506,1,human
 405223,341,0,human
-769188,538,1,human
 680288,656,1,human
 250314,386,1,human
 150178,1379,0,human
@@ -334228,7 +333869,6 @@ drug_id,prot_id,label,prot_domain
 231977,565,0,human
 195541,697,1,human
 127040,303,0,human
-837053,403,0,human
 329988,372,1,human
 338917,1164,1,human
 349136,455,1,human
@@ -335940,7 +335580,6 @@ drug_id,prot_id,label,prot_domain
 357319,594,1,human
 605569,545,1,human
 324955,604,1,human
-767111,538,1,human
 547557,455,1,human
 183945,916,1,human
 687958,847,1,human
@@ -336049,7 +335688,6 @@ drug_id,prot_id,label,prot_domain
 248299,834,1,human
 582948,517,1,human
 529201,1320,1,human
-769100,538,0,human
 692134,898,0,human
 503884,1176,1,human
 259098,1402,0,human
@@ -336479,7 +336117,6 @@ drug_id,prot_id,label,prot_domain
 205669,763,1,human
 695729,409,1,human
 631844,656,1,human
-837034,403,1,human
 627869,671,1,human
 322240,411,1,human
 556670,704,1,human
@@ -337627,7 +337264,6 @@ drug_id,prot_id,label,prot_domain
 580131,455,1,human
 476883,509,0,human
 185427,432,1,human
-542331,725,1,human
 422535,464,1,human
 81310,593,1,human
 201371,704,0,human
@@ -337750,7 +337386,6 @@ drug_id,prot_id,label,prot_domain
 458311,562,1,human
 487860,686,0,human
 243209,411,1,human
-769065,538,0,human
 304921,1369,1,human
 131248,743,0,human
 639968,467,1,human
@@ -338071,7 +337706,6 @@ drug_id,prot_id,label,prot_domain
 818433,1043,1,human
 278249,539,1,human
 784407,910,1,human
-299754,1461,1,human
 184363,1271,0,human
 319041,918,1,human
 396061,670,1,human
@@ -343345,7 +342979,6 @@ drug_id,prot_id,label,prot_domain
 213489,730,0,human
 242855,1610,0,human
 810835,1291,1,human
-837000,403,1,human
 211413,312,0,human
 262292,690,0,human
 543928,653,1,human
@@ -344220,7 +343853,6 @@ drug_id,prot_id,label,prot_domain
 218668,1433,0,human
 235655,510,1,human
 188610,348,1,human
-769150,538,1,human
 22948,23,1,virus
 744099,605,1,human
 245583,658,0,human
@@ -344480,7 +344112,6 @@ drug_id,prot_id,label,prot_domain
 847135,1317,1,human
 430851,717,1,human
 387836,539,1,human
-781073,343,0,human
 155847,657,0,human
 64482,325,0,human
 245144,1438,0,human
@@ -344844,7 +344475,6 @@ drug_id,prot_id,label,prot_domain
 260331,354,0,human
 120,191,0,virus
 154944,707,0,human
-769055,538,0,human
 107976,762,1,human
 660597,507,1,human
 241999,707,0,human
@@ -346371,7 +346001,6 @@ drug_id,prot_id,label,prot_domain
 615894,343,1,human
 501740,740,1,human
 464387,969,0,human
-441899,463,1,human
 688076,847,0,human
 92339,524,1,human
 82332,449,1,human
@@ -347543,7 +347172,6 @@ drug_id,prot_id,label,prot_domain
 171024,683,1,human
 673754,312,0,human
 679985,328,1,human
-836980,403,1,human
 686746,743,1,human
 862140,1633,1,human
 372873,517,0,human
@@ -351451,7 +351079,6 @@ drug_id,prot_id,label,prot_domain
 209167,1434,0,human
 318567,303,1,human
 443948,553,1,human
-837045,403,0,human
 195960,811,0,human
 728924,898,0,human
 580239,841,1,human
@@ -353045,7 +352672,6 @@ drug_id,prot_id,label,prot_domain
 166457,298,1,human
 490972,928,0,human
 530624,404,1,human
-836984,403,1,human
 770735,953,1,human
 664105,1030,0,human
 429134,1009,1,human
@@ -356173,7 +355799,6 @@ drug_id,prot_id,label,prot_domain
 525385,659,1,human
 718052,918,0,human
 806491,841,1,human
-664725,1184,0,human
 98986,1284,0,human
 456281,1164,1,human
 130276,851,1,human
@@ -358182,7 +357807,6 @@ drug_id,prot_id,label,prot_domain
 74434,325,1,human
 312669,687,1,human
 267461,1056,0,human
-837047,403,0,human
 397540,665,0,human
 235709,1425,0,human
 393553,1186,1,human
@@ -358733,7 +358357,6 @@ drug_id,prot_id,label,prot_domain
 357659,740,1,human
 240081,1439,0,human
 555834,788,1,human
-682519,1184,0,human
 4311,1107,0,human
 180100,829,0,human
 700363,1327,0,human
@@ -358980,7 +358603,6 @@ drug_id,prot_id,label,prot_domain
 698902,954,1,human
 158760,375,0,human
 466650,848,0,human
-769153,538,0,human
 464380,534,0,human
 252877,454,0,human
 750948,743,1,human
@@ -361659,7 +361281,6 @@ drug_id,prot_id,label,prot_domain
 398691,820,1,human
 822430,656,1,human
 20746,5,0,virus
-837006,403,1,human
 635952,2840,0,human
 204787,1397,0,human
 101938,1472,1,human
@@ -362259,7 +361880,6 @@ drug_id,prot_id,label,prot_domain
 304476,303,1,human
 737303,455,1,human
 327705,407,1,human
-769058,538,0,human
 712256,658,1,human
 215976,1387,0,human
 258838,796,0,human
@@ -363316,7 +362936,6 @@ drug_id,prot_id,label,prot_domain
 631563,1631,1,human
 519343,386,1,human
 447335,1032,0,human
-837044,403,0,human
 518601,682,1,human
 774339,653,1,human
 434156,312,1,human
@@ -368559,7 +368178,6 @@ drug_id,prot_id,label,prot_domain
 352890,1645,0,human
 818271,1043,1,human
 146289,328,0,human
-369226,538,1,human
 197691,419,0,human
 326368,437,0,human
 795715,403,1,human
@@ -369360,7 +368978,6 @@ drug_id,prot_id,label,prot_domain
 197390,1231,0,human
 719557,463,1,human
 104835,2768,0,human
-837060,403,0,human
 654330,879,0,human
 98681,305,1,human
 417541,525,0,human
@@ -370260,7 +369877,6 @@ drug_id,prot_id,label,prot_domain
 300699,683,1,human
 436454,1793,0,human
 304763,1816,1,human
-441894,463,0,human
 435191,356,1,human
 603490,911,1,human
 337841,407,1,human
@@ -370561,7 +370177,6 @@ drug_id,prot_id,label,prot_domain
 396994,357,1,human
 748463,455,1,human
 536270,357,1,human
-769157,538,0,human
 261171,509,1,human
 700698,1379,0,human
 433091,343,1,human
@@ -372052,7 +371667,6 @@ drug_id,prot_id,label,prot_domain
 796124,1706,1,human
 312915,1063,1,human
 435229,656,1,human
-664725,1184,1,human
 190657,508,0,human
 792811,725,1,human
 703706,898,0,human
@@ -373332,7 +372946,6 @@ drug_id,prot_id,label,prot_domain
 67579,1957,0,human
 342311,683,1,human
 774534,653,1,human
-769081,538,1,human
 91035,834,0,human
 220846,1428,0,human
 83552,988,0,human
@@ -374204,7 +373817,6 @@ drug_id,prot_id,label,prot_domain
 860052,554,0,human
 491955,510,0,human
 805473,1329,1,human
-369200,538,1,human
 541824,682,1,human
 296649,455,1,human
 141862,550,0,human
@@ -378503,7 +378115,6 @@ drug_id,prot_id,label,prot_domain
 529738,408,1,human
 224535,688,1,human
 436987,469,1,human
-836985,403,0,human
 71239,287,0,human
 52350,232,1,virus
 387333,586,0,human
@@ -378975,7 +378586,6 @@ drug_id,prot_id,label,prot_domain
 267548,407,1,human
 781832,1859,1,human
 425415,2049,0,human
-514833,725,1,human
 697403,743,0,human
 247747,848,0,human
 98456,683,0,human
@@ -379707,7 +379317,6 @@ drug_id,prot_id,label,prot_domain
 832068,2156,1,human
 835058,604,1,human
 148159,298,1,human
-653644,403,1,human
 510781,682,1,human
 434758,1055,1,human
 713024,743,0,human
@@ -380585,7 +380194,6 @@ drug_id,prot_id,label,prot_domain
 374642,506,1,human
 726508,898,1,human
 224498,1434,0,human
-769207,538,1,human
 732885,1438,1,human
 382931,407,1,human
 825459,1669,1,human
@@ -381200,7 +380808,6 @@ drug_id,prot_id,label,prot_domain
 443763,2154,1,human
 209874,1189,0,human
 732438,777,1,human
-837050,403,0,human
 317251,1326,1,human
 659327,507,1,human
 487296,377,0,human
@@ -381639,7 +381246,6 @@ drug_id,prot_id,label,prot_domain
 714176,550,0,human
 611759,517,0,human
 321303,2822,0,human
-837014,403,0,human
 384503,408,0,human
 736169,675,1,human
 194020,510,1,human
@@ -381668,7 +381274,6 @@ drug_id,prot_id,label,prot_domain
 116905,1657,0,human
 692194,340,1,human
 671776,323,0,human
-781042,343,1,human
 181869,1657,0,human
 202239,1185,0,human
 836275,403,1,human
@@ -382879,7 +382484,6 @@ drug_id,prot_id,label,prot_domain
 433218,437,0,human
 68927,325,1,human
 524316,725,1,human
-837058,403,1,human
 160291,426,1,human
 592394,1207,1,human
 65713,637,0,human
@@ -383907,7 +383511,6 @@ drug_id,prot_id,label,prot_domain
 685755,1420,0,human
 834676,506,1,human
 197920,437,0,human
-352410,403,1,human
 265736,289,1,human
 540687,653,1,human
 770852,542,1,human
@@ -384801,7 +384404,6 @@ drug_id,prot_id,label,prot_domain
 118243,293,0,human
 578490,820,1,human
 625601,1397,1,human
-369212,538,1,human
 678878,419,1,human
 384966,356,1,human
 427411,1613,1,human
@@ -385365,7 +384967,6 @@ drug_id,prot_id,label,prot_domain
 134362,855,1,human
 841782,507,1,human
 93132,319,1,human
-769191,538,0,human
 238306,510,1,human
 215361,446,0,human
 333296,517,1,human
@@ -385766,7 +385367,6 @@ drug_id,prot_id,label,prot_domain
 730260,338,1,human
 142751,728,1,human
 158020,585,1,human
-837046,403,1,human
 540679,672,1,human
 381950,562,1,human
 441179,463,0,human
@@ -388559,7 +388159,6 @@ drug_id,prot_id,label,prot_domain
 502841,458,1,human
 19687,1739,0,human
 411858,586,1,human
-837002,403,0,human
 355003,507,1,human
 513479,653,1,human
 2088,0,0,virus
@@ -388673,7 +388272,6 @@ drug_id,prot_id,label,prot_domain
 254746,289,1,human
 496871,682,0,human
 144066,637,1,human
-540021,725,1,human
 727842,463,1,human
 363938,356,1,human
 657431,517,1,human
@@ -389757,7 +389355,6 @@ drug_id,prot_id,label,prot_domain
 493023,509,0,human
 21912,10,0,virus
 796528,411,1,human
-362606,538,0,human
 185948,564,1,human
 796286,969,1,human
 718224,539,1,human
@@ -390081,7 +389678,6 @@ drug_id,prot_id,label,prot_domain
 608369,306,1,human
 134413,1224,1,human
 182100,312,1,human
-621976,343,0,human
 621131,2789,0,human
 333691,659,0,human
 27137,2,0,virus
@@ -392069,7 +391665,6 @@ drug_id,prot_id,label,prot_domain
 448050,306,1,human
 699213,818,1,human
 545036,517,1,human
-781043,343,1,human
 279439,513,1,human
 549239,561,1,human
 183034,509,0,human
@@ -394835,7 +394430,6 @@ drug_id,prot_id,label,prot_domain
 594566,705,1,human
 76112,1161,0,human
 697271,891,1,human
-837038,403,0,human
 757960,611,0,human
 490465,1493,1,human
 737801,1314,1,human
@@ -396110,7 +395704,6 @@ drug_id,prot_id,label,prot_domain
 633547,599,1,human
 381236,299,1,human
 366406,788,1,human
-664715,1184,0,human
 171536,777,0,human
 579864,395,1,human
 270690,704,1,human
@@ -397353,7 +396946,6 @@ drug_id,prot_id,label,prot_domain
 815296,1047,1,human
 664105,614,0,human
 642103,517,1,human
-769101,538,0,human
 641345,581,1,human
 305067,677,1,human
 462648,465,1,human
@@ -398222,7 +397814,6 @@ drug_id,prot_id,label,prot_domain
 711091,338,1,human
 381345,540,1,human
 84462,340,0,human
-837003,403,0,human
 612508,1744,0,human
 150835,584,1,human
 57252,348,1,human
@@ -398705,7 +398296,6 @@ drug_id,prot_id,label,prot_domain
 39487,20,0,virus
 474682,1644,1,human
 492997,512,0,human
-837028,403,0,human
 545892,398,1,human
 96005,429,1,human
 419444,1120,0,human
@@ -399262,7 +398852,6 @@ drug_id,prot_id,label,prot_domain
 405318,1395,1,human
 651978,444,1,human
 635952,1251,0,human
-837000,403,0,human
 712063,919,1,human
 617366,581,0,human
 595738,1699,1,human
@@ -399775,7 +399364,6 @@ drug_id,prot_id,label,prot_domain
 566154,343,1,human
 220556,605,0,human
 432680,510,0,human
-284313,409,1,human
 714893,906,0,human
 261721,664,0,human
 42006,216,0,virus
@@ -400388,7 +399976,6 @@ drug_id,prot_id,label,prot_domain
 641682,604,0,human
 176058,457,1,human
 733120,604,1,human
-836994,403,0,human
 372464,658,1,human
 184681,463,0,human
 459109,1079,0,human
@@ -401169,7 +400756,6 @@ drug_id,prot_id,label,prot_domain
 497252,1572,0,human
 245357,677,0,human
 198640,460,0,human
-770841,312,0,human
 55227,43,0,virus
 188650,523,1,human
 315091,666,1,human
@@ -401320,7 +400906,6 @@ drug_id,prot_id,label,prot_domain
 478577,303,1,human
 332919,717,1,human
 322786,717,1,human
-769198,538,0,human
 372140,1164,1,human
 100974,876,0,human
 334020,934,0,human
@@ -401571,7 +401156,6 @@ drug_id,prot_id,label,prot_domain
 210196,404,1,human
 166013,384,0,human
 593521,456,1,human
-769024,538,1,human
 285423,1609,0,human
 294019,384,0,human
 65713,678,0,human
@@ -402100,7 +401684,6 @@ drug_id,prot_id,label,prot_domain
 100438,469,1,human
 656280,2874,0,human
 445046,1327,0,human
-836993,403,0,human
 729820,742,1,human
 505601,619,1,human
 593406,528,1,human
@@ -402656,7 +402239,6 @@ drug_id,prot_id,label,prot_domain
 245037,800,0,human
 801698,1320,1,human
 224242,742,0,human
-836985,403,1,human
 371376,1035,1,human
 148430,521,0,human
 300281,554,1,human
@@ -405597,7 +405179,6 @@ drug_id,prot_id,label,prot_domain
 803850,403,1,human
 533863,404,1,human
 673620,562,1,human
-769151,538,1,human
 315579,411,1,human
 184373,325,0,human
 351775,539,1,human
@@ -406390,7 +405971,6 @@ drug_id,prot_id,label,prot_domain
 357915,695,1,human
 421503,1680,0,human
 238615,1428,0,human
-767114,538,1,human
 336671,506,1,human
 327923,385,1,human
 621420,2789,0,human
@@ -407382,7 +406962,6 @@ drug_id,prot_id,label,prot_domain
 343841,404,1,human
 586983,463,1,human
 381087,740,1,human
-410654,594,1,human
 845821,303,0,human
 226500,463,0,human
 6388,979,0,human
@@ -407799,7 +407378,6 @@ drug_id,prot_id,label,prot_domain
 649652,604,1,human
 363482,343,0,human
 837812,1186,1,human
-837040,403,0,human
 165182,1360,0,human
 521733,561,1,human
 562973,404,1,human
@@ -407826,7 +407404,6 @@ drug_id,prot_id,label,prot_domain
 557393,638,1,human
 26022,2,1,virus
 628373,714,1,human
-837036,403,1,human
 523882,725,1,human
 688224,898,1,human
 242613,2814,0,human
@@ -408102,7 +407679,6 @@ drug_id,prot_id,label,prot_domain
 440986,1393,0,human
 69133,1517,1,human
 153473,656,1,human
-769125,538,1,human
 658888,1115,1,human
 508022,404,1,human
 279449,357,1,human
@@ -409418,7 +408994,6 @@ drug_id,prot_id,label,prot_domain
 8914,23,0,virus
 604045,528,1,human
 75190,326,1,human
-769207,538,0,human
 231564,409,1,human
 194253,1519,0,human
 444135,507,1,human
@@ -409518,7 +409093,6 @@ drug_id,prot_id,label,prot_domain
 672750,898,1,human
 221698,420,1,human
 267300,682,1,human
-769046,538,1,human
 432615,525,1,human
 158108,288,0,human
 157018,853,0,human
@@ -410335,7 +409909,6 @@ drug_id,prot_id,label,prot_domain
 591721,289,1,human
 40545,343,0,human
 5142,24,1,virus
-769156,538,1,human
 749746,581,1,human
 242357,313,0,human
 19079,1464,0,human
@@ -411432,7 +411005,6 @@ drug_id,prot_id,label,prot_domain
 234161,611,0,human
 808643,331,1,human
 69446,1011,0,human
-369239,538,0,human
 100094,408,0,human
 153789,337,1,human
 82108,549,1,human
@@ -411480,7 +411052,6 @@ drug_id,prot_id,label,prot_domain
 178774,1027,0,human
 686199,743,1,human
 424401,1950,0,human
-836987,403,1,human
 322778,1203,0,human
 229134,429,0,human
 70196,337,1,human
@@ -411635,7 +411206,6 @@ drug_id,prot_id,label,prot_domain
 769929,506,0,human
 49287,264,1,virus
 263781,463,0,human
-769054,538,0,human
 226898,429,0,human
 708464,466,0,human
 33772,21,0,virus
@@ -411930,7 +411500,6 @@ drug_id,prot_id,label,prot_domain
 641953,361,1,human
 52483,262,0,virus
 468974,911,1,human
-837057,403,1,human
 103447,595,1,human
 158697,950,1,human
 288695,1386,0,human
@@ -412683,7 +412252,6 @@ drug_id,prot_id,label,prot_domain
 286644,811,0,human
 314798,916,0,human
 261048,334,1,human
-769162,538,0,human
 534472,356,1,human
 614248,750,1,human
 138508,936,0,human
@@ -412764,7 +412332,6 @@ drug_id,prot_id,label,prot_domain
 526980,312,1,human
 230216,829,0,human
 534907,725,1,human
-836988,403,0,human
 609443,1009,0,human
 110499,1114,0,human
 183385,661,0,human
@@ -413469,7 +413036,6 @@ drug_id,prot_id,label,prot_domain
 164814,776,1,human
 74270,574,0,human
 275663,455,1,human
-781046,343,0,human
 420337,1916,1,human
 257260,337,1,human
 181793,1181,0,human
@@ -413650,7 +413216,6 @@ drug_id,prot_id,label,prot_domain
 273087,517,1,human
 166136,1195,0,human
 567170,619,1,human
-837067,403,0,human
 545035,517,1,human
 504186,896,1,human
 358086,740,1,human
@@ -416162,7 +415727,6 @@ drug_id,prot_id,label,prot_domain
 728001,279,1,human
 397747,528,1,human
 387818,539,1,human
-836972,403,1,human
 510719,444,1,human
 583808,399,1,human
 116718,891,1,human
@@ -416544,7 +416108,6 @@ drug_id,prot_id,label,prot_domain
 730331,2181,1,human
 275817,1255,1,human
 156659,648,1,human
-369242,538,1,human
 84639,312,1,human
 485124,653,1,human
 127602,663,0,human
@@ -417825,7 +417388,6 @@ drug_id,prot_id,label,prot_domain
 438673,877,1,human
 96163,429,1,human
 227721,1424,0,human
-441899,463,0,human
 801724,656,1,human
 275208,742,0,human
 244179,359,0,human
@@ -418794,7 +418356,6 @@ drug_id,prot_id,label,prot_domain
 498799,313,0,human
 464112,2197,0,human
 630392,690,1,human
-837025,403,0,human
 6733,6,1,virus
 567431,467,0,human
 585141,692,1,human
@@ -418805,7 +418366,6 @@ drug_id,prot_id,label,prot_domain
 105029,375,1,human
 294401,407,1,human
 458135,561,1,human
-369226,538,0,human
 700433,934,1,human
 263846,506,1,human
 725639,918,1,human
@@ -418904,7 +418464,6 @@ drug_id,prot_id,label,prot_domain
 515508,948,1,human
 472810,973,0,human
 719660,463,1,human
-769170,538,1,human
 404655,799,0,human
 337809,562,1,human
 286748,795,0,human
@@ -419283,7 +418842,6 @@ drug_id,prot_id,label,prot_domain
 636895,581,0,human
 331489,306,1,human
 10040,2,0,virus
-526270,312,0,human
 299556,682,1,human
 177760,509,1,human
 716438,919,0,human
@@ -420274,7 +419832,6 @@ drug_id,prot_id,label,prot_domain
 531943,404,1,human
 367580,455,1,human
 385241,580,1,human
-796096,463,1,human
 361264,476,1,human
 33850,21,0,virus
 552362,1543,1,human
@@ -422670,7 +422227,6 @@ drug_id,prot_id,label,prot_domain
 185315,911,1,human
 321492,506,1,human
 100974,1243,0,human
-769052,538,0,human
 251490,553,0,human
 482536,312,1,human
 33580,18,0,virus
@@ -424331,7 +423887,6 @@ drug_id,prot_id,label,prot_domain
 541011,653,1,human
 471642,594,1,human
 124282,909,0,human
-837052,403,0,human
 590888,1003,1,human
 640307,656,1,human
 21349,1441,0,human
@@ -424419,7 +423974,6 @@ drug_id,prot_id,label,prot_domain
 628017,343,1,human
 610101,340,1,human
 487599,386,1,human
-836998,403,0,human
 665838,420,1,human
 185116,557,1,human
 735184,356,1,human
@@ -424517,7 +424071,6 @@ drug_id,prot_id,label,prot_domain
 193313,594,1,human
 389534,517,0,human
 805287,1093,1,human
-540021,725,0,human
 57049,513,1,human
 166307,426,1,human
 270745,2841,0,human
@@ -425320,7 +424873,6 @@ drug_id,prot_id,label,prot_domain
 284987,509,1,human
 697084,898,0,human
 643288,1454,0,human
-837012,403,0,human
 227914,786,0,human
 177902,564,0,human
 783936,366,1,human
@@ -425545,7 +425097,6 @@ drug_id,prot_id,label,prot_domain
 372307,686,1,human
 261043,2557,0,human
 792312,594,1,human
-769202,538,0,human
 544274,545,0,human
 743898,605,1,human
 463283,513,1,human
@@ -427836,7 +427387,6 @@ drug_id,prot_id,label,prot_domain
 323024,372,1,human
 67579,2812,0,human
 50504,811,0,human
-837066,403,1,human
 693643,898,1,human
 37531,54,1,virus
 276566,1339,0,human
@@ -428462,7 +428012,6 @@ drug_id,prot_id,label,prot_domain
 550855,725,1,human
 739506,554,1,human
 518839,404,1,human
-837026,403,0,human
 624014,533,1,human
 528431,841,0,human
 112921,762,1,human
@@ -430643,7 +430192,6 @@ drug_id,prot_id,label,prot_domain
 636938,599,1,human
 791155,594,1,human
 412365,2047,1,human
-485717,740,0,human
 510823,404,1,human
 570342,1495,1,human
 803946,403,1,human
@@ -430963,7 +430511,6 @@ drug_id,prot_id,label,prot_domain
 546396,725,1,human
 255326,835,1,human
 76760,366,0,human
-837004,403,0,human
 258466,403,1,human
 456622,1036,0,human
 683330,834,1,human
@@ -431266,7 +430813,6 @@ drug_id,prot_id,label,prot_domain
 184390,1342,0,human
 409972,2058,1,human
 231196,721,0,human
-769149,538,0,human
 127246,296,1,human
 758090,316,0,human
 439402,1004,0,human
@@ -431302,7 +430848,6 @@ drug_id,prot_id,label,prot_domain
 771023,617,1,human
 719191,303,1,human
 499138,963,1,human
-837054,403,0,human
 683718,338,1,human
 278205,604,1,human
 589792,797,1,human
@@ -433292,7 +432837,6 @@ drug_id,prot_id,label,prot_domain
 186884,658,1,human
 256380,455,1,human
 472101,1680,0,human
-837011,403,1,human
 519525,633,1,human
 519784,1164,0,human
 211931,1424,0,human
@@ -433768,7 +433312,6 @@ drug_id,prot_id,label,prot_domain
 286831,945,1,human
 488506,671,1,human
 824864,911,0,human
-184219,463,1,human
 599031,1067,1,human
 125247,1407,0,human
 228586,1057,1,human
@@ -433933,7 +433476,6 @@ drug_id,prot_id,label,prot_domain
 111815,887,1,human
 76951,416,1,human
 98986,2836,0,human
-769170,538,0,human
 140158,586,1,human
 805493,1329,1,human
 179771,411,0,human
@@ -434692,7 +434234,6 @@ drug_id,prot_id,label,prot_domain
 699763,1392,0,human
 660048,507,1,human
 585927,2786,1,human
-769171,538,1,human
 238693,2814,0,human
 111089,335,1,human
 61042,325,0,human
@@ -436191,7 +435732,6 @@ drug_id,prot_id,label,prot_domain
 474185,2211,0,human
 366723,506,1,human
 171637,1307,0,human
-369208,538,1,human
 648318,343,1,human
 74090,350,1,human
 535020,356,1,human
@@ -436412,7 +435952,6 @@ drug_id,prot_id,label,prot_domain
 709209,517,1,human
 546604,653,1,human
 639323,517,1,human
-837055,403,0,human
 172697,786,1,human
 747504,841,1,human
 446955,573,0,human
@@ -437075,7 +436614,6 @@ drug_id,prot_id,label,prot_domain
 221616,384,1,human
 175827,1182,0,human
 476977,289,1,human
-781047,343,1,human
 702366,652,1,human
 217638,1379,0,human
 464667,704,1,human
@@ -437741,7 +437279,6 @@ drug_id,prot_id,label,prot_domain
 38080,135,1,virus
 663866,1646,0,human
 602516,1093,1,human
-769043,538,0,human
 456060,303,1,human
 10567,2,0,virus
 85230,966,0,human
@@ -437997,7 +437534,6 @@ drug_id,prot_id,label,prot_domain
 432609,523,1,human
 802206,469,1,human
 540437,1420,1,human
-836974,403,0,human
 153993,672,1,human
 716603,1513,0,human
 487225,301,1,human
@@ -439504,7 +439040,6 @@ drug_id,prot_id,label,prot_domain
 147920,377,1,human
 733743,586,1,human
 505997,725,1,human
-769211,538,1,human
 502448,682,1,human
 136139,1465,0,human
 770485,953,1,human
@@ -439529,7 +439064,6 @@ drug_id,prot_id,label,prot_domain
 288732,343,1,human
 604660,467,1,human
 545216,517,1,human
-836975,403,0,human
 481519,303,1,human
 796791,329,1,human
 625431,458,1,human
@@ -442430,7 +441964,6 @@ drug_id,prot_id,label,prot_domain
 70646,286,0,human
 752518,316,0,human
 103675,802,0,human
-769054,538,1,human
 181869,1655,0,human
 236708,1427,0,human
 195117,442,1,human
@@ -442714,7 +442247,6 @@ drug_id,prot_id,label,prot_domain
 2593,54,1,virus
 69345,717,1,human
 65406,427,0,human
-774674,327,0,human
 500444,410,1,human
 783867,2649,0,human
 84672,869,0,human
@@ -443234,7 +442766,6 @@ drug_id,prot_id,label,prot_domain
 147954,719,1,human
 356661,780,1,human
 294071,707,1,human
-769018,538,1,human
 204412,687,0,human
 803557,1043,1,human
 305450,661,0,human
@@ -447393,7 +446924,6 @@ drug_id,prot_id,label,prot_domain
 678070,290,1,human
 509950,682,1,human
 272263,442,1,human
-769107,538,0,human
 105017,375,1,human
 844250,800,1,human
 157104,612,1,human
@@ -447866,7 +447396,6 @@ drug_id,prot_id,label,prot_domain
 825379,1495,1,human
 505033,1447,1,human
 185618,426,1,human
-836973,403,1,human
 421859,308,1,human
 713899,919,1,human
 820842,469,1,human
@@ -448407,7 +447936,6 @@ drug_id,prot_id,label,prot_domain
 702156,281,1,human
 251841,541,1,human
 132713,319,0,human
-1670,191,1,virus
 379351,1699,1,human
 199153,701,1,human
 548480,398,1,human
@@ -448656,7 +448184,6 @@ drug_id,prot_id,label,prot_domain
 310989,562,1,human
 20876,16,1,virus
 777656,1440,1,human
-837051,403,0,human
 73156,342,0,human
 340845,1720,0,human
 87365,284,0,human
@@ -448873,7 +448400,6 @@ drug_id,prot_id,label,prot_domain
 248602,1272,1,human
 48677,43,0,virus
 286437,658,1,human
-769098,538,1,human
 310133,653,1,human
 679350,743,1,human
 397613,827,0,human
@@ -449208,7 +448734,6 @@ drug_id,prot_id,label,prot_domain
 30877,21,0,virus
 660652,507,1,human
 174464,411,1,human
-441897,463,0,human
 104015,841,1,human
 825339,1251,1,human
 725048,919,1,human
@@ -450703,7 +450228,6 @@ drug_id,prot_id,label,prot_domain
 698607,717,1,human
 20472,16,0,virus
 338436,464,1,human
-682513,1184,1,human
 417427,404,1,human
 364418,1316,1,human
 333396,458,0,human
@@ -451128,7 +450652,6 @@ drug_id,prot_id,label,prot_domain
 321806,659,1,human
 729260,288,1,human
 699749,464,0,human
-184219,637,1,human
 508601,725,1,human
 388462,517,1,human
 336705,506,1,human
@@ -453353,7 +452876,6 @@ drug_id,prot_id,label,prot_domain
 82111,549,1,human
 93142,469,1,human
 611329,403,1,human
-769186,538,1,human
 45477,2812,0,human
 629693,467,1,human
 306171,1063,1,human
@@ -454246,7 +453768,6 @@ drug_id,prot_id,label,prot_domain
 63332,326,0,human
 270401,625,0,human
 235224,564,1,human
-142406,637,0,human
 64989,2752,0,human
 637336,692,1,human
 462369,602,1,human
@@ -455138,7 +454659,6 @@ drug_id,prot_id,label,prot_domain
 726487,918,1,human
 821690,361,1,human
 862004,898,1,human
-45380,463,0,human
 281921,2739,0,human
 532660,725,1,human
 434126,312,1,human
@@ -455212,7 +454732,6 @@ drug_id,prot_id,label,prot_domain
 726553,898,0,human
 509998,356,1,human
 676650,328,1,human
-837067,403,1,human
 737989,507,1,human
 220929,717,0,human
 684533,834,0,human
@@ -455868,7 +455387,6 @@ drug_id,prot_id,label,prot_domain
 98290,429,1,human
 222324,1438,0,human
 367369,1465,0,human
-836976,403,1,human
 57925,337,1,human
 253260,800,0,human
 825431,312,1,human
@@ -455910,7 +455428,6 @@ drug_id,prot_id,label,prot_domain
 356634,1653,1,human
 567461,788,1,human
 407317,1813,0,human
-682514,1184,1,human
 632396,404,1,human
 367485,345,1,human
 417400,693,1,human
@@ -457954,7 +457471,6 @@ drug_id,prot_id,label,prot_domain
 521055,404,1,human
 785890,605,1,human
 518825,404,1,human
-369203,538,1,human
 529331,464,0,human
 111053,335,1,human
 621346,506,1,human
@@ -458181,7 +457697,6 @@ drug_id,prot_id,label,prot_domain
 225211,1036,0,human
 516858,289,1,human
 26684,168,1,virus
-578253,725,1,human
 698493,664,0,human
 279017,900,0,human
 110148,1100,1,human
@@ -458723,7 +458238,6 @@ drug_id,prot_id,label,prot_domain
 553980,725,1,human
 150527,521,0,human
 205413,411,1,human
-769079,538,1,human
 121189,357,0,human
 703442,1403,1,human
 570442,517,1,human
@@ -458982,7 +458496,6 @@ drug_id,prot_id,label,prot_domain
 459096,404,1,human
 768608,667,1,human
 229584,1181,0,human
-596020,343,1,human
 137700,743,1,human
 744668,312,1,human
 22971,23,1,virus
@@ -459374,7 +458887,6 @@ drug_id,prot_id,label,prot_domain
 214082,1359,0,human
 85637,416,1,human
 104026,653,0,human
-837039,403,1,human
 122704,609,0,human
 296061,410,1,human
 64973,326,0,human
@@ -459771,7 +459283,6 @@ drug_id,prot_id,label,prot_domain
 671980,743,0,human
 299941,827,1,human
 422717,713,0,human
-506796,312,1,human
 634754,795,0,human
 483052,890,0,human
 251411,786,1,human
@@ -460165,7 +459676,6 @@ drug_id,prot_id,label,prot_domain
 64989,1840,0,human
 93670,887,1,human
 14900,1428,0,human
-769073,538,1,human
 819244,310,1,human
 586258,386,1,human
 722452,539,1,human
@@ -460352,7 +459862,6 @@ drug_id,prot_id,label,prot_domain
 15916,4,0,virus
 98933,429,1,human
 165988,630,1,human
-837052,403,1,human
 283983,313,1,human
 589162,403,1,human
 683706,898,1,human
@@ -461390,7 +460899,6 @@ drug_id,prot_id,label,prot_domain
 526913,410,1,human
 784447,910,1,human
 776668,605,1,human
-837034,403,0,human
 83552,709,0,human
 602742,404,1,human
 536127,762,1,human
@@ -461758,7 +461266,6 @@ drug_id,prot_id,label,prot_domain
 701513,1359,0,human
 513688,356,1,human
 362680,554,1,human
-836986,403,0,human
 13985,16,0,virus
 220146,1439,0,human
 162164,288,1,human
@@ -462158,7 +461665,6 @@ drug_id,prot_id,label,prot_domain
 543244,528,1,human
 488287,462,1,human
 149155,619,1,human
-769209,538,0,human
 98610,1000,0,human
 182813,1163,0,human
 566785,506,1,human
@@ -463135,7 +462641,6 @@ drug_id,prot_id,label,prot_domain
 65493,382,1,human
 765478,692,1,human
 686849,743,0,human
-774675,538,0,human
 361487,1859,1,human
 389957,594,1,human
 495393,733,1,human
@@ -463602,7 +463107,6 @@ drug_id,prot_id,label,prot_domain
 49283,264,1,virus
 666766,456,0,human
 730780,307,1,human
-596026,343,0,human
 284606,990,1,human
 554930,356,1,human
 709907,438,1,human
@@ -463804,7 +463308,6 @@ drug_id,prot_id,label,prot_domain
 89930,834,1,human
 584038,506,1,human
 740227,1979,1,human
-769100,538,1,human
 341132,811,0,human
 682696,818,1,human
 526872,578,0,human
@@ -464742,7 +464245,6 @@ drug_id,prot_id,label,prot_domain
 444239,517,0,human
 537530,1164,1,human
 853023,1877,0,human
-544159,725,1,human
 347040,791,1,human
 154153,509,1,human
 634245,763,1,human
@@ -465646,7 +465148,6 @@ drug_id,prot_id,label,prot_domain
 649323,1859,0,human
 100006,325,1,human
 360039,841,1,human
-369213,538,1,human
 633329,969,1,human
 370524,651,1,human
 152492,288,0,human
@@ -465749,7 +465250,6 @@ drug_id,prot_id,label,prot_domain
 186265,1387,0,human
 456474,783,0,human
 279365,1110,0,human
-769080,538,1,human
 312458,562,1,human
 547517,507,1,human
 442408,658,0,human
@@ -466927,7 +466427,6 @@ drug_id,prot_id,label,prot_domain
 371043,386,1,human
 687685,281,1,human
 376285,705,0,human
-836974,403,1,human
 459654,876,1,human
 365495,686,1,human
 473292,2207,0,human
@@ -467398,7 +466897,6 @@ drug_id,prot_id,label,prot_domain
 563378,404,1,human
 322286,510,1,human
 64932,549,1,human
-607896,343,1,human
 217363,354,0,human
 503256,356,1,human
 696083,665,0,human
@@ -469067,7 +468565,6 @@ drug_id,prot_id,label,prot_domain
 538070,725,1,human
 750475,1563,0,human
 109912,410,1,human
-624809,343,0,human
 668268,743,0,human
 366352,709,0,human
 586356,356,1,human
@@ -470498,7 +469995,6 @@ drug_id,prot_id,label,prot_domain
 470736,2056,0,human
 168018,546,1,human
 327774,561,1,human
-45380,463,0,human
 135356,411,0,human
 682085,550,1,human
 57968,560,1,human
@@ -470644,7 +470140,6 @@ drug_id,prot_id,label,prot_domain
 680808,834,1,human
 260524,464,0,human
 578797,973,1,human
-369200,538,0,human
 668256,749,1,human
 427961,1075,1,human
 720708,348,1,human
@@ -471770,7 +471265,6 @@ drug_id,prot_id,label,prot_domain
 369505,691,0,human
 809784,1793,1,human
 732363,293,1,human
-769082,538,1,human
 64621,469,1,human
 530766,545,0,human
 817719,903,1,human
@@ -473454,7 +472948,6 @@ drug_id,prot_id,label,prot_domain
 403362,792,1,human
 359836,455,1,human
 94232,384,1,human
-102537,2211,1,human
 752279,354,0,human
 12907,222,1,virus
 369643,343,0,human
@@ -474265,11 +473758,9 @@ drug_id,prot_id,label,prot_domain
 36424,24,1,virus
 271121,297,0,human
 774838,444,1,human
-769093,538,0,human
 164802,343,0,human
 259370,1043,0,human
 122180,788,1,human
-369239,538,0,human
 188151,312,0,human
 855852,992,0,human
 537449,545,0,human
@@ -475034,7 +474525,6 @@ drug_id,prot_id,label,prot_domain
 334648,1786,1,human
 322778,2689,0,human
 424733,1653,1,human
-836996,403,0,human
 371626,833,0,human
 502436,682,1,human
 531224,356,1,human
@@ -476929,7 +476419,6 @@ drug_id,prot_id,label,prot_domain
 611864,517,1,human
 325003,467,1,human
 81979,384,0,human
-184219,463,1,human
 336313,372,0,human
 338544,587,1,human
 452410,597,1,human
@@ -478837,7 +478326,6 @@ drug_id,prot_id,label,prot_domain
 348540,717,1,human
 709045,919,0,human
 565516,827,1,human
-441894,463,0,human
 104711,429,1,human
 301877,415,1,human
 705162,322,1,human
@@ -478904,7 +478392,6 @@ drug_id,prot_id,label,prot_domain
 157865,823,1,human
 588445,540,1,human
 848483,4044,1,human
-610528,343,1,human
 115477,319,1,human
 810759,1291,1,human
 369735,826,0,human
@@ -482481,7 +481968,6 @@ drug_id,prot_id,label,prot_domain
 82763,633,1,human
 699768,469,1,human
 31915,18,0,virus
-769211,538,0,human
 434749,1055,1,human
 73029,633,1,human
 128931,347,1,human
@@ -482594,7 +482080,6 @@ drug_id,prot_id,label,prot_domain
 248701,407,1,human
 325174,325,1,human
 424550,969,0,human
-769019,538,0,human
 72055,312,0,human
 169454,544,1,human
 247352,289,1,human
@@ -482607,7 +482092,6 @@ drug_id,prot_id,label,prot_domain
 415512,1765,0,human
 629938,506,1,human
 311205,1056,0,human
-45380,463,1,human
 718434,818,1,human
 595779,384,1,human
 156872,950,1,human
@@ -483365,7 +482849,6 @@ drug_id,prot_id,label,prot_domain
 562361,403,0,human
 332169,510,1,human
 714695,293,1,human
-434170,312,1,human
 848272,312,1,human
 103566,832,0,human
 685824,818,1,human
@@ -483384,7 +482867,6 @@ drug_id,prot_id,label,prot_domain
 345039,663,1,human
 463152,636,0,human
 793286,2649,1,human
-769086,538,0,human
 465513,2192,1,human
 316091,357,1,human
 194562,455,0,human
@@ -484836,7 +484318,6 @@ drug_id,prot_id,label,prot_domain
 425225,1285,0,human
 196624,667,0,human
 262199,659,0,human
-836975,403,1,human
 312199,619,1,human
 683702,918,1,human
 593377,528,1,human
@@ -487467,7 +486948,6 @@ drug_id,prot_id,label,prot_domain
 397636,820,1,human
 258470,1176,1,human
 245091,2283,0,human
-837058,403,0,human
 111949,741,1,human
 9880,9,0,virus
 598546,299,1,human
@@ -487484,7 +486964,6 @@ drug_id,prot_id,label,prot_domain
 862434,517,0,human
 667475,517,1,human
 304297,303,1,human
-45380,463,1,human
 295748,386,1,human
 361242,1329,1,human
 781302,695,1,human
@@ -488983,7 +488462,6 @@ drug_id,prot_id,label,prot_domain
 169729,1361,0,human
 305472,661,0,human
 811291,4032,1,human
-769192,538,0,human
 130866,908,1,human
 220206,1231,0,human
 215361,935,0,human
@@ -492717,7 +492195,6 @@ drug_id,prot_id,label,prot_domain
 792978,841,1,human
 353496,517,0,human
 256629,411,1,human
-682517,1184,1,human
 505588,356,1,human
 282747,721,0,human
 541296,841,1,human
@@ -493527,7 +493004,6 @@ drug_id,prot_id,label,prot_domain
 104895,848,0,human
 302238,841,1,human
 621231,1067,1,human
-175256,343,0,human
 665597,834,0,human
 228870,554,0,human
 259337,667,0,human
@@ -498672,7 +498148,6 @@ drug_id,prot_id,label,prot_domain
 366352,881,0,human
 184671,702,0,human
 719345,1254,1,human
-585937,289,0,human
 540860,653,1,human
 150356,795,0,human
 32190,21,0,virus
@@ -498851,7 +498326,6 @@ drug_id,prot_id,label,prot_domain
 116618,1057,0,human
 206075,376,1,human
 822316,656,1,human
-836991,403,0,human
 324816,404,1,human
 24564,168,0,virus
 505372,956,1,human
@@ -500987,7 +500461,6 @@ drug_id,prot_id,label,prot_domain
 816921,1313,1,human
 179018,2557,0,human
 746684,559,0,human
-441894,463,0,human
 766522,389,0,human
 766282,314,0,human
 219072,2832,0,human
@@ -501212,7 +500685,6 @@ drug_id,prot_id,label,prot_domain
 422549,361,1,human
 514199,707,1,human
 102833,885,1,human
-837048,403,0,human
 125541,595,1,human
 291295,826,0,human
 199222,454,1,human
@@ -501574,7 +501046,6 @@ drug_id,prot_id,label,prot_domain
 437578,366,0,human
 226039,457,1,human
 354538,1125,0,human
-837061,403,1,human
 76864,307,1,human
 534896,404,1,human
 44948,1163,1,human
@@ -503374,7 +502845,6 @@ drug_id,prot_id,label,prot_domain
 274047,446,0,human
 761210,659,1,human
 185256,554,1,human
-624810,343,1,human
 515684,653,1,human
 136852,661,1,human
 107487,869,0,human
@@ -503608,7 +503078,6 @@ drug_id,prot_id,label,prot_domain
 755617,392,0,human
 42062,1429,0,human
 331298,671,1,human
-301478,2082,1,human
 812508,702,1,human
 780690,312,1,human
 134865,900,0,human
@@ -503795,7 +503264,6 @@ drug_id,prot_id,label,prot_domain
 283077,512,0,human
 308102,561,1,human
 595758,763,1,human
-299754,2082,1,human
 324076,589,1,human
 502625,682,1,human
 512403,1815,1,human
@@ -504841,7 +504309,6 @@ drug_id,prot_id,label,prot_domain
 537723,356,1,human
 304100,717,1,human
 66811,716,0,human
-45380,463,1,human
 419858,356,0,human
 143281,817,0,human
 617119,797,1,human
@@ -507098,7 +506565,6 @@ drug_id,prot_id,label,prot_domain
 252404,1054,0,human
 156335,851,1,human
 185827,829,1,human
-837035,403,1,human
 99298,780,0,human
 655445,369,1,human
 4735,2,0,virus
@@ -510291,7 +509757,6 @@ drug_id,prot_id,label,prot_domain
 326431,1087,1,human
 814195,2004,1,human
 71467,393,0,human
-769080,538,0,human
 230173,407,1,human
 598105,455,1,human
 260147,524,1,human
@@ -511090,7 +510555,6 @@ drug_id,prot_id,label,prot_domain
 308634,2813,0,human
 6984,189,1,virus
 11849,2,0,virus
-769208,538,1,human
 63748,2837,0,human
 232454,855,1,human
 39503,182,1,virus
@@ -512886,7 +512350,6 @@ drug_id,prot_id,label,prot_domain
 605205,384,1,human
 423004,1164,1,human
 664009,847,0,human
-836979,403,0,human
 736364,281,1,human
 84667,326,0,human
 437635,778,1,human
@@ -513167,7 +512630,6 @@ drug_id,prot_id,label,prot_domain
 405512,1188,0,human
 527784,717,1,human
 689615,834,1,human
-769212,538,0,human
 439353,743,1,human
 814415,2004,1,human
 140974,446,0,human
@@ -514063,7 +513525,6 @@ drug_id,prot_id,label,prot_domain
 297333,412,1,human
 563576,411,1,human
 73343,310,1,human
-369204,538,1,human
 55478,325,1,human
 613560,554,0,human
 700392,1845,0,human
@@ -514607,7 +514068,6 @@ drug_id,prot_id,label,prot_domain
 754148,1489,0,human
 215141,554,1,human
 144,1450,0,human
-45380,463,0,human
 187315,343,0,human
 164923,829,1,human
 312157,561,1,human
@@ -516793,7 +516253,6 @@ drug_id,prot_id,label,prot_domain
 516687,455,1,human
 733863,841,1,human
 576317,1164,1,human
-369211,538,0,human
 97300,834,1,human
 557104,1089,1,human
 213281,834,0,human
@@ -519102,7 +518561,6 @@ drug_id,prot_id,label,prot_domain
 642827,761,1,human
 695116,1551,0,human
 663866,571,0,human
-836993,403,0,human
 635022,653,1,human
 692929,1551,0,human
 311261,659,1,human
@@ -520462,7 +519920,6 @@ drug_id,prot_id,label,prot_domain
 464168,1163,1,human
 475719,743,1,human
 82531,1139,0,human
-769101,538,1,human
 665114,1115,1,human
 9117,189,1,virus
 258092,1645,0,human
@@ -521880,7 +521337,6 @@ drug_id,prot_id,label,prot_domain
 326121,659,1,human
 703667,898,1,human
 451192,688,0,human
-837043,403,1,human
 77685,326,0,human
 129628,648,1,human
 547857,356,1,human
@@ -523105,7 +522561,6 @@ drug_id,prot_id,label,prot_domain
 131317,554,1,human
 49263,43,1,virus
 270745,954,0,human
-679501,1184,1,human
 197293,800,0,human
 195618,415,0,human
 517976,761,1,human
@@ -525223,7 +524678,6 @@ drug_id,prot_id,label,prot_domain
 464673,281,1,human
 258116,538,0,human
 492215,1815,0,human
-837014,403,0,human
 15484,14,0,virus
 138578,365,1,human
 79946,934,0,human
@@ -525584,7 +525038,6 @@ drug_id,prot_id,label,prot_domain
 366352,1379,0,human
 14063,16,0,virus
 824546,403,1,human
-45380,463,0,human
 367400,717,0,human
 689305,829,1,human
 163307,614,0,human
@@ -526681,7 +526134,6 @@ drug_id,prot_id,label,prot_domain
 103613,415,0,human
 786141,506,1,human
 74145,940,0,human
-273194,517,1,human
 443834,384,1,human
 259853,540,1,human
 200464,411,1,human
@@ -527083,7 +526535,6 @@ drug_id,prot_id,label,prot_domain
 602945,463,1,human
 136384,439,1,human
 528537,969,0,human
-769155,538,1,human
 625044,517,0,human
 178687,321,0,human
 255621,672,1,human
@@ -528280,7 +527731,6 @@ drug_id,prot_id,label,prot_domain
 170429,957,0,human
 43212,6,1,virus
 350937,508,1,human
-836999,403,0,human
 446686,1732,0,human
 127828,469,1,human
 573326,948,1,human
@@ -530732,7 +530182,6 @@ drug_id,prot_id,label,prot_domain
 134408,855,1,human
 537291,356,1,human
 240530,454,0,human
-769215,538,1,human
 539681,356,1,human
 429208,1009,1,human
 855173,718,1,human
@@ -531001,7 +530450,6 @@ drug_id,prot_id,label,prot_domain
 625018,517,0,human
 730715,281,1,human
 217066,494,0,human
-273194,517,0,human
 709620,586,1,human
 212306,586,1,human
 215829,1433,0,human
@@ -531391,7 +530839,6 @@ drug_id,prot_id,label,prot_domain
 433425,1517,1,human
 157861,297,0,human
 172092,523,1,human
-369208,538,0,human
 181467,457,1,human
 175313,554,1,human
 678354,918,0,human
@@ -532057,7 +531504,6 @@ drug_id,prot_id,label,prot_domain
 738697,586,1,human
 463284,357,1,human
 353153,404,1,human
-769059,538,0,human
 64121,456,1,human
 844256,4040,1,human
 365459,356,1,human
@@ -532238,7 +531684,6 @@ drug_id,prot_id,label,prot_domain
 238266,796,0,human
 215367,445,0,human
 570446,517,1,human
-769193,538,1,human
 221380,1429,0,human
 319883,667,0,human
 395123,728,1,human
@@ -535500,7 +534945,6 @@ drug_id,prot_id,label,prot_domain
 792362,507,1,human
 469491,637,1,human
 811663,666,1,human
-837045,403,0,human
 831232,3188,1,human
 140162,1644,1,human
 373033,404,1,human
@@ -536067,7 +535511,6 @@ drug_id,prot_id,label,prot_domain
 49953,155,1,virus
 293940,1313,1,human
 297913,688,1,human
-769149,538,1,human
 247943,280,0,human
 195145,325,0,human
 829371,403,1,human
@@ -536564,7 +536007,6 @@ drug_id,prot_id,label,prot_domain
 779873,2649,1,human
 130045,762,0,human
 593567,404,1,human
-642432,343,0,human
 413323,1793,1,human
 106221,404,0,human
 200850,506,1,human
@@ -537550,7 +536992,6 @@ drug_id,prot_id,label,prot_domain
 33454,18,0,virus
 19140,1450,0,human
 156932,748,0,human
-836998,403,0,human
 374692,2471,0,human
 76473,463,0,human
 368453,1164,0,human
@@ -538764,7 +538205,6 @@ drug_id,prot_id,label,prot_domain
 396812,581,1,human
 201501,554,0,human
 710929,652,1,human
-573887,289,0,human
 451046,636,0,human
 638084,1035,1,human
 135999,834,1,human
@@ -539949,7 +539389,6 @@ drug_id,prot_id,label,prot_domain
 178662,524,1,human
 844468,777,1,human
 215864,295,1,human
-769075,538,1,human
 759035,2642,0,human
 229375,369,0,human
 404084,1149,0,human
@@ -540507,7 +539946,6 @@ drug_id,prot_id,label,prot_domain
 726833,455,1,human
 87473,1036,0,human
 571180,1089,1,human
-837013,403,0,human
 473202,361,1,human
 398653,467,1,human
 728269,455,1,human
@@ -545558,7 +544996,6 @@ drug_id,prot_id,label,prot_domain
 698702,437,1,human
 17262,168,0,virus
 511686,2783,1,human
-769065,538,1,human
 385834,517,1,human
 546992,1228,1,human
 443283,710,1,human
@@ -546845,7 +546282,6 @@ drug_id,prot_id,label,prot_domain
 704723,2861,0,human
 174961,1070,0,human
 716827,841,1,human
-769215,538,0,human
 767133,652,1,human
 185232,384,1,human
 312046,517,1,human
@@ -547072,7 +546508,6 @@ drug_id,prot_id,label,prot_domain
 613049,694,1,human
 739084,410,1,human
 527546,637,1,human
-837043,403,0,human
 364729,384,1,human
 253836,586,0,human
 131598,322,1,human
@@ -548947,7 +548382,6 @@ drug_id,prot_id,label,prot_domain
 214460,559,0,human
 743380,507,1,human
 830381,841,1,human
-458610,403,0,human
 703816,281,1,human
 489776,611,0,human
 164799,726,0,human
@@ -551391,7 +550825,6 @@ drug_id,prot_id,label,prot_domain
 552048,1199,0,human
 366352,780,0,human
 513147,659,1,human
-837039,403,0,human
 724421,838,0,human
 466976,617,1,human
 592838,763,1,human
@@ -552583,7 +552016,6 @@ drug_id,prot_id,label,prot_domain
 732264,293,1,human
 428494,593,0,human
 337185,455,1,human
-369266,538,1,human
 156635,612,1,human
 329512,2768,0,human
 779147,607,1,human
@@ -556306,7 +555738,6 @@ drug_id,prot_id,label,prot_domain
 72416,305,1,human
 495952,950,0,human
 359120,1465,0,human
-769046,538,0,human
 319821,651,1,human
 360425,295,0,human
 231291,564,1,human
@@ -556556,7 +555987,6 @@ drug_id,prot_id,label,prot_domain
 350937,2833,0,human
 187051,460,0,human
 484470,3338,0,human
-607896,343,0,human
 602379,633,1,human
 675217,1286,1,human
 619903,517,1,human
@@ -556873,13 +556303,11 @@ drug_id,prot_id,label,prot_domain
 662785,2557,0,human
 23917,2,0,virus
 10177,16,0,virus
-769128,538,0,human
 230106,457,1,human
 10436,9,1,virus
 204412,1243,0,human
 51208,269,0,virus
 159244,996,0,human
-837041,403,0,human
 96318,429,1,human
 159281,457,1,human
 341796,666,1,human
@@ -557128,7 +556556,6 @@ drug_id,prot_id,label,prot_domain
 100995,890,1,human
 807561,617,0,human
 485985,671,1,human
-837006,403,0,human
 595083,594,1,human
 433320,1403,1,human
 154806,293,0,human
@@ -557362,7 +556789,6 @@ drug_id,prot_id,label,prot_domain
 423924,303,1,human
 841293,343,1,human
 360165,788,1,human
-837041,403,0,human
 862134,1633,0,human
 23887,136,1,virus
 213111,1424,0,human
@@ -558646,7 +558072,6 @@ drug_id,prot_id,label,prot_domain
 54735,1209,0,human
 638877,351,1,human
 376746,407,0,human
-836990,403,0,human
 391535,992,0,human
 751958,408,1,human
 237124,1428,0,human
@@ -558685,7 +558110,6 @@ drug_id,prot_id,label,prot_domain
 618817,1003,1,human
 267461,409,0,human
 631467,1631,1,human
-254505,455,1,human
 271673,617,0,human
 833722,702,1,human
 864,16,1,virus
@@ -559370,7 +558794,6 @@ drug_id,prot_id,label,prot_domain
 128165,702,0,human
 258720,539,1,human
 638320,653,1,human
-770982,725,1,human
 626838,761,1,human
 137540,388,0,human
 59034,385,0,human
@@ -560540,7 +559963,6 @@ drug_id,prot_id,label,prot_domain
 257065,594,1,human
 315276,677,1,human
 77634,409,1,human
-837067,403,0,human
 21116,59,0,virus
 736164,675,1,human
 21241,5,0,virus
@@ -561335,7 +560757,6 @@ drug_id,prot_id,label,prot_domain
 10134,24,0,virus
 597491,637,1,human
 109433,429,1,human
-434170,312,0,human
 721742,517,1,human
 170293,1181,0,human
 258684,539,1,human
@@ -562401,7 +561822,6 @@ drug_id,prot_id,label,prot_domain
 694815,1067,1,human
 386356,554,0,human
 711766,838,1,human
-364716,538,0,human
 637261,692,1,human
 129165,672,0,human
 829031,779,1,human
@@ -562859,7 +562279,6 @@ drug_id,prot_id,label,prot_domain
 490453,395,1,human
 575508,651,1,human
 77387,377,0,human
-837019,403,0,human
 97650,2665,0,human
 240190,1362,0,human
 563213,1878,1,human
@@ -563967,7 +563386,6 @@ drug_id,prot_id,label,prot_domain
 713810,594,1,human
 252172,963,0,human
 681318,307,0,human
-679501,1184,0,human
 838125,581,0,human
 587228,1387,1,human
 268216,669,1,human
@@ -564607,7 +564025,6 @@ drug_id,prot_id,label,prot_domain
 714369,303,1,human
 616788,585,1,human
 147952,614,1,human
-837061,403,0,human
 393984,1493,0,human
 320285,303,1,human
 679222,749,1,human
@@ -566928,7 +566345,6 @@ drug_id,prot_id,label,prot_domain
 511683,2783,1,human
 312772,561,1,human
 287332,762,1,human
-769208,538,0,human
 183385,1389,0,human
 105558,334,1,human
 179030,354,0,human
@@ -567413,7 +566829,6 @@ drug_id,prot_id,label,prot_domain
 414291,1251,1,human
 667259,1902,0,human
 470747,751,0,human
-455178,403,1,human
 710230,316,1,human
 55718,385,1,human
 358702,594,1,human
@@ -568289,7 +567704,6 @@ drug_id,prot_id,label,prot_domain
 842677,705,1,human
 662692,517,0,human
 805576,312,1,human
-184219,463,1,human
 350162,343,1,human
 601852,1387,1,human
 811601,666,1,human
@@ -568746,7 +568160,6 @@ drug_id,prot_id,label,prot_domain
 24835,10,0,virus
 136683,394,0,human
 160408,281,0,human
-769164,538,0,human
 191098,460,1,human
 39171,20,1,virus
 549395,404,1,human
@@ -569163,7 +568576,6 @@ drug_id,prot_id,label,prot_domain
 332461,691,0,human
 683491,826,1,human
 593124,725,0,human
-837064,403,1,human
 377469,638,1,human
 208004,800,0,human
 762889,1191,0,human
@@ -571315,7 +570727,6 @@ drug_id,prot_id,label,prot_domain
 22171,16,0,virus
 485026,554,1,human
 201439,661,1,human
-369205,538,0,human
 592488,653,1,human
 17620,1609,0,human
 178336,656,0,human
@@ -571653,7 +571064,6 @@ drug_id,prot_id,label,prot_domain
 552579,534,1,human
 64893,351,0,human
 450296,792,1,human
-369209,538,0,human
 750228,343,0,human
 686657,743,1,human
 574416,467,1,human
@@ -572526,7 +571936,6 @@ drug_id,prot_id,label,prot_domain
 667259,614,0,human
 87210,557,0,human
 213973,1424,0,human
-769151,538,0,human
 841300,343,1,human
 522279,635,1,human
 726446,918,0,human
@@ -572625,7 +572034,6 @@ drug_id,prot_id,label,prot_domain
 165504,743,1,human
 215502,855,1,human
 130373,432,0,human
-837046,403,0,human
 836362,952,1,human
 680172,281,1,human
 274374,677,0,human
@@ -572996,7 +572404,6 @@ drug_id,prot_id,label,prot_domain
 722240,554,1,human
 294736,419,1,human
 686043,918,1,human
-45380,463,1,human
 19014,16,0,virus
 126740,297,1,human
 676394,742,0,human
@@ -573068,7 +572475,6 @@ drug_id,prot_id,label,prot_domain
 850695,517,1,human
 189074,638,0,human
 641337,581,1,human
-836983,403,0,human
 783604,971,1,human
 488306,910,1,human
 418467,1075,1,human
@@ -573921,7 +573327,6 @@ drug_id,prot_id,label,prot_domain
 221552,312,0,human
 524315,725,1,human
 64384,1034,0,human
-837057,403,0,human
 159294,992,0,human
 192170,509,1,human
 226948,440,1,human
@@ -574284,7 +573689,6 @@ drug_id,prot_id,label,prot_domain
 455587,656,1,human
 734673,281,1,human
 59920,312,1,human
-769210,538,1,human
 366352,657,0,human
 600514,1186,1,human
 785724,2649,1,human
@@ -574980,7 +574384,6 @@ drug_id,prot_id,label,prot_domain
 716656,281,1,human
 121544,889,0,human
 351964,370,1,human
-837033,403,1,human
 592516,617,1,human
 257783,693,0,human
 669722,800,0,human
@@ -575529,7 +574932,6 @@ drug_id,prot_id,label,prot_domain
 403250,791,1,human
 58091,325,0,human
 133942,869,0,human
-369241,538,0,human
 359066,1507,0,human
 753898,1489,0,human
 584376,456,1,human
@@ -575714,7 +575116,6 @@ drug_id,prot_id,label,prot_domain
 115536,469,1,human
 705326,664,1,human
 65041,281,1,human
-73612,313,0,human
 297542,1516,1,human
 30516,21,0,virus
 802987,1916,1,human
@@ -575938,7 +575339,6 @@ drug_id,prot_id,label,prot_domain
 862896,517,0,human
 278206,539,1,human
 214313,664,0,human
-769085,538,0,human
 366032,588,0,human
 769129,538,1,human
 856281,612,1,human
@@ -578049,7 +577449,6 @@ drug_id,prot_id,label,prot_domain
 156462,648,0,human
 112644,756,1,human
 774984,1164,1,human
-369216,538,1,human
 737551,506,1,human
 312988,1063,1,human
 83022,281,0,human
@@ -580632,7 +580031,6 @@ drug_id,prot_id,label,prot_domain
 791247,1067,1,human
 554571,945,1,human
 739343,281,1,human
-769158,538,1,human
 296113,1516,1,human
 161632,510,1,human
 388000,484,1,human
@@ -580707,7 +580105,6 @@ drug_id,prot_id,label,prot_domain
 376832,594,1,human
 315542,554,1,human
 67795,1413,1,human
-836996,403,1,human
 739034,673,1,human
 697701,404,1,human
 40123,188,1,virus
@@ -580844,7 +580241,6 @@ drug_id,prot_id,label,prot_domain
 837996,666,1,human
 655915,686,1,human
 173840,371,0,human
-369207,538,0,human
 385416,1278,1,human
 75500,312,1,human
 138706,762,1,human
@@ -581213,7 +580609,6 @@ drug_id,prot_id,label,prot_domain
 313244,510,0,human
 592930,763,1,human
 388310,949,1,human
-12793,6,1,virus
 208944,554,1,human
 701244,408,1,human
 145662,544,1,human
@@ -582170,7 +581565,6 @@ drug_id,prot_id,label,prot_domain
 787203,1329,1,human
 679188,420,1,human
 407564,965,1,human
-369242,538,0,human
 463104,356,0,human
 395793,1255,0,human
 274665,1516,0,human
@@ -583085,7 +582479,6 @@ drug_id,prot_id,label,prot_domain
 530173,667,0,human
 183117,521,0,human
 251576,949,1,human
-369266,538,0,human
 206127,1492,0,human
 88257,674,1,human
 307277,635,1,human
@@ -584310,7 +583703,6 @@ drug_id,prot_id,label,prot_domain
 361335,1856,0,human
 664428,1246,1,human
 296242,438,0,human
-837047,403,0,human
 145746,957,0,human
 48684,43,1,virus
 430417,1508,0,human
@@ -584795,7 +584187,6 @@ drug_id,prot_id,label,prot_domain
 111508,1093,1,human
 4320,47,0,virus
 217153,2831,0,human
-769158,538,0,human
 811579,410,1,human
 182828,454,0,human
 268792,911,1,human
@@ -585175,7 +584566,6 @@ drug_id,prot_id,label,prot_domain
 797162,329,1,human
 682397,340,1,human
 530920,361,1,human
-769126,538,1,human
 433525,2058,1,human
 404369,667,0,human
 330779,1221,1,human
@@ -585220,7 +584610,6 @@ drug_id,prot_id,label,prot_domain
 466759,672,1,human
 525210,1164,1,human
 568059,465,0,human
-580905,289,0,human
 391032,623,0,human
 734720,506,1,human
 655254,313,0,human
@@ -586669,7 +586058,6 @@ drug_id,prot_id,label,prot_domain
 281921,1649,0,human
 759271,285,0,human
 710108,1678,0,human
-767111,538,0,human
 69818,281,0,human
 179340,835,0,human
 63330,326,0,human
@@ -587249,7 +586637,6 @@ drug_id,prot_id,label,prot_domain
 255699,383,0,human
 151682,335,1,human
 350990,506,1,human
-837048,403,1,human
 493686,357,0,human
 214003,350,0,human
 245838,800,0,human
@@ -588184,7 +587571,6 @@ drug_id,prot_id,label,prot_domain
 175972,796,0,human
 183191,294,1,human
 274126,540,0,human
-542331,725,1,human
 489613,357,1,human
 38662,180,1,virus
 595283,403,1,human
@@ -589837,7 +589223,6 @@ drug_id,prot_id,label,prot_domain
 809020,455,1,human
 549198,561,1,human
 37208,135,1,virus
-580011,343,1,human
 643216,1990,0,human
 497840,969,0,human
 703970,898,1,human
@@ -591970,7 +591355,6 @@ drug_id,prot_id,label,prot_domain
 86276,370,0,human
 759784,693,1,human
 273481,677,0,human
-836997,403,0,human
 324060,587,1,human
 204787,727,0,human
 277149,683,1,human
@@ -597137,7 +596521,6 @@ drug_id,prot_id,label,prot_domain
 389417,426,0,human
 483376,903,0,human
 735498,586,1,human
-767120,538,0,human
 725840,898,1,human
 260365,354,1,human
 113916,930,0,human
@@ -597172,7 +596555,6 @@ drug_id,prot_id,label,prot_domain
 14902,18,0,virus
 531931,1320,0,human
 209121,1427,0,human
-837031,403,0,human
 70347,343,1,human
 90102,335,1,human
 586708,797,1,human
@@ -598073,7 +597455,6 @@ drug_id,prot_id,label,prot_domain
 164749,658,1,human
 439129,395,0,human
 65918,377,1,human
-184219,463,1,human
 11772,222,0,virus
 736600,281,1,human
 748773,302,1,human
@@ -599055,7 +598436,6 @@ drug_id,prot_id,label,prot_domain
 258590,707,0,human
 286137,1274,0,human
 668886,898,1,human
-769192,538,1,human
 83302,441,0,human
 359992,1176,1,human
 580993,671,1,human
@@ -599241,7 +598621,6 @@ drug_id,prot_id,label,prot_domain
 141415,717,1,human
 287613,672,0,human
 461781,637,1,human
-836999,403,1,human
 274665,2814,0,human
 501385,404,1,human
 205714,1190,0,human
@@ -600933,7 +600312,6 @@ drug_id,prot_id,label,prot_domain
 354148,1176,1,human
 37964,24,1,virus
 812057,693,1,human
-837030,403,0,human
 352890,777,0,human
 332461,533,0,human
 667239,507,1,human
@@ -601473,7 +600851,6 @@ drug_id,prot_id,label,prot_domain
 505126,531,1,human
 168287,554,1,human
 113405,889,1,human
-769204,538,0,human
 280675,1437,0,human
 315595,343,1,human
 442202,1436,0,human
@@ -604319,7 +603696,6 @@ drug_id,prot_id,label,prot_domain
 97734,891,1,human
 255864,386,0,human
 702080,409,0,human
-769194,538,0,human
 691331,818,1,human
 381277,911,1,human
 98456,940,0,human
@@ -606366,7 +605742,6 @@ drug_id,prot_id,label,prot_domain
 590929,1420,1,human
 498717,312,1,human
 16539,14,0,virus
-837063,403,0,human
 740367,462,1,human
 696595,918,1,human
 715367,386,1,human
@@ -608168,7 +607543,6 @@ drug_id,prot_id,label,prot_domain
 177736,415,0,human
 737568,506,1,human
 559449,464,1,human
-369223,538,1,human
 187978,425,0,human
 291052,1176,1,human
 594907,343,1,human
@@ -608732,7 +608106,6 @@ drug_id,prot_id,label,prot_domain
 540993,653,1,human
 693575,638,1,human
 489291,1996,1,human
-769086,538,1,human
 852643,410,1,human
 615947,740,1,human
 432709,1011,0,human
@@ -609571,7 +608944,6 @@ drug_id,prot_id,label,prot_domain
 726041,898,1,human
 323732,1164,1,human
 703542,838,0,human
-769130,538,0,human
 454340,366,0,human
 18704,168,0,virus
 166658,883,0,human
@@ -611294,7 +610666,6 @@ drug_id,prot_id,label,prot_domain
 701077,1197,0,human
 293485,356,1,human
 453260,811,0,human
-769120,538,1,human
 580168,690,1,human
 513335,313,1,human
 384898,554,1,human
@@ -611407,7 +610778,6 @@ drug_id,prot_id,label,prot_domain
 708315,898,1,human
 279097,386,0,human
 166720,869,0,human
-602799,725,0,human
 221038,1231,0,human
 540774,653,1,human
 117359,887,0,human
@@ -612046,7 +611416,6 @@ drug_id,prot_id,label,prot_domain
 298811,466,1,human
 453703,969,0,human
 30180,21,0,virus
-607894,343,0,human
 192449,457,1,human
 355784,1631,1,human
 14442,126,0,virus
@@ -613035,7 +612404,6 @@ drug_id,prot_id,label,prot_domain
 500047,404,1,human
 459564,404,1,human
 703453,281,1,human
-837027,403,1,human
 463771,314,0,human
 368278,1465,0,human
 209181,442,1,human
@@ -613139,7 +612507,6 @@ drug_id,prot_id,label,prot_domain
 768683,846,1,human
 515213,442,1,human
 33514,21,0,virus
-769060,538,1,human
 213603,369,0,human
 565087,532,1,human
 231509,658,0,human
@@ -614023,7 +613390,6 @@ drug_id,prot_id,label,prot_domain
 576183,553,1,human
 267556,510,0,human
 760232,800,0,human
-599362,707,1,human
 583310,517,0,human
 374544,714,0,human
 707222,1393,0,human
@@ -614570,7 +613936,6 @@ drug_id,prot_id,label,prot_domain
 129990,658,0,human
 331376,710,1,human
 369508,653,1,human
-837025,403,1,human
 490517,377,1,human
 546811,462,1,human
 576755,827,1,human
@@ -616182,7 +615547,6 @@ drug_id,prot_id,label,prot_domain
 595683,454,1,human
 291922,688,1,human
 439008,554,1,human
-837034,403,0,human
 764580,903,1,human
 390151,506,1,human
 136061,869,1,human
@@ -616491,7 +615855,6 @@ drug_id,prot_id,label,prot_domain
 713504,539,1,human
 394887,740,0,human
 60771,818,1,human
-836977,403,1,human
 702157,1379,0,human
 454265,2060,0,human
 590239,542,1,human
@@ -616893,7 +616256,6 @@ drug_id,prot_id,label,prot_domain
 634144,1314,1,human
 10926,437,0,human
 181985,354,1,human
-362606,538,0,human
 133026,979,0,human
 251169,554,0,human
 444023,663,0,human
@@ -619335,7 +618697,6 @@ drug_id,prot_id,label,prot_domain
 646282,1186,1,human
 639778,586,1,human
 446044,2044,1,human
-837059,403,1,human
 221643,743,0,human
 342548,343,1,human
 473680,763,1,human
@@ -621900,7 +621261,6 @@ drug_id,prot_id,label,prot_domain
 687971,901,1,human
 317955,1326,1,human
 286420,691,1,human
-796096,463,0,human
 204021,796,0,human
 523116,740,1,human
 36630,20,1,virus
@@ -622846,7 +622206,6 @@ drug_id,prot_id,label,prot_domain
 173747,1794,0,human
 85734,322,1,human
 140017,918,0,human
-837028,403,1,human
 681405,425,1,human
 850337,469,1,human
 539696,1420,1,human
@@ -625934,7 +625293,6 @@ drug_id,prot_id,label,prot_domain
 836235,403,1,human
 56123,411,1,human
 696979,1551,0,human
-369224,538,0,human
 802542,2004,0,human
 213466,638,0,human
 172198,819,0,human
@@ -626443,7 +625801,6 @@ drug_id,prot_id,label,prot_domain
 195629,409,1,human
 445328,1320,1,human
 119630,509,0,human
-836986,403,1,human
 28909,43,1,virus
 203711,1424,0,human
 351177,539,0,human
@@ -628404,7 +627761,6 @@ drug_id,prot_id,label,prot_domain
 255864,2283,0,human
 192564,303,0,human
 626326,343,1,human
-677,6,0,virus
 132636,997,0,human
 60253,1474,0,human
 560202,1813,1,human
@@ -631864,7 +631220,6 @@ drug_id,prot_id,label,prot_domain
 844276,800,1,human
 94238,512,1,human
 833097,1317,1,human
-836995,403,0,human
 661217,507,1,human
 487074,949,1,human
 314912,876,1,human
@@ -635412,7 +634767,6 @@ drug_id,prot_id,label,prot_domain
 724385,1672,0,human
 236826,1431,0,human
 303603,1796,1,human
-369204,538,0,human
 41154,6,1,virus
 327779,561,1,human
 626215,469,1,human
@@ -635788,7 +635142,6 @@ drug_id,prot_id,label,prot_domain
 461223,384,1,human
 847315,777,1,human
 280759,711,0,human
-837015,403,0,human
 749360,581,1,human
 55429,599,0,human
 651020,1294,0,human
@@ -636021,7 +635374,6 @@ drug_id,prot_id,label,prot_domain
 444630,1055,1,human
 395977,725,1,human
 267033,312,1,human
-837023,403,1,human
 132417,916,1,human
 99037,607,1,human
 460024,404,1,human
@@ -636773,7 +636125,6 @@ drug_id,prot_id,label,prot_domain
 697849,898,0,human
 127380,312,1,human
 187777,957,0,human
-837010,403,1,human
 600484,1186,0,human
 54616,343,0,human
 585095,841,1,human
@@ -636850,7 +636201,6 @@ drug_id,prot_id,label,prot_domain
 492412,717,1,human
 246222,502,1,human
 712958,604,0,human
-837011,403,0,human
 486203,310,0,human
 297114,517,0,human
 523122,356,1,human
@@ -637187,7 +636537,6 @@ drug_id,prot_id,label,prot_domain
 272674,989,1,human
 809568,1793,1,human
 10334,744,0,human
-596021,343,0,human
 743408,455,1,human
 569086,386,1,human
 535649,289,1,human
@@ -639899,7 +639248,6 @@ drug_id,prot_id,label,prot_domain
 685671,436,1,human
 519069,670,1,human
 424577,762,0,human
-837006,403,0,human
 32983,21,0,virus
 418894,1701,1,human
 237871,295,1,human
@@ -640253,7 +639601,6 @@ drug_id,prot_id,label,prot_domain
 689966,838,0,human
 254845,476,1,human
 824502,403,1,human
-769171,538,0,human
 188696,657,1,human
 627447,1067,1,human
 599149,456,1,human
@@ -640276,7 +639623,6 @@ drug_id,prot_id,label,prot_domain
 369065,779,1,human
 91279,707,1,human
 32825,21,0,virus
-540021,725,1,human
 776147,898,1,human
 755372,2776,0,human
 302120,458,0,human
@@ -640599,7 +639945,6 @@ drug_id,prot_id,label,prot_domain
 466066,949,1,human
 700904,1107,0,human
 423078,459,1,human
-769016,538,0,human
 427236,666,1,human
 738076,585,1,human
 244097,956,0,human
@@ -640761,7 +640106,6 @@ drug_id,prot_id,label,prot_domain
 693503,294,1,human
 281921,1862,0,human
 454866,797,1,human
-837001,403,0,human
 487907,289,1,human
 221747,322,0,human
 164671,596,1,human
@@ -641058,7 +640402,6 @@ drug_id,prot_id,label,prot_domain
 196341,671,1,human
 281126,2814,0,human
 255489,1173,0,human
-836975,403,0,human
 156945,869,0,human
 114217,899,1,human
 841168,343,1,human
@@ -641168,7 +640511,6 @@ drug_id,prot_id,label,prot_domain
 225888,409,1,human
 833065,386,1,human
 521076,586,0,human
-769128,538,1,human
 522519,455,1,human
 749980,581,1,human
 680889,848,0,human
@@ -642867,7 +642209,6 @@ drug_id,prot_id,label,prot_domain
 383668,525,0,human
 529078,1320,1,human
 25850,1462,1,human
-610528,343,0,human
 280553,687,1,human
 393771,846,0,human
 314272,763,0,human
@@ -643287,7 +642628,6 @@ drug_id,prot_id,label,prot_domain
 577271,356,1,human
 419365,664,1,human
 4682,54,1,virus
-1670,191,0,virus
 257039,934,0,human
 679820,848,0,human
 4311,2827,0,human
@@ -644422,7 +643762,6 @@ drug_id,prot_id,label,prot_domain
 634283,763,1,human
 521259,517,0,human
 76103,1379,0,human
-837024,403,0,human
 189297,1189,1,human
 410718,433,1,human
 291128,617,1,human
@@ -645275,7 +644614,6 @@ drug_id,prot_id,label,prot_domain
 100094,586,0,human
 354653,828,0,human
 62617,795,0,human
-769085,538,1,human
 489043,2070,0,human
 155896,1239,0,human
 212751,658,0,human
@@ -645346,7 +644684,6 @@ drug_id,prot_id,label,prot_domain
 380016,581,0,human
 178046,409,1,human
 157344,293,1,human
-836982,403,1,human
 752726,539,1,human
 224814,552,1,human
 581003,725,1,human
@@ -645947,7 +645284,6 @@ drug_id,prot_id,label,prot_domain
 221970,437,1,human
 318864,659,1,human
 84160,346,0,human
-184219,463,1,human
 581102,740,1,human
 138335,1181,0,human
 711896,1314,1,human
@@ -646208,7 +645544,6 @@ drug_id,prot_id,label,prot_domain
 109017,429,1,human
 160324,460,0,human
 709194,517,1,human
-769018,538,0,human
 192030,917,0,human
 172461,953,0,human
 622493,581,1,human
@@ -648565,7 +647900,6 @@ drug_id,prot_id,label,prot_domain
 175256,1959,0,human
 644382,690,0,human
 109850,348,1,human
-769163,538,0,human
 851427,338,1,human
 558629,356,1,human
 780707,312,1,human
@@ -649277,7 +648611,6 @@ drug_id,prot_id,label,prot_domain
 529507,1035,1,human
 414914,826,1,human
 612669,707,0,human
-769076,538,1,human
 81982,511,0,human
 465884,348,0,human
 356090,395,1,human
@@ -652975,7 +652308,6 @@ drug_id,prot_id,label,prot_domain
 573856,659,1,human
 147646,847,0,human
 418135,877,1,human
-836977,403,0,human
 134412,855,1,human
 181797,523,0,human
 618819,1003,1,human
@@ -654728,7 +654060,6 @@ drug_id,prot_id,label,prot_domain
 145575,612,1,human
 308885,327,1,human
 42900,13,0,virus
-369225,538,0,human
 202386,343,1,human
 585574,404,0,human
 673327,340,1,human
@@ -655928,7 +655259,6 @@ drug_id,prot_id,label,prot_domain
 428525,437,0,human
 200446,1159,1,human
 474411,891,1,human
-769061,538,0,human
 700434,506,0,human
 543538,763,1,human
 9341,24,1,virus
@@ -658493,7 +657823,6 @@ drug_id,prot_id,label,prot_domain
 693708,1845,0,human
 347738,587,1,human
 430435,1320,1,human
-836973,403,0,human
 604128,528,1,human
 579843,705,1,human
 505802,725,1,human
@@ -658717,7 +658046,6 @@ drug_id,prot_id,label,prot_domain
 554864,633,1,human
 198898,1067,1,human
 605831,554,1,human
-836998,403,1,human
 437135,404,1,human
 843308,619,1,human
 784630,544,1,human
@@ -659241,7 +658569,6 @@ drug_id,prot_id,label,prot_domain
 348163,634,0,human
 464380,372,0,human
 404817,1461,1,human
-769052,538,1,human
 743102,1115,1,human
 471752,956,0,human
 517385,455,1,human
@@ -659648,7 +658975,6 @@ drug_id,prot_id,label,prot_domain
 194776,653,0,human
 8545,56,1,virus
 393763,1683,1,human
-837050,403,0,human
 526649,410,1,human
 74045,818,1,human
 134384,855,0,human
@@ -663292,7 +662618,6 @@ drug_id,prot_id,label,prot_domain
 387635,584,0,human
 626833,1064,0,human
 349476,484,0,human
-769076,538,0,human
 227339,427,0,human
 217997,677,1,human
 261217,1360,0,human
@@ -664338,7 +663663,6 @@ drug_id,prot_id,label,prot_domain
 657287,718,1,human
 192293,437,1,human
 690391,834,1,human
-506796,312,0,human
 395858,463,1,human
 333691,1840,0,human
 186231,710,0,human
@@ -665664,7 +664988,6 @@ drug_id,prot_id,label,prot_domain
 20417,20,0,virus
 197237,1153,0,human
 453809,1005,0,human
-273194,517,1,human
 320052,772,1,human
 497852,788,1,human
 420564,826,1,human
@@ -665711,7 +665034,6 @@ drug_id,prot_id,label,prot_domain
 757144,1464,0,human
 109217,429,1,human
 713919,898,0,human
-837017,403,0,human
 384025,1298,1,human
 852241,682,1,human
 277340,722,0,human
@@ -666210,7 +665532,6 @@ drug_id,prot_id,label,prot_domain
 673411,514,1,human
 103921,305,0,human
 1717,716,0,human
-369215,538,0,human
 64687,325,1,human
 392673,811,0,human
 768669,846,1,human
@@ -667443,7 +666764,6 @@ drug_id,prot_id,label,prot_domain
 713077,604,1,human
 799952,1950,1,human
 774604,653,1,human
-769043,538,1,human
 241773,322,0,human
 575739,398,1,human
 385051,389,0,human
@@ -670128,7 +669448,6 @@ drug_id,prot_id,label,prot_domain
 17856,617,0,human
 570886,356,1,human
 563967,343,1,human
-273194,517,1,human
 196492,913,0,human
 751198,795,1,human
 694729,1392,0,human
@@ -671136,7 +670455,6 @@ drug_id,prot_id,label,prot_domain
 76112,3106,0,human
 600584,1629,1,human
 129113,672,0,human
-837016,403,0,human
 254216,343,1,human
 491975,357,0,human
 44426,6,1,virus
@@ -672107,7 +671425,6 @@ drug_id,prot_id,label,prot_domain
 707173,818,1,human
 278429,763,1,human
 817468,689,1,human
-837059,403,0,human
 274155,1363,0,human
 778620,2136,1,human
 163307,1645,0,human
@@ -672573,7 +671890,6 @@ drug_id,prot_id,label,prot_domain
 478809,436,1,human
 569186,553,1,human
 750143,1359,1,human
-836990,403,1,human
 20615,2,0,virus
 262266,542,1,human
 196685,853,0,human
@@ -674241,7 +673557,6 @@ drug_id,prot_id,label,prot_domain
 361949,295,1,human
 745557,656,1,human
 778650,2136,1,human
-767115,538,0,human
 678262,544,0,human
 266161,762,0,human
 699604,743,0,human
@@ -674625,7 +673940,6 @@ drug_id,prot_id,label,prot_domain
 228441,336,1,human
 591908,517,1,human
 33720,21,1,virus
-769161,538,0,human
 480419,289,1,human
 278780,442,0,human
 329668,565,1,human
@@ -676941,7 +676255,6 @@ drug_id,prot_id,label,prot_domain
 110499,701,0,human
 12983,16,0,virus
 603004,690,1,human
-769126,538,0,human
 640466,2790,1,human
 182070,354,1,human
 90729,823,1,human
@@ -676972,7 +676285,6 @@ drug_id,prot_id,label,prot_domain
 589757,690,1,human
 129787,930,0,human
 796179,1706,1,human
-837054,403,1,human
 381310,540,1,human
 832851,411,1,human
 669415,744,0,human
@@ -677998,7 +677310,6 @@ drug_id,prot_id,label,prot_domain
 599702,506,1,human
 287852,1032,0,human
 567504,506,1,human
-425272,594,1,human
 739085,410,1,human
 158541,949,0,human
 110267,429,1,human
@@ -681017,7 +680328,6 @@ drug_id,prot_id,label,prot_domain
 749470,539,1,human
 157626,336,0,human
 165528,739,1,human
-837008,403,1,human
 145985,762,0,human
 807373,788,0,human
 386924,1507,0,human
@@ -681250,7 +680560,6 @@ drug_id,prot_id,label,prot_domain
 278914,1677,0,human
 863239,517,1,human
 712152,517,1,human
-837010,403,0,human
 648257,444,1,human
 713873,289,1,human
 477950,972,0,human
@@ -681995,7 +681304,6 @@ drug_id,prot_id,label,prot_domain
 588433,545,1,human
 739073,666,1,human
 732968,506,1,human
-769217,538,1,human
 567818,707,1,human
 179284,869,1,human
 119498,367,0,human
@@ -682563,7 +681871,6 @@ drug_id,prot_id,label,prot_domain
 237889,1441,0,human
 566072,343,1,human
 500134,740,1,human
-837016,403,1,human
 598112,404,1,human
 477985,306,0,human
 484837,528,0,human
@@ -682818,7 +682125,6 @@ drug_id,prot_id,label,prot_domain
 142850,375,0,human
 638296,653,1,human
 527528,637,1,human
-369210,538,0,human
 336423,506,1,human
 595241,749,1,human
 310974,314,1,human
@@ -682994,7 +682300,6 @@ drug_id,prot_id,label,prot_domain
 563426,404,1,human
 492501,1815,0,human
 742901,818,1,human
-441894,463,1,human
 227085,1426,0,human
 122581,2820,0,human
 458702,343,1,human
@@ -683753,7 +683058,6 @@ drug_id,prot_id,label,prot_domain
 685279,338,1,human
 445110,786,0,human
 135590,869,0,human
-184219,463,1,human
 673623,1184,1,human
 857040,687,0,human
 240036,1387,0,human
@@ -684154,7 +683458,6 @@ drug_id,prot_id,label,prot_domain
 387231,1314,0,human
 708054,1036,1,human
 391170,740,1,human
-769135,538,0,human
 812475,702,1,human
 224841,313,0,human
 18945,282,0,human
@@ -684287,7 +683590,6 @@ drug_id,prot_id,label,prot_domain
 85733,319,1,human
 473185,462,1,human
 101089,343,1,human
-769051,538,1,human
 419468,384,0,human
 292015,619,1,human
 572827,686,1,human
@@ -687348,7 +686650,6 @@ drug_id,prot_id,label,prot_domain
 572947,702,0,human
 426419,651,1,human
 245254,405,1,human
-441894,463,0,human
 432092,651,0,human
 15577,1426,0,human
 246233,496,1,human
@@ -687429,7 +686730,6 @@ drug_id,prot_id,label,prot_domain
 661035,507,1,human
 322368,659,1,human
 266969,454,1,human
-769212,538,1,human
 214892,659,0,human
 725714,919,1,human
 743609,605,1,human
@@ -687581,7 +686881,6 @@ drug_id,prot_id,label,prot_domain
 124946,305,1,human
 576164,467,1,human
 277583,454,0,human
-682513,1184,0,human
 836168,403,1,human
 541103,312,1,human
 284990,465,1,human
@@ -688217,7 +687516,6 @@ drug_id,prot_id,label,prot_domain
 592396,328,1,human
 722002,369,1,human
 583146,619,1,human
-769198,538,0,human
 270745,522,0,human
 573154,289,1,human
 246742,507,0,human
@@ -689654,7 +688952,6 @@ drug_id,prot_id,label,prot_domain
 8979,24,1,virus
 573995,545,1,human
 110499,1370,0,human
-769044,538,1,human
 311205,623,0,human
 199380,358,1,human
 213334,682,1,human
@@ -690278,7 +689575,6 @@ drug_id,prot_id,label,prot_domain
 267496,539,1,human
 152526,772,1,human
 806481,834,0,human
-369241,538,1,human
 116772,891,1,human
 375110,584,1,human
 609953,692,0,human
@@ -690287,7 +689583,6 @@ drug_id,prot_id,label,prot_domain
 533600,312,1,human
 141305,719,1,human
 762282,286,0,human
-837029,403,0,human
 95146,829,1,human
 599504,506,1,human
 776746,605,1,human
@@ -690894,7 +690189,6 @@ drug_id,prot_id,label,prot_domain
 750117,638,1,human
 464037,1032,1,human
 705962,604,1,human
-769051,538,0,human
 322778,2823,0,human
 493658,795,1,human
 431381,554,1,human
@@ -693411,7 +692705,6 @@ drug_id,prot_id,label,prot_domain
 261287,386,1,human
 310461,707,1,human
 321982,659,1,human
-621976,343,1,human
 130411,909,1,human
 630561,581,0,human
 429070,446,0,human
@@ -694480,7 +693773,6 @@ drug_id,prot_id,label,prot_domain
 281121,834,1,human
 791978,469,1,human
 805277,1093,1,human
-184219,463,1,human
 380174,1221,1,human
 292325,467,1,human
 709818,539,1,human
@@ -696384,7 +695676,6 @@ drug_id,prot_id,label,prot_domain
 453151,2058,1,human
 600391,395,1,human
 252877,1644,0,human
-770982,725,1,human
 58932,350,0,human
 106602,1026,0,human
 719023,1314,1,human
@@ -697329,7 +696620,6 @@ drug_id,prot_id,label,prot_domain
 38092,24,1,virus
 245652,619,0,human
 65222,302,1,human
-369225,538,1,human
 80567,388,1,human
 405557,377,0,human
 130176,862,0,human
@@ -697553,7 +696843,6 @@ drug_id,prot_id,label,prot_domain
 327509,561,1,human
 92440,461,0,human
 98913,305,0,human
-425272,594,0,human
 1044,34,1,virus
 242004,303,1,human
 273462,523,1,human
@@ -697822,7 +697111,6 @@ drug_id,prot_id,label,prot_domain
 34075,18,0,virus
 567886,455,1,human
 539152,506,1,human
-836973,403,0,human
 720484,303,1,human
 148304,398,1,human
 535214,869,0,human
@@ -699150,7 +698438,6 @@ drug_id,prot_id,label,prot_domain
 223552,1186,1,human
 536627,763,1,human
 693506,1474,0,human
-769145,538,1,human
 802372,469,1,human
 424776,717,1,human
 790852,718,1,human
@@ -699386,7 +698673,6 @@ drug_id,prot_id,label,prot_domain
 152376,862,1,human
 148254,677,0,human
 401334,876,0,human
-837041,403,1,human
 744073,605,1,human
 428807,334,1,human
 365302,827,0,human
@@ -700455,7 +699741,6 @@ drug_id,prot_id,label,prot_domain
 101115,375,1,human
 694007,328,0,human
 850821,517,1,human
-769039,538,1,human
 257313,408,1,human
 260650,453,0,human
 14336,18,0,virus
@@ -700980,7 +700265,6 @@ drug_id,prot_id,label,prot_domain
 33079,21,0,virus
 428960,728,1,human
 340943,1033,0,human
-837022,403,0,human
 582939,517,1,human
 162710,585,1,human
 737093,652,1,human
@@ -701143,7 +700427,6 @@ drug_id,prot_id,label,prot_domain
 542592,704,1,human
 516678,289,1,human
 343131,419,0,human
-769206,538,0,human
 548765,1699,1,human
 484470,2062,1,human
 475946,407,1,human
@@ -701221,7 +700504,6 @@ drug_id,prot_id,label,prot_domain
 388651,1472,1,human
 453108,797,0,human
 820467,361,1,human
-836979,403,1,human
 266774,455,0,human
 13797,168,0,virus
 661429,507,1,human
@@ -703359,7 +702641,6 @@ drug_id,prot_id,label,prot_domain
 89901,743,0,human
 452717,408,1,human
 618975,553,1,human
-769075,538,0,human
 121719,889,0,human
 192663,743,0,human
 402965,791,1,human
@@ -703886,7 +703167,6 @@ drug_id,prot_id,label,prot_domain
 566669,306,1,human
 463192,454,1,human
 189226,409,0,human
-369242,538,0,human
 223037,763,1,human
 32992,21,0,virus
 740063,586,1,human
@@ -704099,7 +703379,6 @@ drug_id,prot_id,label,prot_domain
 355137,627,1,human
 17562,1425,0,human
 664899,1115,1,human
-837007,403,1,human
 229375,522,0,human
 478444,528,0,human
 238674,1428,0,human
@@ -704753,7 +704032,6 @@ drug_id,prot_id,label,prot_domain
 105170,554,0,human
 229888,2091,0,human
 838990,453,1,human
-836992,403,1,human
 643194,1859,0,human
 174069,288,1,human
 277093,506,1,human
@@ -704919,7 +704197,6 @@ drug_id,prot_id,label,prot_domain
 632653,599,1,human
 618430,1251,1,human
 501944,404,1,human
-837043,403,0,human
 589253,404,1,human
 739790,847,0,human
 585475,343,1,human
@@ -705250,7 +704527,6 @@ drug_id,prot_id,label,prot_domain
 783935,366,1,human
 805895,802,1,human
 379185,1631,1,human
-362600,538,1,human
 513782,464,1,human
 73905,356,1,human
 280724,855,0,human
@@ -706152,7 +705428,6 @@ drug_id,prot_id,label,prot_domain
 648266,411,1,human
 697941,1395,1,human
 123084,697,1,human
-837008,403,0,human
 227536,1427,0,human
 692662,710,0,human
 363804,539,1,human
@@ -708108,7 +707383,6 @@ drug_id,prot_id,label,prot_domain
 723977,848,0,human
 456361,1251,1,human
 182766,407,1,human
-769096,538,1,human
 202943,513,0,human
 815473,969,1,human
 98000,354,0,human
@@ -708520,7 +707794,6 @@ drug_id,prot_id,label,prot_domain
 809745,1793,1,human
 665165,1115,1,human
 722598,539,1,human
-441897,463,0,human
 352338,404,1,human
 727123,811,0,human
 597304,528,1,human
@@ -708792,7 +708065,6 @@ drug_id,prot_id,label,prot_domain
 270745,1031,0,human
 601292,306,1,human
 15926,103,0,virus
-610528,343,1,human
 675079,1678,0,human
 164805,726,0,human
 509670,682,1,human
@@ -709401,7 +708673,6 @@ drug_id,prot_id,label,prot_domain
 394070,1054,0,human
 476811,673,0,human
 584167,517,1,human
-837009,403,0,human
 103169,420,1,human
 364054,2823,0,human
 543205,444,1,human
@@ -710569,7 +709840,6 @@ drug_id,prot_id,label,prot_domain
 385686,554,1,human
 769255,667,1,human
 76656,326,0,human
-1670,191,0,virus
 748813,841,1,human
 846085,303,0,human
 69819,422,0,human
@@ -710591,7 +709861,6 @@ drug_id,prot_id,label,prot_domain
 636848,398,1,human
 308521,829,1,human
 251462,553,1,human
-769202,538,0,human
 629854,454,1,human
 850278,403,1,human
 852230,303,1,human
@@ -712801,7 +712070,6 @@ drug_id,prot_id,label,prot_domain
 811258,4032,1,human
 371175,517,1,human
 256290,1634,0,human
-769084,538,1,human
 733691,949,1,human
 375222,301,0,human
 204501,567,0,human
@@ -713352,7 +712620,6 @@ drug_id,prot_id,label,prot_domain
 572742,656,1,human
 265448,749,1,human
 221578,762,0,human
-369262,538,1,human
 215367,994,0,human
 164637,707,0,human
 313324,679,0,human
@@ -713710,7 +712977,6 @@ drug_id,prot_id,label,prot_domain
 171624,343,1,human
 304177,717,1,human
 745520,1264,1,human
-837019,403,0,human
 161551,1176,0,human
 419373,693,1,human
 263177,619,0,human
@@ -714294,7 +713560,6 @@ drug_id,prot_id,label,prot_domain
 179007,796,0,human
 192888,911,0,human
 561278,733,1,human
-836994,403,1,human
 701682,702,0,human
 744247,1115,1,human
 688786,743,1,human
@@ -714353,7 +713618,6 @@ drug_id,prot_id,label,prot_domain
 392442,1255,1,human
 83552,672,0,human
 827799,2091,0,human
-837036,403,0,human
 247054,279,1,human
 94517,795,1,human
 281921,1957,0,human
@@ -716184,7 +715448,6 @@ drug_id,prot_id,label,prot_domain
 515100,324,1,human
 359210,294,1,human
 215230,1057,0,human
-369264,538,0,human
 532749,561,1,human
 439012,1320,0,human
 215917,384,0,human
@@ -716665,7 +715928,6 @@ drug_id,prot_id,label,prot_domain
 427671,876,1,human
 81889,281,0,human
 200521,457,1,human
-610518,343,1,human
 215491,1492,0,human
 256565,957,0,human
 505792,725,1,human
@@ -716681,7 +715943,6 @@ drug_id,prot_id,label,prot_domain
 390930,455,1,human
 837165,4038,1,human
 289231,763,0,human
-769096,538,0,human
 761033,454,1,human
 367991,464,1,human
 394958,720,1,human
@@ -716783,7 +716044,6 @@ drug_id,prot_id,label,prot_domain
 442019,826,0,human
 8256,56,1,virus
 306075,683,1,human
-836983,403,1,human
 318527,714,0,human
 454888,288,1,human
 358733,671,1,human
@@ -719571,7 +718831,6 @@ drug_id,prot_id,label,prot_domain
 479342,695,1,human
 167058,383,0,human
 173747,1370,0,human
-836972,403,0,human
 511861,1003,1,human
 333691,854,0,human
 283520,579,0,human
@@ -720983,7 +720242,6 @@ drug_id,prot_id,label,prot_domain
 679941,457,1,human
 782864,343,1,human
 86134,466,1,human
-769199,538,1,human
 424923,407,0,human
 141122,702,1,human
 713789,407,1,human
@@ -723132,7 +722390,6 @@ drug_id,prot_id,label,prot_domain
 354218,539,0,human
 47855,43,0,virus
 13221,16,0,virus
-837014,403,1,human
 60946,409,1,human
 433427,664,0,human
 672658,981,1,human
@@ -723930,7 +723187,6 @@ drug_id,prot_id,label,prot_domain
 849904,1681,1,human
 619218,506,1,human
 285712,1164,1,human
-837020,403,1,human
 127754,439,1,human
 588564,545,1,human
 768157,1774,0,human
@@ -723943,7 +723199,6 @@ drug_id,prot_id,label,prot_domain
 258908,463,1,human
 378489,1164,1,human
 860002,456,1,human
-301478,2082,0,human
 316119,512,1,human
 588686,545,0,human
 253078,313,1,human
@@ -724064,7 +723319,6 @@ drug_id,prot_id,label,prot_domain
 699322,348,1,human
 470703,779,1,human
 637129,409,1,human
-837027,403,0,human
 725390,918,1,human
 861717,415,0,human
 522028,538,0,human
@@ -724188,7 +723442,6 @@ drug_id,prot_id,label,prot_domain
 361410,988,0,human
 676047,470,1,human
 779135,607,1,human
-767120,538,0,human
 543577,762,1,human
 557573,361,1,human
 513555,594,1,human
@@ -726934,7 +726187,6 @@ drug_id,prot_id,label,prot_domain
 405196,992,0,human
 555581,633,1,human
 315494,554,1,human
-441894,463,0,human
 545121,517,1,human
 818352,1043,1,human
 544045,1653,1,human
@@ -727205,7 +726457,6 @@ drug_id,prot_id,label,prot_domain
 215361,1089,0,human
 169508,855,1,human
 90783,891,1,human
-769048,538,0,human
 84204,454,1,human
 177989,294,1,human
 724626,898,1,human
@@ -727808,7 +727059,6 @@ drug_id,prot_id,label,prot_domain
 732488,949,1,human
 713140,411,1,human
 824777,4034,0,human
-369210,538,0,human
 640934,2790,1,human
 860006,919,1,human
 623051,404,1,human
@@ -728292,7 +727542,6 @@ drug_id,prot_id,label,prot_domain
 810683,1291,1,human
 750146,1359,1,human
 767957,692,1,human
-258112,538,0,human
 165418,343,0,human
 157375,798,0,human
 544371,356,1,human
@@ -730158,7 +729407,6 @@ drug_id,prot_id,label,prot_domain
 652744,846,0,human
 127858,822,0,human
 517130,682,1,human
-225869,455,1,human
 606850,289,1,human
 430417,433,0,human
 824599,403,1,human
@@ -731077,7 +730325,6 @@ drug_id,prot_id,label,prot_domain
 462835,1036,1,human
 292118,289,1,human
 832686,4037,0,human
-837021,403,0,human
 319521,1326,1,human
 753633,576,0,human
 205907,743,0,human
@@ -731225,7 +730472,6 @@ drug_id,prot_id,label,prot_domain
 111493,305,1,human
 9380,24,1,virus
 763455,791,1,human
-369211,538,0,human
 356804,484,1,human
 590906,585,1,human
 118698,743,0,human
@@ -731308,7 +730554,6 @@ drug_id,prot_id,label,prot_domain
 549378,404,1,human
 491397,571,1,human
 515216,704,1,human
-837017,403,0,human
 512953,1699,1,human
 353074,666,0,human
 479126,312,1,human
@@ -731784,7 +731029,6 @@ drug_id,prot_id,label,prot_domain
 611508,403,1,human
 575309,651,1,human
 834180,507,1,human
-369207,538,1,human
 331324,1495,1,human
 853815,403,1,human
 640301,656,1,human
@@ -731928,7 +731172,6 @@ drug_id,prot_id,label,prot_domain
 197608,523,1,human
 201744,432,1,human
 85387,299,0,human
-837012,403,0,human
 183579,1198,0,human
 128731,357,1,human
 119261,782,0,human
@@ -732437,7 +731680,6 @@ drug_id,prot_id,label,prot_domain
 239216,348,0,human
 32241,18,0,virus
 24727,20,0,virus
-769174,538,1,human
 666199,322,1,human
 363630,324,1,human
 262902,506,1,human
@@ -732936,7 +732178,6 @@ drug_id,prot_id,label,prot_domain
 306522,826,0,human
 205633,725,1,human
 437253,594,1,human
-837016,403,0,human
 131514,322,1,human
 503669,1176,1,human
 471468,594,1,human
@@ -733101,7 +732342,6 @@ drug_id,prot_id,label,prot_domain
 76929,281,0,human
 64380,285,0,human
 78185,653,1,human
-769055,538,0,human
 320488,659,1,human
 551363,956,1,human
 333253,1163,0,human
@@ -733290,7 +732530,6 @@ drug_id,prot_id,label,prot_domain
 322258,510,1,human
 270745,690,0,human
 102802,795,0,human
-769163,538,1,human
 699375,410,1,human
 549744,1255,1,human
 231052,1065,0,human
@@ -734119,7 +733358,6 @@ drug_id,prot_id,label,prot_domain
 101259,890,1,human
 385329,554,1,human
 722577,539,1,human
-796096,463,0,human
 378663,707,0,human
 8446,2,1,virus
 641444,467,1,human
@@ -735365,7 +734603,6 @@ drug_id,prot_id,label,prot_domain
 427161,513,1,human
 219072,2689,0,human
 25451,2,1,virus
-369208,538,0,human
 192898,343,0,human
 677411,544,1,human
 407058,992,0,human
@@ -735528,7 +734765,6 @@ drug_id,prot_id,label,prot_domain
 460960,664,0,human
 431927,1764,0,human
 586879,777,1,human
-769153,538,0,human
 19161,314,0,human
 132314,919,1,human
 361513,539,1,human
@@ -735921,7 +735157,6 @@ drug_id,prot_id,label,prot_domain
 829523,1141,1,human
 396735,788,1,human
 731525,455,1,human
-770983,725,1,human
 2118,25,1,virus
 260527,455,0,human
 71247,337,1,human
@@ -736062,7 +735297,6 @@ drug_id,prot_id,label,prot_domain
 161277,511,0,human
 787092,299,1,human
 336519,306,1,human
-596021,343,1,human
 803421,1040,1,human
 34963,16,1,virus
 603081,740,1,human
@@ -736453,7 +735687,6 @@ drug_id,prot_id,label,prot_domain
 5217,67,1,virus
 165834,1198,0,human
 647845,1079,1,human
-514833,725,0,human
 11263,2,1,virus
 763429,786,1,human
 521395,682,1,human
@@ -737563,7 +736796,6 @@ drug_id,prot_id,label,prot_domain
 155466,522,0,human
 187452,554,0,human
 105637,2815,0,human
-837062,403,0,human
 259544,696,0,human
 721779,517,1,human
 497252,343,0,human
@@ -739327,7 +738559,6 @@ drug_id,prot_id,label,prot_domain
 762155,308,0,human
 685601,900,0,human
 363814,356,1,human
-369225,538,0,human
 304396,303,1,human
 329112,687,1,human
 164771,763,1,human
@@ -740107,7 +739338,6 @@ drug_id,prot_id,label,prot_domain
 280658,1437,0,human
 455258,800,1,human
 701788,1523,0,human
-45380,463,1,human
 599729,507,1,human
 696636,623,1,human
 314568,677,1,human
@@ -740753,7 +739983,6 @@ drug_id,prot_id,label,prot_domain
 350948,459,0,human
 16726,126,0,virus
 204412,1741,0,human
-273194,517,1,human
 15280,103,0,virus
 525805,410,1,human
 770141,506,0,human
@@ -742652,7 +741881,6 @@ drug_id,prot_id,label,prot_domain
 151299,1181,0,human
 252252,651,0,human
 765203,517,1,human
-769198,538,1,human
 195046,326,0,human
 178044,409,1,human
 662670,2253,0,human
@@ -742770,7 +741998,6 @@ drug_id,prot_id,label,prot_domain
 838056,581,0,human
 233596,455,1,human
 360035,841,1,human
-837005,403,0,human
 381901,562,1,human
 370618,949,1,human
 386948,522,0,human
@@ -744506,7 +743733,6 @@ drug_id,prot_id,label,prot_domain
 240375,322,0,human
 187036,384,1,human
 208803,1443,0,human
-836992,403,0,human
 704050,281,1,human
 813620,2201,1,human
 517890,682,1,human
@@ -744681,7 +743907,6 @@ drug_id,prot_id,label,prot_domain
 83486,399,0,human
 352700,876,1,human
 165137,879,0,human
-580011,343,0,human
 90586,1106,0,human
 168746,848,0,human
 209422,1176,1,human
@@ -745599,7 +744824,6 @@ drug_id,prot_id,label,prot_domain
 284314,510,0,human
 49125,261,1,virus
 186999,521,1,human
-769211,538,0,human
 45811,191,1,virus
 381481,421,0,human
 571910,690,1,human
@@ -746814,7 +746038,6 @@ drug_id,prot_id,label,prot_domain
 213024,1433,0,human
 378444,1465,0,human
 240791,1429,0,human
-369224,538,1,human
 72960,682,1,human
 584568,467,1,human
 821531,361,1,human
@@ -747109,7 +746332,6 @@ drug_id,prot_id,label,prot_domain
 10603,41,0,virus
 387692,1036,1,human
 581409,690,1,human
-682522,1184,0,human
 30090,43,0,virus
 177966,409,0,human
 352475,403,1,human
@@ -748837,7 +748059,6 @@ drug_id,prot_id,label,prot_domain
 127199,297,1,human
 397659,820,1,human
 816675,605,1,human
-769174,538,0,human
 220461,304,0,human
 801342,2091,1,human
 137806,410,0,human
@@ -751216,7 +750437,6 @@ drug_id,prot_id,label,prot_domain
 64536,282,0,human
 199021,763,1,human
 220332,691,0,human
-769195,538,1,human
 668659,507,1,human
 784117,604,0,human
 577502,1199,0,human
@@ -756154,7 +755374,6 @@ drug_id,prot_id,label,prot_domain
 611629,965,1,human
 825984,1234,1,human
 179018,1274,0,human
-769068,538,0,human
 332427,410,1,human
 171536,404,0,human
 216517,1016,0,human
@@ -756491,7 +755710,6 @@ drug_id,prot_id,label,prot_domain
 290744,1176,1,human
 278670,411,1,human
 572652,617,1,human
-769161,538,1,human
 302548,1003,1,human
 751878,1391,1,human
 832348,693,1,human
@@ -759124,7 +758342,6 @@ drug_id,prot_id,label,prot_domain
 215492,1507,0,human
 9129,2,0,virus
 106221,2739,0,human
-769199,538,0,human
 45427,145,0,virus
 700565,1845,0,human
 44968,136,1,virus
@@ -760016,7 +759233,6 @@ drug_id,prot_id,label,prot_domain
 39485,20,0,virus
 242801,283,0,human
 65713,1182,0,human
-837053,403,1,human
 657966,356,1,human
 210495,583,0,human
 799021,1318,1,human
@@ -760105,7 +759321,6 @@ drug_id,prot_id,label,prot_domain
 119821,656,1,human
 103795,374,0,human
 807871,2091,1,human
-837058,403,0,human
 339377,408,1,human
 835140,604,1,human
 779696,306,0,human
@@ -760566,7 +759781,6 @@ drug_id,prot_id,label,prot_domain
 333691,1286,0,human
 663735,1115,1,human
 120079,850,1,human
-836990,403,0,human
 182766,1238,1,human
 287813,1751,0,human
 236413,1163,0,human
@@ -761486,7 +760700,6 @@ drug_id,prot_id,label,prot_domain
 481584,289,1,human
 102944,507,1,human
 58750,288,1,human
-836987,403,0,human
 711470,506,1,human
 357426,594,1,human
 580106,395,1,human
@@ -761778,7 +760991,6 @@ drug_id,prot_id,label,prot_domain
 825624,4036,1,human
 353975,303,1,human
 216128,509,0,human
-836972,403,0,human
 685110,463,1,human
 738638,777,1,human
 709764,539,1,human
@@ -762047,7 +761259,6 @@ drug_id,prot_id,label,prot_domain
 841393,403,1,human
 681654,338,1,human
 280662,1362,0,human
-441894,463,0,human
 258899,463,1,human
 89332,2810,0,human
 380902,740,1,human
@@ -762881,7 +762092,6 @@ drug_id,prot_id,label,prot_domain
 89966,356,1,human
 219072,1057,0,human
 620281,2004,0,human
-837035,403,0,human
 650836,332,0,human
 536506,846,0,human
 283274,442,1,human
@@ -763691,7 +762901,6 @@ drug_id,prot_id,label,prot_domain
 15784,1428,0,human
 105153,1056,1,human
 644417,594,1,human
-837005,403,1,human
 785993,605,1,human
 153855,303,0,human
 755,22,1,virus
@@ -765352,7 +764561,6 @@ drug_id,prot_id,label,prot_domain
 333691,464,0,human
 141627,369,0,human
 464557,594,1,human
-769039,538,0,human
 183117,348,0,human
 772805,637,0,human
 28832,18,0,virus
@@ -765406,7 +764614,6 @@ drug_id,prot_id,label,prot_domain
 732581,705,1,human
 266988,709,1,human
 173767,457,1,human
-837063,403,0,human
 419256,301,0,human
 300238,635,1,human
 306811,565,1,human
@@ -765574,7 +764781,6 @@ drug_id,prot_id,label,prot_domain
 226066,373,0,human
 253919,848,0,human
 226200,1429,0,human
-774668,327,1,human
 729842,1153,1,human
 87707,312,1,human
 548884,464,1,human
@@ -765765,7 +764971,6 @@ drug_id,prot_id,label,prot_domain
 387049,540,1,human
 76112,3403,1,human
 71853,312,0,human
-769220,538,0,human
 194499,357,1,human
 157414,343,1,human
 167659,697,0,human
@@ -766089,7 +765294,6 @@ drug_id,prot_id,label,prot_domain
 74195,704,1,human
 564680,669,0,human
 10250,56,0,virus
-837018,403,0,human
 750359,672,1,human
 575126,1067,1,human
 142406,1644,0,human
@@ -766874,7 +766078,6 @@ drug_id,prot_id,label,prot_domain
 123074,697,1,human
 493363,611,0,human
 241683,399,0,human
-837066,403,0,human
 116905,1045,0,human
 723789,408,1,human
 486787,733,1,human
@@ -768214,7 +767417,6 @@ drug_id,prot_id,label,prot_domain
 709459,550,0,human
 216638,359,0,human
 476172,553,1,human
-837003,403,0,human
 459462,876,1,human
 47478,43,0,virus
 814024,1367,1,human
@@ -768392,7 +767594,6 @@ drug_id,prot_id,label,prot_domain
 448924,2067,1,human
 426593,1067,1,human
 334278,619,1,human
-369261,538,0,human
 164911,302,1,human
 638446,763,1,human
 594345,948,1,human
@@ -769288,7 +768489,6 @@ drug_id,prot_id,label,prot_domain
 289010,404,1,human
 242613,1657,0,human
 247150,303,0,human
-596026,343,1,human
 114896,407,0,human
 293721,1796,0,human
 814699,2004,0,human
@@ -770013,7 +769213,6 @@ drug_id,prot_id,label,prot_domain
 470570,361,1,human
 790342,507,1,human
 735787,506,1,human
-273194,517,1,human
 474759,343,1,human
 460940,733,1,human
 863493,762,1,human
@@ -770029,7 +769228,6 @@ drug_id,prot_id,label,prot_domain
 456496,288,1,human
 637509,1745,0,human
 770159,740,1,human
-769160,538,0,human
 701498,297,0,human
 213724,349,0,human
 110468,1653,0,human
@@ -771259,7 +770457,6 @@ drug_id,prot_id,label,prot_domain
 698209,1359,0,human
 272449,407,1,human
 652292,599,1,human
-369265,538,1,human
 128991,440,1,human
 353135,408,0,human
 740263,506,1,human
@@ -773323,7 +772520,6 @@ drug_id,prot_id,label,prot_domain
 224729,1045,0,human
 793223,2649,1,human
 570237,356,1,human
-682521,1184,1,human
 720947,293,1,human
 627650,1067,1,human
 455428,2832,0,human
@@ -773914,7 +773110,6 @@ drug_id,prot_id,label,prot_domain
 169817,281,0,human
 74285,1956,0,human
 394670,789,0,human
-836988,403,0,human
 4436,24,1,virus
 248468,1414,0,human
 102701,419,1,human
@@ -775287,7 +774482,6 @@ drug_id,prot_id,label,prot_domain
 137854,457,1,human
 245162,1570,0,human
 510863,545,0,human
-769058,538,1,human
 659517,507,1,human
 495815,1832,0,human
 363864,1335,0,human
@@ -775699,7 +774893,6 @@ drug_id,prot_id,label,prot_domain
 532492,377,1,human
 811711,876,1,human
 73350,1089,0,human
-837056,403,1,human
 806294,1561,1,human
 606408,356,1,human
 143107,848,0,human
@@ -776772,7 +775965,6 @@ drug_id,prot_id,label,prot_domain
 19189,1424,0,human
 474220,664,0,human
 65713,940,0,human
-837059,403,0,human
 171009,584,0,human
 98456,1386,0,human
 259282,547,0,human
@@ -777172,7 +776364,6 @@ drug_id,prot_id,label,prot_domain
 145529,609,1,human
 245809,437,0,human
 24307,168,1,virus
-369205,538,1,human
 832036,1141,1,human
 649230,788,1,human
 79946,539,0,human
@@ -779093,7 +778284,6 @@ drug_id,prot_id,label,prot_domain
 67579,1790,0,human
 71873,460,0,human
 698451,665,0,human
-837039,403,0,human
 829454,403,1,human
 215701,426,1,human
 318809,788,1,human
@@ -780212,7 +779402,6 @@ drug_id,prot_id,label,prot_domain
 675042,550,1,human
 120432,835,0,human
 340893,540,1,human
-769200,538,1,human
 76112,2326,1,human
 480573,303,1,human
 721857,517,1,human
@@ -780268,7 +779457,6 @@ drug_id,prot_id,label,prot_domain
 51931,262,1,virus
 129033,1179,1,human
 81904,1114,0,human
-769107,538,1,human
 637319,692,1,human
 245794,957,0,human
 141807,800,0,human
@@ -785796,7 +784984,6 @@ drug_id,prot_id,label,prot_domain
 414994,306,1,human
 217153,956,0,human
 350374,506,1,human
-837055,403,1,human
 466826,893,0,human
 171937,630,1,human
 626627,841,1,human
@@ -786667,7 +785854,6 @@ drug_id,prot_id,label,prot_domain
 631881,656,1,human
 247077,623,0,human
 312814,561,1,human
-837056,403,0,human
 119498,374,0,human
 103177,1032,1,human
 229225,1274,1,human
@@ -788137,7 +787323,6 @@ drug_id,prot_id,label,prot_domain
 184218,2827,1,human
 621934,316,1,human
 802411,469,1,human
-769047,538,0,human
 507931,404,1,human
 481023,289,1,human
 610232,403,1,human
@@ -788639,7 +787824,6 @@ drug_id,prot_id,label,prot_domain
 16316,1428,0,human
 321912,659,1,human
 797904,408,1,human
-836983,403,0,human
 552990,545,0,human
 35861,24,1,virus
 712283,693,1,human
@@ -789951,7 +789135,6 @@ drug_id,prot_id,label,prot_domain
 92178,883,0,human
 730636,1678,0,human
 737845,295,1,human
-596021,343,0,human
 552113,404,1,human
 408513,404,1,human
 578224,597,1,human
@@ -790254,7 +789437,6 @@ drug_id,prot_id,label,prot_domain
 126196,454,1,human
 526385,1312,1,human
 700837,1149,0,human
-796096,463,0,human
 717942,303,1,human
 397590,306,0,human
 366962,562,1,human
@@ -790467,7 +789649,6 @@ drug_id,prot_id,label,prot_domain
 158611,1154,0,human
 248818,509,1,human
 739832,585,1,human
-273194,517,1,human
 46946,43,0,virus
 158802,343,0,human
 384311,356,1,human
@@ -790635,7 +789816,6 @@ drug_id,prot_id,label,prot_domain
 92913,533,1,human
 185313,671,1,human
 105783,2730,0,human
-837008,403,0,human
 326448,635,1,human
 175947,1335,0,human
 394880,561,0,human
@@ -790831,7 +790011,6 @@ drug_id,prot_id,label,prot_domain
 135169,800,0,human
 541989,289,1,human
 102422,891,1,human
-836986,403,0,human
 330277,687,0,human
 823660,407,1,human
 15397,222,1,virus
@@ -790943,7 +790122,6 @@ drug_id,prot_id,label,prot_domain
 747218,304,1,human
 612255,1397,1,human
 694986,1523,0,human
-369243,538,0,human
 713811,460,1,human
 577326,507,1,human
 28915,166,0,virus
@@ -791471,7 +790649,6 @@ drug_id,prot_id,label,prot_domain
 282830,654,0,human
 484470,3619,1,human
 706506,841,1,human
-836997,403,0,human
 581631,854,0,human
 109998,697,1,human
 202058,1312,0,human
@@ -792209,7 +791386,6 @@ drug_id,prot_id,label,prot_domain
 101552,466,0,human
 662317,1107,0,human
 367529,1255,1,human
-769200,538,0,human
 255864,1245,0,human
 577688,695,0,human
 441620,1164,1,human
@@ -792263,7 +791439,6 @@ drug_id,prot_id,label,prot_domain
 23685,136,1,virus
 315513,411,1,human
 733083,604,1,human
-161980,1114,1,human
 480395,289,1,human
 704973,466,1,human
 382253,478,1,human
@@ -792727,7 +791902,6 @@ drug_id,prot_id,label,prot_domain
 802299,469,1,human
 116745,348,1,human
 66889,467,1,human
-769087,538,1,human
 275652,506,1,human
 714779,898,1,human
 222315,791,1,human
@@ -792853,7 +792027,6 @@ drug_id,prot_id,label,prot_domain
 725027,898,1,human
 63151,325,1,human
 132759,957,0,human
-769154,538,0,human
 718677,605,1,human
 752144,539,1,human
 725337,918,1,human
@@ -793163,7 +792336,6 @@ drug_id,prot_id,label,prot_domain
 135939,851,1,human
 45690,191,1,virus
 116905,1238,0,human
-607894,343,1,human
 288695,547,0,human
 100385,457,1,human
 165844,299,0,human
@@ -793733,7 +792905,6 @@ drug_id,prot_id,label,prot_domain
 140339,664,0,human
 729399,1212,1,human
 389479,425,0,human
-837065,403,0,human
 215898,714,0,human
 274109,539,0,human
 3293,246,1,virus
@@ -794006,7 +793177,6 @@ drug_id,prot_id,label,prot_domain
 20121,147,1,virus
 64677,326,0,human
 686717,786,1,human
-767111,538,0,human
 839448,420,1,human
 499589,1163,1,human
 555198,601,1,human
@@ -796422,7 +795592,6 @@ drug_id,prot_id,label,prot_domain
 607010,395,1,human
 152104,743,1,human
 197479,1340,0,human
-752415,463,0,human
 744854,656,1,human
 401843,1096,1,human
 804937,1093,1,human
@@ -796442,7 +795611,6 @@ drug_id,prot_id,label,prot_domain
 36556,24,1,virus
 116905,433,0,human
 81904,463,0,human
-369200,538,0,human
 361744,426,0,human
 206687,707,0,human
 25850,1812,0,human
@@ -798355,7 +797523,6 @@ drug_id,prot_id,label,prot_domain
 774473,653,1,human
 648394,1631,1,human
 527588,637,1,human
-12799,6,0,virus
 440824,725,0,human
 606522,2012,0,human
 32844,21,0,virus
@@ -798420,7 +797587,6 @@ drug_id,prot_id,label,prot_domain
 427390,464,1,human
 673491,562,1,human
 806846,1285,0,human
-369214,538,0,human
 715883,898,1,human
 191978,1181,0,human
 846485,303,0,human
@@ -800346,7 +799512,6 @@ drug_id,prot_id,label,prot_domain
 110121,762,0,human
 143023,585,1,human
 219731,600,0,human
-544159,725,1,human
 95911,336,1,human
 349649,659,1,human
 534373,455,1,human
@@ -801356,7 +800521,6 @@ drug_id,prot_id,label,prot_domain
 194613,663,1,human
 54861,6,1,virus
 285795,524,1,human
-585937,289,1,human
 610673,404,1,human
 572260,517,1,human
 336133,739,1,human
@@ -801480,7 +800644,6 @@ drug_id,prot_id,label,prot_domain
 445046,678,0,human
 683006,918,1,human
 474752,554,0,human
-254505,507,0,human
 83094,545,1,human
 848365,312,1,human
 767250,918,0,human
@@ -803559,7 +802722,6 @@ drug_id,prot_id,label,prot_domain
 12943,168,0,virus
 225988,513,0,human
 115635,306,1,human
-364716,538,1,human
 675056,550,0,human
 176736,1327,0,human
 664105,1531,0,human
@@ -804691,7 +803853,6 @@ drug_id,prot_id,label,prot_domain
 319385,455,1,human
 148156,298,1,human
 652090,802,1,human
-507590,725,0,human
 298881,637,0,human
 299679,903,1,human
 782157,2104,1,human
@@ -806832,13 +805993,11 @@ drug_id,prot_id,label,prot_domain
 680020,550,1,human
 26030,6,0,virus
 507103,1653,1,human
-769103,538,1,human
 168946,328,0,human
 244907,1570,0,human
 620514,356,1,human
 349637,1521,0,human
 406084,848,1,human
-369199,538,0,human
 834271,455,0,human
 741583,356,1,human
 363706,594,1,human
@@ -808944,7 +808103,6 @@ drug_id,prot_id,label,prot_domain
 623097,1067,1,human
 801308,2091,1,human
 113992,922,0,human
-769049,538,1,human
 69825,287,0,human
 172284,658,0,human
 559748,1164,0,human
@@ -809785,7 +808943,6 @@ drug_id,prot_id,label,prot_domain
 605365,404,0,human
 467787,686,0,human
 163919,669,0,human
-369206,538,0,human
 130899,661,0,human
 700381,693,0,human
 652084,795,1,human
@@ -810060,7 +809217,6 @@ drug_id,prot_id,label,prot_domain
 12751,41,0,virus
 672396,1225,0,human
 210462,792,1,human
-769156,538,0,human
 152796,741,1,human
 837573,581,1,human
 365655,455,1,human
@@ -810293,7 +809449,6 @@ drug_id,prot_id,label,prot_domain
 524217,725,1,human
 218806,673,1,human
 389562,437,1,human
-369261,538,1,human
 632681,379,1,human
 684884,514,1,human
 37314,22,1,virus
@@ -811373,7 +810528,6 @@ drug_id,prot_id,label,prot_domain
 693409,1107,0,human
 229375,464,0,human
 158912,312,0,human
-73612,313,1,human
 726018,918,1,human
 34384,18,0,virus
 583803,399,1,human
@@ -812404,7 +811558,6 @@ drug_id,prot_id,label,prot_domain
 629933,328,1,human
 331794,594,1,human
 780639,312,1,human
-769215,538,0,human
 486085,763,0,human
 225869,1064,0,human
 659637,507,1,human
@@ -812616,7 +811769,6 @@ drug_id,prot_id,label,prot_domain
 18226,168,0,virus
 240588,2817,0,human
 444339,1009,1,human
-769124,538,0,human
 226250,437,1,human
 576110,827,1,human
 37680,841,0,human
@@ -813589,7 +812741,6 @@ drug_id,prot_id,label,prot_domain
 725215,919,0,human
 30300,18,0,virus
 142977,522,0,human
-837029,403,1,human
 312497,789,0,human
 483622,517,1,human
 389988,956,1,human
@@ -814507,7 +813658,6 @@ drug_id,prot_id,label,prot_domain
 100442,534,0,human
 134884,697,1,human
 123411,889,0,human
-837021,403,0,human
 568213,701,0,human
 655142,847,0,human
 420150,682,1,human
@@ -814637,7 +813787,6 @@ drug_id,prot_id,label,prot_domain
 186249,710,0,human
 219019,772,1,human
 76014,2083,0,human
-441897,463,0,human
 793006,797,1,human
 358103,455,1,human
 734759,455,1,human
@@ -815349,7 +814498,6 @@ drug_id,prot_id,label,prot_domain
 783363,343,1,human
 644265,306,0,human
 121211,511,1,human
-769047,538,1,human
 52322,250,1,virus
 697404,2909,0,human
 114145,823,0,human
@@ -815629,7 +814777,6 @@ drug_id,prot_id,label,prot_domain
 81261,1370,0,human
 858039,346,1,human
 221051,1428,0,human
-12799,6,1,virus
 588454,740,1,human
 43634,162,1,virus
 859270,1507,0,human
@@ -816197,7 +815344,6 @@ drug_id,prot_id,label,prot_domain
 465969,719,1,human
 238082,359,0,human
 189108,343,0,human
-362606,538,1,human
 862756,762,0,human
 452097,384,1,human
 196053,386,1,human
@@ -816394,7 +815540,6 @@ drug_id,prot_id,label,prot_domain
 382056,597,1,human
 479256,686,0,human
 366508,1654,1,human
-837017,403,1,human
 514924,653,1,human
 445835,564,1,human
 247463,305,0,human
@@ -816729,7 +815874,6 @@ drug_id,prot_id,label,prot_domain
 845165,404,1,human
 301017,704,1,human
 774075,562,1,human
-767112,538,1,human
 48785,43,1,virus
 366001,777,0,human
 404219,667,0,human
@@ -816984,7 +816128,6 @@ drug_id,prot_id,label,prot_domain
 775461,617,1,human
 242540,940,0,human
 776130,898,1,human
-441899,463,0,human
 240588,940,0,human
 558890,580,1,human
 73388,507,1,human
@@ -817644,7 +816787,6 @@ drug_id,prot_id,label,prot_domain
 298057,1551,1,human
 184218,1649,0,human
 101230,1522,0,human
-455178,403,0,human
 206782,377,1,human
 531483,682,1,human
 16998,0,0,virus
@@ -819104,7 +818246,6 @@ drug_id,prot_id,label,prot_domain
 314474,411,1,human
 282792,688,1,human
 158711,1370,0,human
-769078,538,1,human
 518009,1472,1,human
 432836,303,1,human
 196983,749,1,human
@@ -819359,7 +818500,6 @@ drug_id,prot_id,label,prot_domain
 863405,345,1,human
 575128,1067,1,human
 570987,517,1,human
-837032,403,0,human
 619231,1067,1,human
 651177,427,1,human
 139436,343,0,human
@@ -820524,7 +819664,6 @@ drug_id,prot_id,label,prot_domain
 497702,797,1,human
 338635,956,1,human
 202019,287,0,human
-837042,403,0,human
 662193,1648,0,human
 625145,517,0,human
 169884,671,1,human
@@ -822409,7 +821548,6 @@ drug_id,prot_id,label,prot_domain
 76014,1409,0,human
 455279,797,1,human
 468321,453,1,human
-496378,580,0,human
 52059,262,1,virus
 224729,2825,0,human
 151762,855,1,human
@@ -824021,7 +823159,6 @@ drug_id,prot_id,label,prot_domain
 612374,458,1,human
 393270,740,1,human
 566225,384,1,human
-770983,725,1,human
 734887,741,1,human
 420385,1916,1,human
 34284,18,0,virus
@@ -826693,7 +825830,6 @@ drug_id,prot_id,label,prot_domain
 95397,436,1,human
 306740,463,1,human
 383267,619,1,human
-836977,403,0,human
 434981,682,1,human
 155664,347,0,human
 485319,593,0,human
@@ -827989,7 +827125,6 @@ drug_id,prot_id,label,prot_domain
 164758,823,0,human
 753771,3977,0,human
 467634,455,1,human
-836995,403,0,human
 693772,338,1,human
 630073,454,1,human
 369885,554,1,human
@@ -832278,7 +831413,6 @@ drug_id,prot_id,label,prot_domain
 259370,1067,0,human
 621351,506,1,human
 263664,1221,1,human
-836995,403,1,human
 476399,1009,1,human
 498689,528,1,human
 447341,707,1,human
@@ -835031,7 +834165,6 @@ drug_id,prot_id,label,prot_domain
 506407,2462,0,human
 529496,528,0,human
 161488,855,1,human
-507590,725,1,human
 294433,1613,0,human
 68340,279,1,human
 368909,303,1,human
@@ -835053,7 +834186,6 @@ drug_id,prot_id,label,prot_domain
 407641,965,1,human
 318380,1320,1,human
 42747,1454,0,human
-299754,1461,0,human
 658746,313,1,human
 161249,437,1,human
 148050,436,1,human
@@ -835272,7 +834404,6 @@ drug_id,prot_id,label,prot_domain
 87425,310,0,human
 74953,558,0,human
 746004,1115,1,human
-369214,538,1,human
 451664,1658,0,human
 746981,506,1,human
 464606,594,1,human
@@ -836091,7 +835222,6 @@ drug_id,prot_id,label,prot_domain
 762560,280,1,human
 171405,440,1,human
 104835,584,0,human
-837020,403,0,human
 480459,469,1,human
 837585,581,1,human
 41217,100,1,virus
@@ -838030,7 +837160,6 @@ drug_id,prot_id,label,prot_domain
 512269,659,1,human
 89332,372,0,human
 21142,917,0,human
-441897,463,0,human
 487194,361,1,human
 21100,168,0,virus
 298835,1649,0,human
@@ -838055,7 +837184,6 @@ drug_id,prot_id,label,prot_domain
 304995,653,1,human
 13925,1012,0,human
 453491,2172,0,human
-770983,725,1,human
 187868,1064,0,human
 45437,930,0,human
 278062,686,1,human
@@ -838124,7 +837252,6 @@ drug_id,prot_id,label,prot_domain
 168536,664,1,human
 669888,818,1,human
 201922,604,0,human
-837022,403,0,human
 115756,348,1,human
 649163,788,1,human
 125825,1431,0,human
@@ -840249,7 +839376,6 @@ drug_id,prot_id,label,prot_domain
 229908,457,1,human
 111750,507,1,human
 490828,869,1,human
-369224,538,0,human
 90792,587,1,human
 762629,547,0,human
 242429,1440,0,human
@@ -844656,7 +843782,6 @@ drug_id,prot_id,label,prot_domain
 458113,672,1,human
 101682,470,1,human
 588544,545,1,human
-769204,538,1,human
 116804,469,1,human
 45436,410,0,human
 520825,604,1,human
@@ -844703,7 +843828,6 @@ drug_id,prot_id,label,prot_domain
 710925,652,1,human
 255864,934,0,human
 716305,682,1,human
-837063,403,1,human
 11342,16,0,virus
 849373,797,0,human
 842878,368,1,human
@@ -845304,7 +844428,6 @@ drug_id,prot_id,label,prot_domain
 458217,510,1,human
 11540,20,1,virus
 780717,312,1,human
-836981,403,0,human
 776430,605,1,human
 30252,18,0,virus
 391032,2824,0,human
@@ -847124,7 +846247,6 @@ drug_id,prot_id,label,prot_domain
 78479,325,1,human
 271958,554,1,human
 386965,507,1,human
-369206,538,1,human
 199348,663,1,human
 169517,559,0,human
 735112,506,1,human
@@ -848129,9 +847251,7 @@ drug_id,prot_id,label,prot_domain
 163432,829,1,human
 302595,659,1,human
 485752,1909,1,human
-596021,343,0,human
 703785,898,1,human
-369241,538,0,human
 681634,869,1,human
 840144,969,0,human
 192548,384,0,human
@@ -848854,7 +847974,6 @@ drug_id,prot_id,label,prot_domain
 264202,746,0,human
 159235,862,0,human
 427970,1075,1,human
-837027,403,0,human
 805845,343,1,human
 547837,725,1,human
 697431,460,0,human
@@ -852264,7 +851383,6 @@ drug_id,prot_id,label,prot_domain
 154433,802,1,human
 468801,305,0,human
 396107,683,1,human
-769126,538,0,human
 735978,605,1,human
 127525,334,1,human
 606103,705,1,human
@@ -853271,7 +852389,6 @@ drug_id,prot_id,label,prot_domain
 262049,1386,0,human
 126406,280,0,human
 709858,339,1,human
-642437,343,1,human
 330318,682,1,human
 317475,683,0,human
 733157,279,1,human
@@ -853357,7 +852474,6 @@ drug_id,prot_id,label,prot_domain
 688309,918,1,human
 580508,1003,0,human
 239770,1300,0,human
-769124,538,0,human
 42549,217,0,virus
 68508,282,0,human
 44980,1163,1,human
@@ -853851,7 +852967,6 @@ drug_id,prot_id,label,prot_domain
 366401,605,0,human
 340898,539,1,human
 210520,386,0,human
-837038,403,1,human
 267373,1221,1,human
 706216,604,0,human
 38570,20,0,virus
@@ -854378,7 +853493,6 @@ drug_id,prot_id,label,prot_domain
 627730,1067,1,human
 580529,455,1,human
 662785,2739,0,human
-544159,725,0,human
 634750,299,1,human
 567273,619,1,human
 693541,1032,0,human
@@ -854513,7 +853627,6 @@ drug_id,prot_id,label,prot_domain
 277583,1790,0,human
 281921,294,0,human
 588962,1040,1,human
-836985,403,0,human
 661013,507,1,human
 185428,2293,0,human
 174941,426,1,human
@@ -854555,7 +853668,6 @@ drug_id,prot_id,label,prot_domain
 411963,709,1,human
 685360,340,1,human
 308591,653,1,human
-769073,538,0,human
 246783,584,0,human
 320846,303,1,human
 120828,928,0,human
@@ -855284,7 +854396,6 @@ drug_id,prot_id,label,prot_domain
 640950,2790,1,human
 388409,517,1,human
 248594,1066,1,human
-769210,538,0,human
 350937,723,0,human
 99464,305,1,human
 114371,648,1,human
@@ -855492,7 +854603,6 @@ drug_id,prot_id,label,prot_domain
 774041,562,1,human
 653838,467,1,human
 770712,953,1,human
-837057,403,0,human
 799101,1822,1,human
 90460,347,1,human
 470038,665,1,human
@@ -855894,7 +855004,6 @@ drug_id,prot_id,label,prot_domain
 532330,725,1,human
 106120,614,1,human
 683305,1034,0,human
-45380,463,1,human
 434702,1055,1,human
 696350,847,1,human
 758856,348,0,human
@@ -857006,7 +856115,6 @@ drug_id,prot_id,label,prot_domain
 795373,593,0,human
 504475,1199,0,human
 171404,834,1,human
-769189,538,1,human
 786602,570,1,human
 837106,581,1,human
 187268,534,0,human
@@ -857520,7 +856628,6 @@ drug_id,prot_id,label,prot_domain
 832156,1141,1,human
 630840,581,0,human
 158597,525,1,human
-769017,538,0,human
 726458,918,0,human
 101940,367,0,human
 269077,1252,0,human
@@ -857648,7 +856755,6 @@ drug_id,prot_id,label,prot_domain
 430611,1626,1,human
 627968,1551,0,human
 569033,1495,1,human
-369243,538,1,human
 389687,361,0,human
 624198,656,1,human
 138352,1181,0,human
@@ -858220,7 +857326,6 @@ drug_id,prot_id,label,prot_domain
 226796,836,0,human
 603381,911,1,human
 55429,966,0,human
-225869,507,1,human
 215367,2827,0,human
 240542,312,0,human
 21131,222,0,virus
@@ -859077,7 +858182,6 @@ drug_id,prot_id,label,prot_domain
 227667,1428,0,human
 633793,356,1,human
 244264,540,1,human
-12794,6,0,virus
 98825,356,1,human
 681577,584,1,human
 540823,653,1,human
@@ -860501,7 +859605,6 @@ drug_id,prot_id,label,prot_domain
 842440,338,1,human
 364313,1663,1,human
 773667,356,1,human
-769093,538,1,human
 23035,23,1,virus
 999,8,1,virus
 340556,775,1,human
@@ -861316,7 +860419,6 @@ drug_id,prot_id,label,prot_domain
 394779,922,1,human
 537982,725,1,human
 373498,1295,1,human
-776379,740,1,human
 673447,562,1,human
 56524,356,1,human
 684110,409,1,human
@@ -862116,7 +861218,6 @@ drug_id,prot_id,label,prot_domain
 162291,407,0,human
 105080,841,1,human
 454566,1694,0,human
-769078,538,0,human
 287838,539,1,human
 713705,919,1,human
 634361,585,1,human
@@ -863627,7 +862728,6 @@ drug_id,prot_id,label,prot_domain
 809462,671,1,human
 611319,403,0,human
 285418,354,1,human
-837007,403,0,human
 256000,303,1,human
 372128,1164,1,human
 25061,22,1,virus
@@ -864679,7 +863779,6 @@ drug_id,prot_id,label,prot_domain
 755195,2776,0,human
 495502,956,1,human
 442861,561,0,human
-769069,538,0,human
 120776,979,0,human
 191301,2833,0,human
 652601,384,1,human
@@ -865712,7 +864811,6 @@ drug_id,prot_id,label,prot_domain
 614585,584,1,human
 581738,395,1,human
 171536,707,0,human
-837000,403,0,human
 195407,869,1,human
 325429,619,1,human
 381974,562,1,human
@@ -865894,7 +864992,6 @@ drug_id,prot_id,label,prot_domain
 610428,403,0,human
 267273,1164,1,human
 162485,384,0,human
-596021,343,1,human
 53953,262,0,virus
 364207,1663,1,human
 259682,460,0,human
@@ -866099,7 +865196,6 @@ drug_id,prot_id,label,prot_domain
 572224,651,1,human
 819307,310,1,human
 569216,675,1,human
-624810,343,0,human
 776704,605,1,human
 210462,789,1,human
 315504,726,1,human
@@ -866447,7 +865543,6 @@ drug_id,prot_id,label,prot_domain
 403011,791,1,human
 682503,340,1,human
 42619,1450,0,human
-769159,538,0,human
 137550,649,1,human
 250248,799,0,human
 732927,585,1,human
@@ -866968,7 +866063,6 @@ drug_id,prot_id,label,prot_domain
 440705,956,0,human
 114896,1013,0,human
 564600,404,1,human
-837004,403,0,human
 125194,305,1,human
 479071,303,1,human
 184218,521,0,human
@@ -868326,7 +867420,6 @@ drug_id,prot_id,label,prot_domain
 190017,375,0,human
 637200,692,1,human
 274851,552,0,human
-837048,403,0,human
 75958,325,1,human
 702336,1533,1,human
 460812,289,1,human
@@ -868350,7 +867443,6 @@ drug_id,prot_id,label,prot_domain
 131319,985,1,human
 257783,1647,0,human
 735604,586,1,human
-769203,538,0,human
 467173,594,1,human
 666576,2890,0,human
 466308,848,1,human
@@ -868953,7 +868045,6 @@ drug_id,prot_id,label,prot_domain
 85055,356,1,human
 391357,469,1,human
 303736,665,1,human
-45380,463,1,human
 657307,562,1,human
 787095,299,1,human
 60534,631,0,human
@@ -869080,7 +868171,6 @@ drug_id,prot_id,label,prot_domain
 76112,361,1,human
 849094,827,1,human
 623979,467,1,human
-769220,538,1,human
 580094,386,1,human
 380338,777,1,human
 805475,1329,1,human
@@ -871181,7 +870271,6 @@ drug_id,prot_id,label,prot_domain
 340329,1510,0,human
 600206,705,1,human
 705907,604,1,human
-769016,538,1,human
 277390,722,0,human
 107071,429,1,human
 74145,723,0,human
@@ -871624,7 +870713,6 @@ drug_id,prot_id,label,prot_domain
 723149,919,1,human
 569407,690,1,human
 369417,327,1,human
-836996,403,0,human
 769995,506,0,human
 856153,298,1,human
 354932,1279,0,human
@@ -871724,7 +870812,6 @@ drug_id,prot_id,label,prot_domain
 59310,305,1,human
 467880,554,1,human
 71440,287,0,human
-769061,538,0,human
 63386,325,0,human
 434055,1923,1,human
 24506,22,1,virus
@@ -871795,7 +870882,6 @@ drug_id,prot_id,label,prot_domain
 195286,467,1,human
 36208,24,1,virus
 742925,1115,1,human
-769206,538,1,human
 34662,18,0,virus
 61011,325,1,human
 220026,1387,0,human
@@ -873058,7 +872144,6 @@ drug_id,prot_id,label,prot_domain
 387246,410,1,human
 195308,848,1,human
 693183,1322,0,human
-225869,506,1,human
 312769,561,1,human
 511650,1003,1,human
 118720,847,1,human
@@ -873585,7 +872670,6 @@ drug_id,prot_id,label,prot_domain
 229118,605,0,human
 284080,1680,0,human
 272475,312,0,human
-769056,538,1,human
 128114,465,1,human
 120661,294,1,human
 737603,455,1,human
@@ -873916,7 +873000,6 @@ drug_id,prot_id,label,prot_domain
 504712,725,1,human
 521185,1320,1,human
 60085,542,0,human
-369215,538,0,human
 378834,682,1,human
 755717,392,0,human
 663918,2906,0,human
@@ -875672,7 +874755,6 @@ drug_id,prot_id,label,prot_domain
 552063,456,1,human
 232697,1425,0,human
 460332,1163,0,human
-369243,538,0,human
 236047,997,1,human
 859255,1207,0,human
 761877,368,0,human
@@ -875948,7 +875030,6 @@ drug_id,prot_id,label,prot_domain
 519876,361,1,human
 483617,1472,1,human
 154785,852,0,human
-774675,538,1,human
 726852,506,1,human
 318069,324,1,human
 623623,1252,1,human

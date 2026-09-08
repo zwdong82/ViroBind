@@ -5492,7 +5492,6 @@ drug_id,prot_id,label,prot_domain
 6956,24,1,virus
 24615,20,1,virus
 9170,189,1,virus
-12793,6,0,virus
 30222,18,0,virus
 10512,2,0,virus
 16154,10,0,virus
@@ -9125,7 +9124,6 @@ drug_id,prot_id,label,prot_domain
 12260,16,0,virus
 45894,64,1,virus
 34181,21,0,virus
-1670,191,0,virus
 52393,232,1,virus
 24924,222,1,virus
 51074,43,0,virus
@@ -9145,7 +9143,6 @@ drug_id,prot_id,label,prot_domain
 20145,126,0,virus
 4446,24,1,virus
 34116,18,0,virus
-12794,6,1,virus
 51532,262,1,virus
 52340,250,1,virus
 10055,2,1,virus
@@ -10383,7 +10380,6 @@ drug_id,prot_id,label,prot_domain
 4415,24,1,virus
 42633,14,0,virus
 10626,24,1,virus
-3742,191,1,virus
 32945,18,0,virus
 30828,43,0,virus
 25930,18,0,virus
@@ -16796,7 +16792,6 @@ drug_id,prot_id,label,prot_domain
 44268,240,1,virus
 4463,2,0,virus
 32279,18,0,virus
-1670,191,1,virus
 22395,16,0,virus
 17298,222,1,virus
 8566,47,1,virus
@@ -19339,7 +19334,6 @@ drug_id,prot_id,label,prot_domain
 27359,43,0,virus
 9284,189,1,virus
 13430,168,0,virus
-1670,191,1,virus
 15656,112,0,virus
 32261,21,0,virus
 33927,18,0,virus
@@ -23117,7 +23111,6 @@ drug_id,prot_id,label,prot_domain
 18595,2,0,virus
 18189,2,1,virus
 22345,16,1,virus
-12799,6,1,virus
 39053,220,1,virus
 24884,126,1,virus
 46717,43,0,virus
@@ -24936,7 +24929,6 @@ drug_id,prot_id,label,prot_domain
 12162,78,1,virus
 22911,224,1,virus
 54203,262,0,virus
-677,6,0,virus
 14814,114,0,virus
 34038,18,0,virus
 33818,164,0,virus
@@ -28377,7 +28369,6 @@ drug_id,prot_id,label,prot_domain
 22656,16,0,virus
 1141,8,1,virus
 19989,59,0,virus
-3742,191,1,virus
 23821,34,1,virus
 51802,262,1,virus
 28994,21,0,virus
@@ -28668,7 +28659,6 @@ drug_id,prot_id,label,prot_domain
 34252,18,0,virus
 4753,47,1,virus
 7591,189,1,virus
-12794,6,0,virus
 38816,24,1,virus
 410,13,0,virus
 22907,22,1,virus
@@ -32483,7 +32473,6 @@ drug_id,prot_id,label,prot_domain
 15628,14,0,virus
 30234,21,0,virus
 51976,262,1,virus
-3742,191,0,virus
 35837,24,1,virus
 38021,20,1,virus
 965,8,1,virus
@@ -32951,7 +32940,6 @@ drug_id,prot_id,label,prot_domain
 20886,222,1,virus
 17475,107,0,virus
 4445,24,1,virus
-12793,6,1,virus
 47119,43,0,virus
 1252,23,1,virus
 16691,103,0,virus
@@ -33702,7 +33690,6 @@ drug_id,prot_id,label,prot_domain
 6471,56,1,virus
 21708,16,0,virus
 14566,2,0,virus
-677,6,1,virus
 18529,103,0,virus
 39227,124,1,virus
 10952,24,0,virus
@@ -37970,7 +37957,6 @@ drug_id,prot_id,label,prot_domain
 31021,21,0,virus
 22908,23,1,virus
 52398,232,1,virus
-1670,191,0,virus
 45920,191,1,virus
 16137,103,0,virus
 21606,5,0,virus
@@ -38300,7 +38286,6 @@ drug_id,prot_id,label,prot_domain
 33212,18,0,virus
 1633,15,1,virus
 26457,43,0,virus
-12799,6,0,virus
 448,2,1,virus
 39845,24,1,virus
 7321,189,1,virus

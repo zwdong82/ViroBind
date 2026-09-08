@@ -35,10 +35,13 @@ tables and uncertain-label training data are intentionally excluded from the
 public repository.
 
 `split_manifest.json` records the binary label semantics, row counts,
-duplicate/conflicting-pair counts and train/validation/test overlap audit. Some
-frozen non-random inputs contain exact duplicate rows and a small number of
-drug-protein pairs with conflicting labels. They are documented rather than
-silently changed so that the release remains identical to the model inputs.
+duplicate/conflicting-pair counts and train/validation/test overlap audit.
+Every row belonging to a drug-protein pair that had both binary labels has
+been removed; no label was selected heuristically. Non-conflicting exact
+duplicate rows remain and are reported in the manifest.
+
+Run `python Datasets/remove_conflicting_pairs.py` to repeat the conflict cleanup
+and rebuild all statistics in the manifest. The operation is idempotent.
 
 ## Reproducibility boundary
 

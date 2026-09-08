@@ -106,6 +106,21 @@ class RepositoryIntegrityTests(unittest.TestCase):
                 with (ROOT / "Datasets" / split / name).open(encoding="utf-8") as handle:
                     self.assertEqual(sum(1 for _ in handle) - 1, audit["rows"])
 
+    def test_released_pairs_do_not_have_conflicting_labels(self) -> None:
+        for split in SPLITS:
+            for name in SPLIT_FILES:
+                labels_by_pair = {}
+                path = ROOT / "Datasets" / split / name
+                with path.open(newline="", encoding="utf-8") as handle:
+                    for row in csv.DictReader(handle):
+                        pair = (row["drug_id"], row["prot_id"])
+                        previous = labels_by_pair.setdefault(pair, row["label"])
+                        self.assertEqual(
+                            previous,
+                            row["label"],
+                            f"conflicting labels for {pair} in {path}",
+                        )
+
     def test_public_text_has_no_private_absolute_path(self) -> None:
         suffixes = {".md", ".py", ".toml", ".txt", ".yml", ".yaml"}
         private_prefix = "/" + "data/zwdong/"

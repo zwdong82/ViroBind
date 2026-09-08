@@ -20,7 +20,8 @@ The CSV tables under `Datasets/` contain anonymous integer identifiers, labels
 and broad protein-domain tags. They do not include the private ID mappings,
 molecular structures, protein sequences or biological accessions required to
 reverse the anonymization or regenerate feature banks. Their statistics and
-known duplicate/conflict counts are recorded in `Datasets/split_manifest.json`.
+duplicate/conflict audit are recorded in `Datasets/split_manifest.json`.
+Drug-protein pairs that had conflicting binary labels were removed in full.
 
 ## Feature files
 
