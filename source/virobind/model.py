@@ -565,24 +565,30 @@ class ViroBindV5Decoupled(nn.Module):
             self.token_value = nn.Linear(hidden_dim, hidden_dim, bias=False)
             self.token_query = nn.Linear(hidden_dim, hidden_dim, bias=False)
             self.token_gate_logit = nn.Parameter(torch.tensor(float(TOKEN_GATE_INIT)))
-        if use_domain_adapter:
-            bottleneck = max(32, hidden_dim // 4)
-            self.human_adapter = base.DomainAdapter(hidden_dim, bottleneck, dropout)
-            self.virus_adapter = base.DomainAdapter(hidden_dim, bottleneck, dropout)
-
         self.drug_bilinear = nn.Linear(hidden_dim, bilinear_dim, bias=False)
         self.prot_bilinear = nn.Linear(hidden_dim, bilinear_dim, bias=False)
         pair_dim = self._pair_dim(hidden_dim, bilinear_dim)
         self.pair_norm = nn.LayerNorm(pair_dim)
-        self.rank_adapter = nn.Sequential(
-            nn.LayerNorm(pair_dim),
-            nn.Linear(pair_dim, hidden_dim),
-            nn.GELU(),
-            nn.Dropout(dropout),
-            nn.Linear(hidden_dim, pair_dim),
-        )
+        self.domain_adapter_location = "joint_interaction"
+        if use_domain_adapter:
+            bottleneck = max(32, hidden_dim // 4)
+            self.human_adapter = base.DomainAdapter(pair_dim, bottleneck, dropout)
+            self.virus_adapter = base.DomainAdapter(pair_dim, bottleneck, dropout)
         self.cls_head = self._make_head(pair_dim, hidden_dim, dropout)
         self.rank_head = self._make_head(pair_dim, hidden_dim, dropout)
+
+    def load_state_dict(self, state_dict, strict=True, assign=False):
+        if self.use_domain_adapter:
+            for name in ("human_adapter", "virus_adapter"):
+                key = f"{name}.net.0.weight"
+                if key in state_dict and state_dict[key].shape != getattr(self, name).net[0].weight.shape:
+                    raise RuntimeError(
+                        "This checkpoint uses a different domain-adapter architecture. "
+                        "ViroBind now adapts the normalized joint compound-protein "
+                        "representation; legacy protein-domain adapter weights cannot "
+                        "be reused. Train a new checkpoint for this architecture."
+                    )
+        return super().load_state_dict(state_dict, strict=strict, assign=assign)
 
     @staticmethod
     def _make_head(pair_dim: int, hidden_dim: int, dropout: float):
@@ -620,6 +626,15 @@ class ViroBindV5Decoupled(nn.Module):
             parts.append(self.drug_bilinear(h_drug) * self.prot_bilinear(h_prot))
         return self.pair_norm(torch.cat(parts, dim=-1))
 
+    def _adapt_pair(self, pair, domain):
+        """Apply u_d = u_0 + A_d(u_0) after interaction construction."""
+        if not self.use_domain_adapter:
+            return pair
+        human_pair = self.human_adapter(pair)
+        virus_pair = self.virus_adapter(pair)
+        mask = domain.to(dtype=pair.dtype, device=pair.device).view(-1, 1)
+        return human_pair * (1.0 - mask) + virus_pair * mask
+
     def encode_pair(self, x_ecfp, x_unimol, x_prot, domain, tokens=None, token_mask=None, token_pair_index=None):
         x_ecfp = x_ecfp * x_ecfp.new_tensor(DRUG_VIEW_MASK_VECTOR).view(1, -1)
         if self.drug_fusion_mode == "tri_gate":
@@ -632,11 +647,6 @@ class ViroBindV5Decoupled(nn.Module):
             drug_weights = x_ecfp.new_full((x_ecfp.shape[0], 3), float("nan"))
             drug_aux_gate = x_ecfp.new_tensor(0.0)
         h_prot = self.prot_encoder(x_prot)
-        if self.use_domain_adapter:
-            h_human = self.human_adapter(h_prot)
-            h_virus = self.virus_adapter(h_prot)
-            mask = domain.float().view(-1, 1)
-            h_prot = h_human * (1.0 - mask) + h_virus * mask
         h_prot_global = h_prot
         if self.use_residue_tokens:
             if tokens is None or token_mask is None or token_pair_index is None:
@@ -655,18 +665,18 @@ class ViroBindV5Decoupled(nn.Module):
                 h_local[pair_i] = attention @ self.token_value(h_token[token_i])
             token_gate = TOKEN_GATE_MAX * torch.sigmoid(self.token_gate_logit)
             h_prot = h_prot + token_gate * h_local
-        # In rank-only mode, classification always sees the original global V5H
-        # representation. Residue evidence is exposed exclusively to the rank head.
-        pair_cls = self._pair_from_embeddings(h_drug, h_prot_global)
-        pair_rank = self._pair_from_embeddings(h_drug, h_prot)
-        if not self.residue_rank_only:
+        # Both heads share the same adapted interaction representation in the
+        # full model. The explicit residue-rank-only ablation keeps separate
+        # global/local inputs, but still applies domain adaptation after pairing.
+        pair_rank = self._adapt_pair(self._pair_from_embeddings(h_drug, h_prot), domain)
+        if self.residue_rank_only:
+            pair_cls = self._adapt_pair(self._pair_from_embeddings(h_drug, h_prot_global), domain)
+        else:
             pair_cls = pair_rank
         return pair_cls, pair_rank, drug_weights, drug_aux_gate
 
     def forward(self, x_ecfp, x_unimol, x_prot, domain, tokens=None, token_mask=None, token_pair_index=None):
         pair, rank_pair, drug_weights, drug_aux_gate = self.encode_pair(x_ecfp, x_unimol, x_prot, domain, tokens, token_mask, token_pair_index)
-        if self.rank_train_scope in ["rank_head_adapter", "rank_head_pair"]:
-            rank_pair = pair + self.rank_adapter(pair)
         return {
             "cls": self.cls_head(pair).squeeze(-1),
             "rank": self.rank_head(rank_pair).squeeze(-1),
@@ -757,6 +767,13 @@ def rank_loss(rank_logits, y, groups, args):
 
 
 def set_rank_trainable(model, scope):
+    if scope not in {"rank_head", "rank_head_adapter", "rank_head_pair"}:
+        raise ValueError(f"Unsupported ranking trainable scope: {scope}")
+    if scope != "rank_head" and not model.use_domain_adapter:
+        raise ValueError(f"{scope} requires use_domain_adapter=1")
+    if scope != "rank_head" and getattr(model, "residue_rank_only", False):
+        raise ValueError("Residue-rank-only training requires rank_head to keep the classification path frozen.")
+    model.rank_train_scope = scope
     for p in model.parameters():
         p.requires_grad = False
     for p in model.rank_head.parameters():
@@ -766,12 +783,10 @@ def set_rank_trainable(model, scope):
             for p in module.parameters():
                 p.requires_grad = True
         model.token_gate_logit.requires_grad = True
-    if scope == "rank_head_adapter":
-        for p in model.rank_adapter.parameters():
+    if scope in {"rank_head_adapter", "rank_head_pair"}:
+        for p in model.virus_adapter.parameters():
             p.requires_grad = True
     if scope == "rank_head_pair":
-        for p in model.rank_adapter.parameters():
-            p.requires_grad = True
         for p in model.pair_norm.parameters():
             p.requires_grad = True
         for p in model.drug_bilinear.parameters():
@@ -785,7 +800,7 @@ def train_one_epoch(model, loader, features, device, args, optimizer, pos_weight
         model.eval()
         model.rank_head.train()
         if args.rank_train_scope in ["rank_head_adapter", "rank_head_pair"]:
-            model.rank_adapter.train()
+            model.virus_adapter.train()
         if args.rank_train_scope == "rank_head_pair":
             model.pair_norm.train()
     else:
@@ -1051,6 +1066,7 @@ def parse_args_with_v5_fields():
     args.residue_rank_only = RESIDUE_RANK_ONLY
     args.init_checkpoint = INIT_CHECKPOINT
     args.pair_feature_mode = PAIR_FEATURE_MODE
+    args.domain_adapter_location = "joint_interaction"
     return args
 
 

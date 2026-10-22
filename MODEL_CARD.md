@@ -6,6 +6,10 @@ ViroBind is a PyTorch drug-virus interaction model with separate binary
 classification and compound-ranking heads. It combines molecular descriptors
 with global and residue-level protein representations.
 
+When enabled, the human/virus residual adapter acts on the normalized joint
+compound-protein interaction representation, which is then shared by both
+heads. The final ranking configuration trains only the ranking head.
+
 Official web server: [https://lmmd.ecust.edu.cn/ViroBind/](https://lmmd.ecust.edu.cn/ViroBind/)
 
 ## Intended use
@@ -49,3 +53,7 @@ Use feature files only with the matching software release and verify the files
 against the checksum manifest in the Zenodo record. Random checkpoints produced
 by `examples/create_mock_checkpoints.py` are CI fixtures and must never be used
 for scientific analysis.
+
+The joint-interaction adapter correction changes the architecture relative to
+earlier protein-domain-adapter checkpoints. Those weights require retraining;
+the software correction alone does not establish revised scientific metrics.

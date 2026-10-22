@@ -47,6 +47,9 @@ jobs:
           python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
           python -m pip install -e . --no-deps
 
+      - name: Run architecture regression tests
+        run: python -m unittest discover -s tests -p test_domain_adapter.py -v
+
       - name: Create anonymous smoke fixtures
         run: |
           python examples/create_mock_assets.py \
@@ -82,6 +85,7 @@ jobs:
       - name: Run training-plumbing dry run
         run: |
           virobind-train \
+            --use_domain_adapter 1 \
             --token_root "${{ runner.temp }}/virobind-assets/residue_tokens" \
             --pretrain_csv examples/pairs.csv \
             --train_csv examples/pairs.csv \

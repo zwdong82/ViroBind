@@ -28,7 +28,8 @@ def main() -> None:
         hidden_dim=args.hidden_dim,
         bilinear_dim=args.bilinear_dim,
         dropout=0.0,
-        use_domain_adapter=0,
+        use_domain_adapter=1,
+        domain_adapter_location="joint_interaction",
         token_root=args.token_root,
         token_max_tokens=1024,
         drug_ecfp_dim=2048,
@@ -53,7 +54,7 @@ def main() -> None:
         args.hidden_dim,
         args.bilinear_dim,
         0.0,
-        False,
+        True,
     )
 
     outdir = Path(args.outdir)

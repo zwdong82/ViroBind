@@ -78,11 +78,31 @@ After downloading and arranging the Zenodo feature files, train a model with:
 ```bash
 virobind-train \
   --mode scaffold \
+  --use_domain_adapter 1 \
   --out_root outputs/training
 ```
 
 Use `--mode random` for the random split. Use `--dry_run 1` to validate the
 dataset and feature mappings before training.
+
+### Domain adaptation and checkpoint compatibility
+
+With `--use_domain_adapter 1`, ViroBind constructs and layer-normalizes the
+joint compound-protein interaction representation before selecting the human
+or virus residual adapter. The adapted representation is shared by the
+classification and ranking heads, as described in the manuscript. Use
+`--use_domain_adapter 0` for the NoAdapt control.
+
+The final ranking stage (`--rank_train_scope rank_head`) freezes the upstream
+model. The `rank_head_adapter` and `rank_head_pair` ablations additionally
+update the virus-domain adapter, or that adapter and the interaction layers,
+respectively.
+
+Checkpoints from the earlier protein-domain-adapter implementation are not
+compatible with the joint-interaction adapters and require retraining. This
+architecture correction does not regenerate or validate the manuscript's
+reported metrics; those results must be checked against their actual training
+revision and rerun when necessary.
 
 ## CPI prediction
 
