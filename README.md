@@ -104,6 +104,25 @@ architecture correction does not regenerate or validate the manuscript's
 reported metrics; those results must be checked against their actual training
 revision and rerun when necessary.
 
+### Fixed-K ranking evaluation
+
+Evaluation follows Supplementary Note S1: only definitive labels 0 and 1 enter
+the candidate pools. Precision@10 and Precision@50 include proteins with at
+least 10 or 50 eligible candidates, respectively. For each eligible protein,
+the positive count among the top K candidates is divided by K, then the
+per-protein values are macro-averaged with equal weight.
+
+Single-class proteins remain eligible for Precision@K when their pool is
+large enough. Per-protein AUROC and AUPRC instead require both label classes.
+The dual-head model ranks by the ranking-head logit rather than the
+classification probability or a potentially saturated sigmoid score.
+
+Metric outputs include `n_proteins_p_at_10` and `n_proteins_p_at_50`
+(also under the `rank_` prefix) to report the actual coverage of each metric.
+If no protein qualifies for a given K, its metric is NaN and its count is zero.
+Recompute existing ranking results from saved predictions using these rules;
+this evaluation correction alone does not regenerate the manuscript tables.
+
 ## CPI prediction
 
 Input pairs and precomputed feature banks must follow the schemas used during

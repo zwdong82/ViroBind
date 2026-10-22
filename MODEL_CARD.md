@@ -57,3 +57,10 @@ for scientific analysis.
 The joint-interaction adapter correction changes the architecture relative to
 earlier protein-domain-adapter checkpoints. Those weights require retraining;
 the software correction alone does not establish revised scientific metrics.
+
+Precision@K now uses the fixed-K eligibility rule from Supplementary Note S1:
+at least K definitively labeled candidates per protein, including single-class
+pools, with equal weighting across eligible proteins. Both classes remain
+required for per-protein AUROC/AUPRC. Earlier Precision@K summaries must be
+recomputed from saved ranking scores before they are interpreted under this
+definition.

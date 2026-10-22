@@ -906,7 +906,16 @@ def predict(model, dataset, loader, features, device, feature_preset):
     )
 
 
+def definitive_evaluation_pairs(pred_df: pd.DataFrame) -> pd.DataFrame:
+    """Restrict evaluation pools to definitive labels, as in Note S1."""
+    definitive = pred_df.loc[pred_df["label"].isin([0, 1])]
+    if definitive.empty:
+        raise ValueError("Evaluation requires at least one definitive label (0 or 1).")
+    return definitive
+
+
 def compute_metrics(pred_df: pd.DataFrame, threshold: Optional[float] = None):
+    pred_df = definitive_evaluation_pairs(pred_df)
     y = pred_df["label"].values.astype(int)
     prob = pred_df["prob"].values.astype(float)
 
@@ -937,27 +946,25 @@ def compute_metrics(pred_df: pd.DataFrame, threshold: Optional[float] = None):
     hit10 = []
     hit50 = []
 
+    ranking_column = "rank_score" if "rank_score" in pred_df.columns else "prob"
     for protein, sub in pred_df.groupby("protein"):
-        sub = sub.sort_values("prob", ascending=False)
+        sub = sub.sort_values(ranking_column, ascending=False, kind="stable")
         yy = sub["label"].values.astype(int)
-        pp = sub["prob"].values.astype(float)
+        pp = sub[ranking_column].values.astype(float)
 
-        if len(np.unique(yy)) < 2:
-            continue
-        per_auc.append(roc_auc_score(yy, pp))
-        per_aupr.append(average_precision_score(yy, pp))
+        # Peval requires both classes; PK only requires at least K candidates.
+        if len(np.unique(yy)) == 2:
+            per_auc.append(roc_auc_score(yy, pp))
+            per_aupr.append(average_precision_score(yy, pp))
 
-        top10 = sub.head(10)
-        top50 = sub.head(50)
-
-        if len(top10) > 0:
-            lab10 = top10["label"].values.astype(int)
-            p10.append(float(np.mean(lab10)))
+        if len(sub) >= 10:
+            lab10 = yy[:10]
+            p10.append(float(np.sum(lab10) / 10))
             hit10.append(float(np.sum(lab10) > 0))
 
-        if len(top50) > 0:
-            lab50 = top50["label"].values.astype(int)
-            p50.append(float(np.mean(lab50)))
+        if len(sub) >= 50:
+            lab50 = yy[:50]
+            p50.append(float(np.sum(lab50) / 50))
             hit50.append(float(np.sum(lab50) > 0))
 
     metrics.update(
@@ -970,6 +977,8 @@ def compute_metrics(pred_df: pd.DataFrame, threshold: Optional[float] = None):
             "hit_at_50_mean": float(np.mean(hit50)) if hit50 else float("nan"),
             "n_proteins": int(pred_df["protein"].nunique()),
             "n_proteins_with_both_labels": int(len(per_aupr)),
+            "n_proteins_p_at_10": len(p10),
+            "n_proteins_p_at_50": len(p50),
         }
     )
 

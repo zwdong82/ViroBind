@@ -909,6 +909,7 @@ def select_cls_threshold(y, prob):
 
 
 def compute_metrics(pred_df, threshold=None):
+    pred_df = base.definitive_evaluation_pairs(pred_df)
     cls_df = pred_df[["drug", "protein", "label"]].copy()
     cls_df["logit"] = pred_df["cls_logit"].values
     cls_df["prob"] = pred_df["cls_prob"].values
@@ -919,6 +920,7 @@ def compute_metrics(pred_df, threshold=None):
     rank_df = pred_df[["drug", "protein", "label"]].copy()
     rank_df["logit"] = pred_df["rank_logit"].values
     rank_df["prob"] = pred_df["rank_prob"].values
+    rank_df["rank_score"] = pred_df["rank_logit"].values
     rank_metrics = ORIG_COMPUTE_METRICS(rank_df, threshold=None)
 
     metrics = {}
@@ -931,7 +933,12 @@ def compute_metrics(pred_df, threshold=None):
     # classification head for global AUC/AUPR, ranking head for per-protein ranking.
     for k in ["auc", "aupr", "f1", "acc", "balanced_acc", "precision", "recall", "threshold", "pp_mean", "n", "pos", "neg"]:
         metrics[k] = cls_metrics.get(k)
-    for k in ["perprotein_auc_mean", "perprotein_aupr_mean", "p_at_10_mean", "p_at_50_mean", "hit_at_10_mean", "hit_at_50_mean", "n_proteins", "n_proteins_with_both_labels"]:
+    for k in [
+        "perprotein_auc_mean", "perprotein_aupr_mean",
+        "p_at_10_mean", "p_at_50_mean", "hit_at_10_mean", "hit_at_50_mean",
+        "n_proteins", "n_proteins_with_both_labels",
+        "n_proteins_p_at_10", "n_proteins_p_at_50",
+    ]:
         metrics[k] = rank_metrics.get(k)
     metrics["combo_cls_rank"] = 0.5 * metrics["cls_aupr"] + 0.5 * metrics["rank_perprotein_aupr_mean"]
     metrics["combo_cls_f1_rank"] = 0.5 * metrics["cls_f1"] + 0.5 * metrics["rank_perprotein_aupr_mean"]
