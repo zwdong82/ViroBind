@@ -51,7 +51,7 @@ optimization:
 ```bash
 virobind-train \
   --token_root examples/generated_assets/residue_tokens \
-  --pretrain_csv examples/pairs.csv \
+  --pretrain_csv examples/generated_assets/human_pretrain.csv \
   --train_csv examples/pairs.csv \
   --val_csv examples/pairs.csv \
   --test_csv examples/pairs.csv \
@@ -60,3 +60,8 @@ virobind-train \
   --out_root outputs/example_training \
   --dry_run 1
 ```
+
+The asset generator also adds a separate synthetic human protein and writes
+`human_pretrain.csv` with human-only labels. The original virus-only example
+CSV is used for viral training, validation and test plumbing. These mock tables
+reuse entities for software testing and are not scientific data splits.

@@ -40,11 +40,21 @@ def main() -> None:
         raise ValueError("--token-length must be positive")
 
     drug_ids = sorted(pairs["drug_id"].astype(int).unique().tolist())
+    if len(drug_ids) < 2:
+        raise ValueError("Smoke fixtures require at least two compounds")
     protein_ids = sorted(pairs["prot_id"].astype(int).unique().tolist())
     protein_rows = proteins.set_index("prot_id")
     missing = sorted(set(protein_ids) - set(protein_rows.index.astype(int)))
     if missing:
         raise ValueError(f"proteins CSV is missing prot_id values: {missing}")
+    # Auxiliary pretraining must exercise a human-domain input rather than
+    # reusing the virus-only prediction examples after domain filtering.
+    human_id = max(set(protein_ids) | set(protein_rows.index.astype(int))) + 1
+    protein_ids.append(human_id)
+    protein_ids.sort()
+    protein_rows.loc[human_id] = {
+        "protein_key": "SYNTHETIC_HUMAN_TARGET", "pdb_id": "SYNTHETIC_ONLY"
+    }
 
     generator = torch.Generator(device="cpu").manual_seed(args.seed)
     # Mimic the final concatenation: sparse binary ECFP4/MACCS followed by
@@ -59,6 +69,11 @@ def main() -> None:
     token_root = outdir / "residue_tokens"
     token_dir = token_root / "tokens"
     token_dir.mkdir(parents=True, exist_ok=True)
+    human_pairs = pd.DataFrame([
+        {"drug_id": did, "prot_id": human_id, "label": [0, 1, -1][i % 3], "prot_domain": "human"}
+        for i, did in enumerate(drug_ids)
+    ])
+    human_pairs.to_csv(outdir / "human_pretrain.csv", index=False)
 
     torch.save(
         {
