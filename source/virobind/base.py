@@ -27,6 +27,8 @@ from sklearn.metrics import (
     recall_score,
 )
 
+from .data_integrity import clean_pair_records
+
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
@@ -304,6 +306,7 @@ class ViroBindPairDataset(Dataset):
         name: str,
         labeled_only: bool = True,
         label_mode: str = "binary",
+        domain_filter: Optional[int] = None,
     ):
         self.csv_path = csv_path
         self.name = name
@@ -314,6 +317,15 @@ class ViroBindPairDataset(Dataset):
 
         df = pd.read_csv(csv_path)
         raw_n = len(df)
+
+        if {"drug_id", "prot_id", "label", "prot_domain"}.issubset(df.columns):
+            df, integrity = clean_pair_records(df)
+            print(f"[PAIR_CLEAN] {name}: {integrity}")
+        if domain_filter is not None:
+            wanted = "human" if domain_filter == 0 else "virus"
+            if "prot_domain" not in df:
+                raise ValueError(f"{csv_path}: prot_domain is required for {wanted}-only training")
+            df = df[df["prot_domain"].astype(str).str.lower().eq(wanted)].copy()
 
         if "label" not in df.columns:
             raise ValueError(f"{csv_path} has no label column")
@@ -1232,8 +1244,8 @@ def parse_args():
     ap.add_argument("--protocol", default="allhuman_pt", choices=["virusonly", "allhuman_pt"])
     ap.add_argument(
         "--mode",
-        default="scaffold",
-        choices=["random", "scaffold"],
+        default="scaffold_cluster_cold_protein",
+        choices=["random", "scaffold", "cluster_cold_protein", "scaffold_cluster_cold_protein"],
     )
     ap.add_argument("--seed", type=int, default=42)
 
@@ -1270,14 +1282,14 @@ def parse_args():
     ap.add_argument("--hidden_dim", type=int, default=512)
     ap.add_argument("--bilinear_dim", type=int, default=128)
     ap.add_argument("--dropout", type=float, default=0.2)
-    ap.add_argument("--use_domain_adapter", type=int, default=0)
+    ap.add_argument("--use_domain_adapter", type=int, default=1)
 
     ap.add_argument("--pretrain_epochs", type=int, default=20)
     ap.add_argument("--train_epochs", type=int, default=80)
     ap.add_argument("--pretrain_lr", type=float, default=1e-3)
-    ap.add_argument("--train_lr", type=float, default=1e-4)
+    ap.add_argument("--train_lr", type=float, default=3e-5)
 
-    ap.add_argument("--batch_size", type=int, default=512)
+    ap.add_argument("--batch_size", type=int, default=128)
     ap.add_argument("--eval_batch_size", type=int, default=2048)
     ap.add_argument("--num_workers", type=int, default=0)
 
@@ -1299,11 +1311,11 @@ def parse_args():
         choices=["aupr", "auc", "perprotein_aupr_mean", "p_at_10_mean"],
     )
 
-    ap.add_argument("--pretrain_label_mode", default="binary", choices=["binary", "gray"])
-    ap.add_argument("--train_label_mode", default="binary", choices=["binary", "gray"])
+    ap.add_argument("--pretrain_label_mode", default="gray", choices=["binary", "gray"])
+    ap.add_argument("--train_label_mode", default="gray", choices=["binary", "gray"])
     ap.add_argument("--gray_target", type=float, default=0.20)
     ap.add_argument("--gray_bce_weight", type=float, default=0.03)
-    ap.add_argument("--gray_per_protein", type=int, default=0)
+    ap.add_argument("--gray_per_protein", type=int, default=2)
 
     ap.add_argument("--dry_run", type=int, default=0)
 

@@ -31,8 +31,8 @@ users can build compatible features from inputs they are authorized to use.
 
 ## ID-only dataset inputs
 
-`Datasets/` contains the complete final inputs for two split strategies:
-random and scaffold. Every
+`Datasets/` contains inputs for three released split strategies:
+random, scaffold and the current fourth-version S4 release. Every
 CSV is reduced to `drug_id,prot_id,label,prot_domain`; SMILES, sequences,
 UniProt IDs and other identity metadata are excluded. Each split provides the
 human pretraining, virus fine-tuning, validation and test files.

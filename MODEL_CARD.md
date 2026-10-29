@@ -43,7 +43,7 @@ given target and are not calibrated binding affinities.
 - Anonymous public split files cannot reconstruct the original structures or
   sequences.
 - A high score is a hypothesis-generation signal, not mechanistic evidence.
-- Non-conflicting exact duplicate rows are retained and disclosed in
+- Legacy random/scaffold non-conflicting exact duplicate rows are retained and disclosed in
   `Datasets/split_manifest.json`; every pair that had conflicting binary labels
   has been removed in full.
 

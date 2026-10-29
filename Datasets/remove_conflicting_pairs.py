@@ -126,7 +126,7 @@ def rebuild_manifest() -> None:
             "val_test": overlap(audits["virus_val.csv"], audits["virus_test.csv"]),
         }
 
-    manifest["interpretation_notes"] = [
+    manifest["legacy_random_scaffold_cleaning_notes"] = [
         "Every row belonging to a drug-protein pair with conflicting binary labels was removed; no label was selected heuristically.",
         "Exact duplicate rows that do not have conflicting labels are retained and reported.",
         "The anonymous IDs cannot be converted back to SMILES, UniProt accessions or protein sequences from this public release.",

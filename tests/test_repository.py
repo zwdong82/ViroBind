@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SPLITS = {
     "random",
     "scaffold",
+    "scaffold_cluster_cold_protein",
 }
 SPLIT_FILES = {
     "human_pretrain.csv",

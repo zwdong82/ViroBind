@@ -55,8 +55,14 @@ python Feature_generation/generate_rdkit2d.py \
 ```
 
 Output: `drug_rdkit2d.pt`, containing RDKit2D features. The bundled
-`rdkit2d_descriptor_meta.json` fixes descriptor names and training-set
-normalization. With the three optional combination arguments, this script also
+`rdkit2d_descriptor_meta.json` preserves historical descriptor metadata.
+For new S4 training, additionally pass
+`--fit-training-csv Datasets/scaffold_cluster_cold_protein/human_pretrain.csv`
+and `--fit-training-csv Datasets/scaffold_cluster_cold_protein/virus_finetune.csv`,
+plus `--fitted-meta-output features/s4_rdkit2d_meta.json`.
+This fits imputation and normalization on current training compound IDs only.
+For inference, reuse the fitted file with `--meta`; never fit on held-out data.
+With the three optional combination arguments, this script also
 outputs the final drug bank in the required order ECFP4 + MACCS + RDKit2D.
 
 ### 4. ESMC global protein representation
@@ -70,6 +76,10 @@ python Feature_generation/generate_esmc_global.py \
 
 Output: `features/protein_global/prot_esmc_fullseq.pt`, containing the global
 protein representation in the released schema.
+
+The default `--sequence_mode full` encodes the full normalized sequence and
+excludes BOS/EOS from mean pooling. `--sequence_mode sliding_window` is an
+explicit alternative for documented visualization/legacy workflows.
 
 ### 5. ESMC residue representation
 

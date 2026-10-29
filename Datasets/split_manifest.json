@@ -1,9 +1,10 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "generated_from": "the frozen release CSV files in this directory",
   "label_semantics": {
     "0": "negative binary interaction",
-    "1": "positive binary interaction"
+    "1": "positive binary interaction",
+    "-1": "gray or uncertain interaction, retained only in S4 training inputs"
   },
   "release_design": {
     "human_pretrain.csv": "mixed binary pretraining table containing human auxiliary rows plus virus fine-tuning rows; it is split-specific after leakage-control cleaning",
@@ -12,7 +13,9 @@
     "virus_test.csv": "virus-only binary test table",
     "selection_rule": "data-only constrained split selection; no model-performance result was used",
     "random_seed": 42,
-    "scaffold_seed": 42
+    "scaffold_seed": 42,
+    "S4": "Version 04_moderate_test_811_20261011; human-only auxiliary pretraining; gray-aware training; binary held-out evaluation; unique pairs.",
+    "legacy_random_scaffold": "Preserved unchanged; their human_pretrain.csv files contain mixed binary inputs; the loader filters to human rows before auxiliary pretraining."
   },
   "splits": {
     "random": {
@@ -144,11 +147,168 @@
           "proteins": 126
         }
       }
+    },
+    "scaffold_cluster_cold_protein": {
+      "source_version": "04_moderate_test_811_20261011",
+      "source_design": "S4_moderate_test_811_20261011",
+      "release_date": "2026-10-29",
+      "training_pretrain_domain": "human only",
+      "training_labels": [
+        -1,
+        0,
+        1
+      ],
+      "evaluation_labels": [
+        0,
+        1
+      ],
+      "files": {
+        "human_pretrain.csv": {
+          "input_rows": 1383761,
+          "conflicting_pairs_removed": 0,
+          "conflicting_rows_removed": 0,
+          "duplicate_rows_removed": 0,
+          "output_rows": 1383761,
+          "rows": 1383761,
+          "exact_duplicate_rows": 0,
+          "conflicting_drug_protein_pairs": 0,
+          "unique_drugs": 807833,
+          "unique_proteins": 3771,
+          "label_counts": {
+            "-1": 588283,
+            "0": 307395,
+            "1": 488083
+          },
+          "source_file": "human_aux_train_scaffold_cluster_cold_protein.csv",
+          "source_sha256": "54def2cd6b07b60a27a3444287be3f27137704308b542d06246bac24506d820d",
+          "sha256": "a822beb300524a2833fe3b61751a024b54aa669fc7c69264373909dee63a0d46"
+        },
+        "virus_finetune.csv": {
+          "input_rows": 46199,
+          "conflicting_pairs_removed": 0,
+          "conflicting_rows_removed": 0,
+          "duplicate_rows_removed": 0,
+          "output_rows": 46199,
+          "rows": 46199,
+          "exact_duplicate_rows": 0,
+          "conflicting_drug_protein_pairs": 0,
+          "unique_drugs": 32184,
+          "unique_proteins": 198,
+          "label_counts": {
+            "-1": 11384,
+            "0": 20079,
+            "1": 14736
+          },
+          "source_file": "train_virus_grayaware_scaffold_cluster_cold_protein.csv",
+          "source_sha256": "f096138de3cf3b887879a5bc1357705bbefd146b95c788e1ba66a3d2bc81b465",
+          "sha256": "798e29728a60c13be11e977b5ed81c79bd2d8379ee0126bfe71ed8e8cf1f5c31"
+        },
+        "virus_val.csv": {
+          "input_rows": 4352,
+          "conflicting_pairs_removed": 0,
+          "conflicting_rows_removed": 0,
+          "duplicate_rows_removed": 0,
+          "output_rows": 4352,
+          "rows": 4352,
+          "exact_duplicate_rows": 0,
+          "conflicting_drug_protein_pairs": 0,
+          "unique_drugs": 4112,
+          "unique_proteins": 21,
+          "label_counts": {
+            "0": 2539,
+            "1": 1813
+          },
+          "source_file": "val_scaffold_cluster_cold_protein.csv",
+          "source_sha256": "a672593cdeb6178da8b3de217270d4af1a71c247b34304d6cce1b0cf9aeeeeb5",
+          "sha256": "edecb7aeb8903147932c756b012bf541242428e5f9f4b0b42ecf09057c1765d1"
+        },
+        "virus_test.csv": {
+          "input_rows": 4352,
+          "conflicting_pairs_removed": 0,
+          "conflicting_rows_removed": 0,
+          "duplicate_rows_removed": 0,
+          "output_rows": 4352,
+          "rows": 4352,
+          "exact_duplicate_rows": 0,
+          "conflicting_drug_protein_pairs": 0,
+          "unique_drugs": 3510,
+          "unique_proteins": 20,
+          "label_counts": {
+            "0": 1559,
+            "1": 2793
+          },
+          "source_file": "test_scaffold_cluster_cold_protein.csv",
+          "source_sha256": "9c9e6c64bd27d0fb059383bf30965af79af1905303269bf84af31b47b1f663a6",
+          "sha256": "ecd978a7eb460f5648d278c855dbe46718f3365bdbdba28ded3d1a01b0d4b91a"
+        }
+      },
+      "pair_and_axis_overlap": {
+        "human_pretrain.csv__virus_val.csv": {
+          "pairs": 0,
+          "drugs": 0,
+          "proteins": 0,
+          "scaffolds": 0,
+          "clusters": 0
+        },
+        "human_pretrain.csv__virus_test.csv": {
+          "pairs": 0,
+          "drugs": 0,
+          "proteins": 0,
+          "scaffolds": 0,
+          "clusters": 0
+        },
+        "virus_finetune.csv__virus_val.csv": {
+          "pairs": 0,
+          "drugs": 0,
+          "proteins": 0,
+          "scaffolds": 0,
+          "clusters": 0
+        },
+        "virus_finetune.csv__virus_test.csv": {
+          "pairs": 0,
+          "drugs": 0,
+          "proteins": 0,
+          "scaffolds": 0,
+          "clusters": 0
+        },
+        "virus_val.csv__virus_test.csv": {
+          "pairs": 0,
+          "drugs": 0,
+          "proteins": 0,
+          "scaffolds": 0,
+          "clusters": 0
+        }
+      },
+      "frozen_holdout_audit": {
+        "human_pretrain.csv": {
+          "heldout_scaffolds_in_training": 0,
+          "heldout_clusters_in_training": 0
+        },
+        "virus_finetune.csv": {
+          "heldout_scaffolds_in_training": 0,
+          "heldout_clusters_in_training": 0
+        }
+      },
+      "precision_coverage": {
+        "10": {
+          "eligible_proteins": 20,
+          "equal_weight_positive_prevalence": 0.6692267907091183
+        },
+        "50": {
+          "eligible_proteins": 14,
+          "equal_weight_positive_prevalence": 0.6852435909326301
+        }
+      },
+      "test_sampling": "Frozen label- and coverage-conditioned sampling; not a natural-prevalence or independent external set.",
+      "old_manuscript_metrics_valid_for_this_release": false,
+      "cleaning": "Exact duplicates removed; all conflicting 0/1 pair rows removed; unresolved gray/hard mixtures rejected.",
+      "source_files_modified": false
     }
   },
   "interpretation_notes": [
-    "Every row belonging to a drug-protein pair with conflicting binary labels was removed; no label was selected heuristically.",
-    "Exact duplicate rows that do not have conflicting labels are retained and reported.",
-    "The anonymous IDs cannot be converted back to SMILES, UniProt accessions or protein sequences from this public release."
+    "S4 replaces the previous unpublished/legacy S4 inputs with the explicitly selected fourth version.",
+    "S4 records are unique pairs without conflicting hard labels. Legacy random/scaffold files are unchanged.",
+    "The S4 test set was sampled under disclosed label/coverage constraints; do not reuse old manuscript metrics or treat it as independent external validation.",
+    "Only anonymous IDs and labels are published. Molecular structures, sequences and biological identity mappings are not included."
   ]
 }

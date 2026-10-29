@@ -48,7 +48,11 @@ def main():
     for c in [args.id_col, args.seq_col]:
         if c not in df: raise ValueError(f'Missing {c}; columns={list(df.columns)}')
     df = df.dropna(subset=[args.id_col, args.seq_col]).drop_duplicates(args.id_col).copy()
-    df[args.id_col] = pd.to_numeric(df[args.id_col], errors='raise').astype(int); df[args.seq_col] = df[args.seq_col].astype(str).str.strip()
+    df[args.id_col] = pd.to_numeric(df[args.id_col], errors='raise').astype(int)
+    df[args.seq_col] = df[args.seq_col].astype(str).map(
+        lambda s: ''.join(line.strip() for line in s.splitlines() if not line.lstrip().startswith('>'))
+    ).str.replace(r'\s+', '', regex=True).str.upper()
+    if df[args.seq_col].eq('').any(): raise ValueError('Empty protein sequence')
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu'); print(f'[INFO] device={device}; proteins={len(df)}')
     model = ESMC.from_pretrained(args.model_name).to(device).eval(); cfg = LogitsConfig(return_embeddings=True)
     amp = {'bf16': torch.bfloat16, 'fp16': torch.float16}.get(args.dtype)

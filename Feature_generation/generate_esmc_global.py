@@ -46,6 +46,8 @@ def main():
     parser.add_argument("--model_name", default="esmc_600m")
     parser.add_argument("--max_len", type=int, default=1024)
     parser.add_argument("--stride", type=int, default=512)
+    parser.add_argument("--sequence_mode", choices=["full", "sliding_window"], default="full",
+                        help="Full-sequence model input; sliding windows are an explicit visualization/legacy option.")
     parser.add_argument("--pool", default="mean", choices=["mean", "cls"])
     parser.add_argument("--dtype", default="bf16", choices=["bf16", "fp16", "fp32"])
     args = parser.parse_args()
@@ -62,7 +64,9 @@ def main():
 
     df = df.copy()
     df[args.id_col] = pd.to_numeric(df[args.id_col], errors="coerce")
-    df[args.seq_col] = df[args.seq_col].astype(str).str.strip()
+    df[args.seq_col] = df[args.seq_col].astype(str).map(
+        lambda s: ''.join(line.strip() for line in s.splitlines() if not line.lstrip().startswith('>'))
+    ).str.replace(r'\s+', '', regex=True).str.upper()
     df = df.dropna(subset=[args.id_col, args.seq_col]).copy()
     df = df[df[args.seq_col].str.len() > 0].copy()
     df = df[df[args.seq_col].str.lower() != "nan"].copy()
@@ -101,9 +105,9 @@ def main():
     long_protein_count = 0
     total_windows = 0
 
-    print("Start encoding with sliding window...")
+    print(f"Start encoding with sequence_mode={args.sequence_mode}...")
     for _, seq in tqdm(list(zip(protein_ids, sequences)), total=len(sequences), desc="ESMC Encoding"):
-        windows = generate_windows(seq, max_len=args.max_len, stride=args.stride)
+        windows = [seq] if args.sequence_mode == "full" else generate_windows(seq, max_len=args.max_len, stride=args.stride)
         if len(windows) > 1:
             long_protein_count += 1
 
@@ -115,7 +119,10 @@ def main():
                 out = model.logits(encoded, cfg)
 
             emb = out.embeddings.squeeze(0)
-            vec = emb.mean(dim=0) if args.pool == "mean" else emb[0]
+            if emb.shape[0] not in [len(wseq), len(wseq) + 2]:
+                raise ValueError("Unexpected ESMC token count; cannot align residues")
+            residue_emb = emb[1:-1] if emb.shape[0] == len(wseq) + 2 else emb
+            vec = residue_emb.mean(dim=0) if args.pool == "mean" else emb[0]
             window_vecs.append(vec)
 
         prot_vec = torch.stack(window_vecs, dim=0).mean(dim=0)
@@ -140,6 +147,8 @@ def main():
             "pool": args.pool,
             "window": args.max_len,
             "stride": args.stride,
+            "sequence_mode": args.sequence_mode,
+            "boundary_tokens_excluded_from_mean": True,
             "source_csv": args.input,
         },
         save_path,

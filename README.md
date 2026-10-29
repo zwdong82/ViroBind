@@ -19,7 +19,7 @@ clarifies anonymization and third-party rights.
 ```text
 Feature_generation/ feature-bank generation scripts
 Predictions/        external drug-library preprocessing guidance
-Datasets/           final binary human-pretrain/virus-finetune split CSVs
+Datasets/           current S4 and preserved legacy split CSVs
 source/virobind/    model runtime, prediction and screening implementation
 examples/           runnable anonymized ID-only examples
 outputs/            generated predictions (ignored by Git)
@@ -77,13 +77,22 @@ After downloading and arranging the Zenodo feature files, train a model with:
 
 ```bash
 virobind-train \
-  --mode scaffold \
+  --mode scaffold_cluster_cold_protein \
   --use_domain_adapter 1 \
   --out_root outputs/training
 ```
 
 Use `--mode random` for the random split. Use `--dry_run 1` to validate the
 dataset and feature mappings before training.
+
+The default mode is `scaffold_cluster_cold_protein` (S4), using the selected
+fourth version `04_moderate_test_811_20261011`. Run
+`virobind-train --mode scaffold_cluster_cold_protein` for this release.
+Human-only pretraining, gray-aware classification, learning rates
+1e-3/3e-5/1e-4 and viral fine-tuning checkpoint selection are now defaults.
+See [Datasets/README.md](Datasets/README.md) for counts and test sampling,
+and [MANUSCRIPT_PROTOCOL.md](MANUSCRIPT_PROTOCOL.md) for code-to-method mapping.
+Old manuscript metrics must not be reused for the changed test pool.
 
 ### Domain adaptation and checkpoint compatibility
 
@@ -159,7 +168,7 @@ it in chunks. Use `--help` on either command for all options.
 
 ## Reproducibility boundary
 
-The released binary split CSVs contain anonymous IDs and labels. Molecular
+The released split CSVs contain anonymous IDs and labels. Molecular
 structures, protein sequences and identity mappings are not distributed in Git;
 feature banks are released separately through Zenodo. Consequently, this
 repository supports software verification and prediction with compatible

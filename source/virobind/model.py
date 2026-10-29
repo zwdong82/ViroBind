@@ -44,7 +44,7 @@ RANK_TRAIN_CSV = ""
 RANK_TRAIN_EPOCHS = None
 RANK_TRAIN_LR = None
 RANK_TRAIN_SCOPE = "rank_head"
-CLS_CHECKPOINT_POLICY = "best_stage"
+CLS_CHECKPOINT_POLICY = "finetune"
 DRUG_FUSION_MODE = "residual_multiview"
 DRUG_ECFP_DIM = 2048
 DRUG_MACCS_DIM = 167
@@ -172,9 +172,9 @@ def parse_v5_args(argv):
     ap.add_argument("--rank_train_gray_per_protein", type=int, default=0)
     ap.add_argument("--rank_train_csv", default="")
     ap.add_argument("--rank_train_epochs", type=int, default=50)
-    ap.add_argument("--rank_train_lr", type=float, default=3e-4)
+    ap.add_argument("--rank_train_lr", type=float, default=1e-4)
     ap.add_argument("--rank_train_scope", choices=["rank_head", "rank_head_adapter", "rank_head_pair"], default="rank_head")
-    ap.add_argument("--cls_checkpoint_policy", choices=["finetune", "best_stage"], default="best_stage")
+    ap.add_argument("--cls_checkpoint_policy", choices=["finetune", "best_stage"], default="finetune")
     ap.add_argument("--drug_ecfp_dim", type=int, default=2048)
     ap.add_argument("--drug_maccs_dim", type=int, default=167)
     ap.add_argument("--drug_rdkit_dim", type=int, default=208)
@@ -1105,11 +1105,11 @@ def main():
         print(f"[TOKEN] root={args.token_root} max_tokens={args.token_max_tokens} mapped_proteins={len(TOKEN_STORE.paths)}")
     pretrain_ds = None
     if args.protocol == "allhuman_pt":
-        pretrain_ds = base.ViroBindPairDataset(csvs["pretrain_csv"], ecfp, None, prot, args.feature_preset, f"pretrain_allhuman_{args.pretrain_label_mode}", args.pretrain_label_mode == "binary", args.pretrain_label_mode)
-    cls_train_ds = base.ViroBindPairDataset(csvs["train_csv"], ecfp, None, prot, args.feature_preset, f"cls_train_virus_{args.train_label_mode}", args.train_label_mode == "binary", args.train_label_mode)
-    rank_train_ds = base.ViroBindPairDataset(csvs["rank_train_csv"], ecfp, None, prot, args.feature_preset, "rank_train_virus_binary", True, "binary")
-    val_ds = base.ViroBindPairDataset(csvs["val_csv"], ecfp, None, prot, args.feature_preset, "val_virusonly_labeled_0_1", True, "binary")
-    test_ds = base.ViroBindPairDataset(csvs["test_csv"], ecfp, None, prot, args.feature_preset, "test_virusonly_labeled_0_1", True, "binary")
+        pretrain_ds = base.ViroBindPairDataset(csvs["pretrain_csv"], ecfp, None, prot, args.feature_preset, f"pretrain_allhuman_{args.pretrain_label_mode}", args.pretrain_label_mode == "binary", args.pretrain_label_mode, domain_filter=0)
+    cls_train_ds = base.ViroBindPairDataset(csvs["train_csv"], ecfp, None, prot, args.feature_preset, f"cls_train_virus_{args.train_label_mode}", args.train_label_mode == "binary", args.train_label_mode, domain_filter=1)
+    rank_train_ds = base.ViroBindPairDataset(csvs["rank_train_csv"], ecfp, None, prot, args.feature_preset, "rank_train_virus_binary", True, "binary", domain_filter=1)
+    val_ds = base.ViroBindPairDataset(csvs["val_csv"], ecfp, None, prot, args.feature_preset, "val_virusonly_labeled_0_1", True, "binary", domain_filter=1)
+    test_ds = base.ViroBindPairDataset(csvs["test_csv"], ecfp, None, prot, args.feature_preset, "test_virusonly_labeled_0_1", True, "binary", domain_filter=1)
 
     config = {"args": vars(args), "csvs": csvs, "exp_name": exp_name, "out_dir": out_dir}
     base.json_dump(config, os.path.join(out_dir, "config.json"))
