@@ -1,0 +1,11 @@
+drug_id,prot_id,label,prot_domain
+51588,262,1,virus
+51719,262,1,virus
+52230,262,1,virus
+53974,262,0,virus
+54060,262,0,virus
+54069,262,0,virus
+42532,217,1,virus
+42122,217,0,virus
+42551,217,0,virus
+42578,217,0,virus

@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.so
+.DS_Store
+.idea/
+.vscode/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Runtime outputs and private/local data
+outputs/
+data/
+features/
+Pretrained_models/**/*.pt
+Pretrained_models/**/*.pth
+Pretrained_models/**/*.ckpt
+Pretrained_models/**/*.safetensors
+
+# Private generated feature tensors.  These local runtime assets may contain
+# SMILES or protein sequences and must not be committed to the public repo.
+Feature_generation/features/
+examples/generated_assets/
+*.log
+
+# Model artifacts are distributed with GitHub Releases, not Git history.
